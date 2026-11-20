@@ -1,0 +1,69 @@
+{
+  "catalogVersion": "2026.11-vn",
+  "currency": "VND",
+  "updatedAt": "2026-11-18",
+  "sourceLabel": "HACHIHI Reference Catalog (JSON)",
+  "quotationDefaults": {
+    "defaultAuxMaterialPct": 5,
+    "defaultLaborUnitPriceVnd": 650000
+  },
+  "deviceCategoryDefaults": {
+    "core_switch": { "sku": "HCH-SW-CORE-100G", "unitPriceVnd": 85000000, "supplier": "HACHIHI Enterprise" },
+    "switch": { "sku": "HCH-SW-POE-24P", "unitPriceVnd": 12500000, "supplier": "HACHIHI Network" },
+    "router": { "sku": "HCH-RTR-EDGE", "unitPriceVnd": 7800000, "supplier": "HACHIHI Network" },
+    "gateway": { "sku": "HCH-GW-SDWAN", "unitPriceVnd": 9500000, "supplier": "HACHIHI Network" },
+    "firewall": { "sku": "HCH-FW-NGFW", "unitPriceVnd": 32000000, "supplier": "HACHIHI Security" },
+    "server": { "sku": "HCH-SRV-2U-XEON", "unitPriceVnd": 68000000, "supplier": "HACHIHI Compute" },
+    "storage": { "sku": "HCH-NAS-SAN-4B", "unitPriceVnd": 26500000, "supplier": "HACHIHI Storage" },
+    "ups": { "sku": "HCH-UPS-ONL-3K", "unitPriceVnd": 18500000, "supplier": "HACHIHI Power" },
+    "pdu": { "sku": "HCH-PDU-1U-8OUT", "unitPriceVnd": 1850000, "supplier": "HACHIHI Power" },
+    "odf": { "sku": "HCH-ODF-24FO-1U", "unitPriceVnd": 1450000, "supplier": "HACHIHI Fiber" },
+    "patch_panel": { "sku": "HCH-PP-24P-CAT6", "unitPriceVnd": 1250000, "supplier": "HACHIHI Cabling" },
+    "rack": { "sku": "HCH-RK-42U-800", "unitPriceVnd": 16500000, "supplier": "HACHIHI Rack" },
+    "ap": { "sku": "HCH-AP-WIFI6", "unitPriceVnd": 4200000, "supplier": "HACHIHI Wireless" },
+    "camera": { "sku": "HCH-CAM-4K-AI", "unitPriceVnd": 3450000, "supplier": "HACHIHI CCTV" },
+    "nvr": { "sku": "HCH-NVR-32CH", "unitPriceVnd": 14200000, "supplier": "HACHIHI CCTV" },
+    "cloud": { "sku": "HCH-WAN-ISP", "unitPriceVnd": 0, "supplier": "Nhà mạng ISP" },
+    "telecom_tower": { "sku": "HCH-BTS-5G", "unitPriceVnd": 45000000, "supplier": "HACHIHI Telecom" },
+    "workstation": { "sku": "HCH-WS-OFFICE", "unitPriceVnd": 16000000, "supplier": "HACHIHI Endpoint" },
+    "printer": { "sku": "HCH-PRT-LAN", "unitPriceVnd": 6800000, "supplier": "HACHIHI Endpoint" },
+    "electrical_panel": { "sku": "HCH-EL-MDB-3P", "unitPriceVnd": 12000000, "supplier": "HACHIHI Power" },
+    "other": { "sku": "HCH-DEV-GEN", "unitPriceVnd": 2500000, "supplier": "HACHIHI Partner" }
+  },
+  "modelOverrides": [
+    { "pattern": "nexus\\s*9336", "flags": "i", "sku": "CS-N9K-9336C", "unitPriceVnd": 195000000, "supplier": "Cisco Systems" },
+    { "pattern": "c9300|catalyst\\s*9300", "flags": "i", "sku": "CS-C9300-48P", "unitPriceVnd": 72000000, "supplier": "Cisco Systems" },
+    { "pattern": "cx\\s*6300", "flags": "i", "sku": "AR-JL661A-48G", "unitPriceVnd": 58000000, "supplier": "Aruba HPE" },
+    { "pattern": "fortigate\\s*200f", "flags": "i", "sku": "FG-200F-BDL", "unitPriceVnd": 86000000, "supplier": "Fortinet" },
+    { "pattern": "ccr2004", "flags": "i", "sku": "MT-CCR2004-16G", "unitPriceVnd": 14800000, "supplier": "MikroTik" },
+    { "pattern": "rb750", "flags": "i", "sku": "MT-RB750GR3", "unitPriceVnd": 1950000, "supplier": "MikroTik" },
+    { "pattern": "poweredge\\s*r760", "flags": "i", "sku": "DL-R760-2U", "unitPriceVnd": 145000000, "supplier": "Dell Technologies" },
+    { "pattern": "synology|rs2423", "flags": "i", "sku": "SY-NAS-PRO", "unitPriceVnd": 38000000, "supplier": "Synology" },
+    { "pattern": "srt3000|smart-ups", "flags": "i", "sku": "APC-SRT3000XLI", "unitPriceVnd": 34500000, "supplier": "APC Schneider" },
+    { "pattern": "nbs3200", "flags": "i", "sku": "RJ-NBS3200-24P", "unitPriceVnd": 9800000, "supplier": "Ruijie Reyee" },
+    { "pattern": "u6-pro|unifi", "flags": "i", "sku": "UB-U6-PRO", "unitPriceVnd": 4650000, "supplier": "Ubiquiti" },
+    { "pattern": "2cd2186|acusense", "flags": "i", "sku": "HK-2CD2186G2", "unitPriceVnd": 3850000, "supplier": "Hikvision" },
+    { "pattern": "nvr5232|ds-7732", "flags": "i", "sku": "HK-NVR-32CH-4K", "unitPriceVnd": 14900000, "supplier": "Hikvision" }
+  ],
+  "cablePricePerMeter": {
+    "CAT6_UTP": { "sku": "HCH-CAB-CAT6U", "unitPriceVnd": 12500, "supplier": "LS / AMP CommScope" },
+    "CAT6A_STP": { "sku": "HCH-CAB-CAT6AS", "unitPriceVnd": 24000, "supplier": "AMP CommScope" },
+    "FIBER_SM_OS2": { "sku": "HCH-CAB-OS2-8FO", "unitPriceVnd": 18500, "supplier": "Vinacap / LS" },
+    "FIBER_MM_OM4": { "sku": "HCH-CAB-OM4-8FO", "unitPriceVnd": 34000, "supplier": "Corning / CommScope" },
+    "DAC_10G": { "sku": "HCH-DAC-10G-3M", "unitPriceVnd": 220000, "supplier": "Cisco / FS" },
+    "POWER_AC": { "sku": "HCH-PWR-3X25", "unitPriceVnd": 32000, "supplier": "Cadivi TCVN" }
+  },
+  "accessoryPrices": {
+    "acc_keystone_copper": { "sku": "HCH-ACC-KJ-C6", "unitPriceVnd": 45000, "supplier": "AMP CommScope" },
+    "acc_patch_cord_copper": { "sku": "HCH-ACC-PC-C6-2M", "unitPriceVnd": 85000, "supplier": "LS Simple" },
+    "acc_fiber_pigtail_lc": { "sku": "HCH-ACC-PIG-LC", "unitPriceVnd": 55000, "supplier": "HACHIHI Fiber" },
+    "acc_fiber_patch_cord": { "sku": "HCH-ACC-FPC-LC3M", "unitPriceVnd": 135000, "supplier": "HACHIHI Fiber" },
+    "acc_cage_nuts": { "sku": "HCH-ACC-M6-NUT", "unitPriceVnd": 6500, "supplier": "HACHIHI Rack" },
+    "acc_cable_manager_1u": { "sku": "HCH-ACC-CM-1U", "unitPriceVnd": 320000, "supplier": "HACHIHI Rack" },
+    "acc_tia606_labels": { "sku": "HCH-ACC-LBL-606", "unitPriceVnd": 12000, "supplier": "Brother / HACHIHI" },
+    "acc_poe_injector_deficit": { "sku": "HCH-ACC-POE-30W", "unitPriceVnd": 680000, "supplier": "TP-Link / Ruijie" },
+    "acc_tray_straight": { "sku": "HCH-MG-TRAY-100", "unitPriceVnd": 165000, "supplier": "HACHIHI M&E" },
+    "acc_tray_fittings": { "sku": "HCH-MG-FIT-CT", "unitPriceVnd": 145000, "supplier": "HACHIHI M&E" },
+    "acc_conduit_pvc": { "sku": "HCH-MG-PVC-D25", "unitPriceVnd": 22000, "supplier": "Sino / Panasonic" }
+  }
+}
