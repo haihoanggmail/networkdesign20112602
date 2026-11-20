@@ -1,0 +1,25 @@
+{
+  "id": "wan-dual-isp-011",
+  "legacyId": "tpl_std_wan_dual_isp",
+  "name": "Mạng WAN Dual-ISP & Kết nối Chi nhánh IPsec VPN",
+  "category": "Đa chi nhánh",
+  "mode": "topology",
+  "badge": "WAN Multi-Site",
+  "version": "1.0.0",
+  "updatedAt": "2026-11-19",
+  "author": "HACHIHI",
+  "description": "Mô hình kết nối WAN đa đường truyền dự phòng (Active-Active/Failover) qua 2 nhà mạng độc lập, kết hợp đường hầm VPN IPsec Site-to-Site liên kết Hội sở chính và 2 chi nhánh.",
+  "highlights": [
+    "2 đường truyền ISP (Viettel + VNPT)",
+    "IPsec VPN Site-to-Site HN & ĐN",
+    "BGP/Failover tự động"
+  ],
+  "projectFile": "project.json",
+  "preview": "preview.svg",
+  "tags": [
+    "Dual-ISP",
+    "Failover",
+    "IPsec",
+    "WAN"
+  ]
+}

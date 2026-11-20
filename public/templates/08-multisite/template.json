@@ -1,0 +1,25 @@
+{
+  "id": "multisite-sdwan-008",
+  "legacyId": "tpl_multisite_wan",
+  "name": "Tổng thể Đa Chi Nhánh (HQ & 3 Chi Nhánh)",
+  "category": "Đa chi nhánh",
+  "mode": "multisite",
+  "badge": "WAN / SD-WAN",
+  "version": "1.0.0",
+  "updatedAt": "2026-11-19",
+  "author": "HACHIHI",
+  "description": "Mô hình liên kết diện rộng kết nối Trụ sở chính (Headquarters), Chi nhánh Hà Nội, Chi nhánh Đà Nẵng và Đám mây AWS qua mạng riêng ảo IPsec / SD-WAN.",
+  "highlights": [
+    "1 tầng",
+    "5 thiết bị",
+    "4 tuyến cáp"
+  ],
+  "projectFile": "project.json",
+  "preview": "preview.svg",
+  "tags": [
+    "SD-WAN",
+    "WAN",
+    "VPN",
+    "Multi-Site"
+  ]
+}

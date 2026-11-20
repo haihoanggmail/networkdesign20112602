@@ -1,0 +1,25 @@
+{
+  "id": "collapsed-core-012",
+  "legacyId": "tpl_std_collapsed_core",
+  "name": "Kiến trúc Collapsed Core (Gom Core + Dist 3 Tầng)",
+  "category": "Mạng LAN",
+  "mode": "topology",
+  "badge": "Collapsed Core",
+  "version": "1.0.0",
+  "updatedAt": "2026-11-19",
+  "author": "HACHIHI",
+  "description": "Mô hình Collapsed Core thực dụng cho tòa nhà vừa: gộp tầng Core và Distribution vào Switch L3 hiệu năng cao kết nối Firewall/Server, kéo cáp quang trục đứng OS2 lên các tủ Access từng tầng.",
+  "highlights": [
+    "Core L3 + 3 Switch Access liên tầng",
+    "Cáp quang OS2 10G trục đứng",
+    "Tối ưu chi phí tòa nhà 3–5 tầng"
+  ],
+  "projectFile": "project.json",
+  "preview": "preview.svg",
+  "tags": [
+    "Collapsed Core",
+    "L3",
+    "Fiber",
+    "3-Floor"
+  ]
+}

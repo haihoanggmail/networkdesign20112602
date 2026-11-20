@@ -1,0 +1,514 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-20T10:48:46.422Z",
+  "totalTemplates": 15,
+  "categories": [
+    "Mạng LAN",
+    "Camera",
+    "Rack",
+    "Wi-Fi",
+    "Mặt bằng",
+    "Cáp quang",
+    "Đa chi nhánh",
+    "Data Center"
+  ],
+  "templates": [
+    {
+      "id": "network-office-001",
+      "slug": "01-network",
+      "name": "Văn phòng 3 Tầng Hoàn chỉnh (Mạng + Rack + IP Subnet)",
+      "category": "Mạng LAN",
+      "mode": "topology",
+      "badge": "Sample Project",
+      "version": "1.0.0",
+      "updatedAt": "2026-11-19",
+      "author": "HACHIHI",
+      "description": "Dự án mẫu cho người mới làm quen: tòa nhà văn phòng 3 tầng (MDF Tầng 1 + IDF Tầng 2–3), gán sẵn thiết bị vào 3 tủ Rack 19\", chia 5 VLAN/Subnet (10.10.10–50.0/24), Wi-Fi, CCTV và nguồn PoE/UPS chuẩn kỹ thuật.",
+      "highlights": [
+        "3 tầng · 4 phòng",
+        "3 tủ Rack (MDF + 2 IDF)",
+        "5 VLAN & Subnet CIDR"
+      ],
+      "tags": [
+        "LAN",
+        "VLAN",
+        "Rack",
+        "Office",
+        "Sample"
+      ],
+      "projectUrl": "/templates/01-network/project.json",
+      "previewUrl": "/templates/01-network/preview.svg",
+      "hasProjectData": true,
+      "stats": {
+        "nodes": 19,
+        "assets": 23,
+        "racks": 3,
+        "cables": 15,
+        "floors": 3
+      }
+    },
+    {
+      "id": "cctv-security-002",
+      "slug": "02-cctv",
+      "name": "Hệ thống Camera Giám sát An ninh AI",
+      "category": "Camera",
+      "mode": "cctv",
+      "badge": "An ninh AI",
+      "version": "1.0.0",
+      "updatedAt": "2026-11-19",
+      "author": "HACHIHI",
+      "description": "Bố trí 8 camera 4K AI kèm nón góc quét quan sát (FOV 95°), tầm xa hồng ngoại 30m, kết nối PoE Switch tới đầu ghi NVR 32 kênh và màn hình giám sát trung tâm.",
+      "highlights": [
+        "1 tầng",
+        "5 thiết bị",
+        "4 tuyến cáp"
+      ],
+      "tags": [
+        "Camera",
+        "CCTV",
+        "NVR",
+        "PoE"
+      ],
+      "projectUrl": "/templates/02-cctv/project.json",
+      "previewUrl": "/templates/02-cctv/preview.svg",
+      "hasProjectData": true,
+      "stats": {
+        "nodes": 5,
+        "assets": 5,
+        "racks": 0,
+        "cables": 4,
+        "floors": 0
+      }
+    },
+    {
+      "id": "rack-datacenter-003",
+      "slug": "03-rack",
+      "name": "Tủ Server Rack 42U Data Center",
+      "category": "Rack",
+      "mode": "rack",
+      "badge": "19-inch 42U",
+      "version": "1.0.0",
+      "updatedAt": "2026-11-19",
+      "author": "HACHIHI",
+      "description": "Thiết kế tủ rack 42U chuẩn quốc tế: ODF quang đỉnh tủ (U41-42), Patch Panel Cat6 (U38-40), Switch Core & Access (U34-36), Server ảo hóa VMware 2U (U20-30), Bộ lưu điện UPS Online 3kVA (U1-U4).",
+      "highlights": [
+        "1 tầng",
+        "6 thiết bị",
+        "0 tuyến cáp"
+      ],
+      "tags": [
+        "Rack",
+        "42U",
+        "Server",
+        "UPS",
+        "ODF"
+      ],
+      "projectUrl": "/templates/03-rack/project.json",
+      "previewUrl": "/templates/03-rack/preview.svg",
+      "hasProjectData": true,
+      "stats": {
+        "nodes": 1,
+        "assets": 6,
+        "racks": 1,
+        "cables": 0,
+        "floors": 0
+      }
+    },
+    {
+      "id": "wifi-coverage-004",
+      "slug": "04-wifi",
+      "name": "Bản đồ Phủ sóng Wi-Fi 6 Doanh nghiệp",
+      "category": "Wi-Fi",
+      "mode": "wifi",
+      "badge": "Vùng phủ RF",
+      "version": "1.0.0",
+      "updatedAt": "2026-11-19",
+      "author": "HACHIHI",
+      "description": "Mô phỏng bán kính phủ sóng RF 2.4GHz & 5GHz của các Access Point Wi-Fi 6, trực quan hóa vùng giao thoa tín hiệu và khu vực điểm mù yếu sóng trong tòa nhà.",
+      "highlights": [
+        "1 tầng",
+        "3 thiết bị",
+        "0 tuyến cáp"
+      ],
+      "tags": [
+        "Wi-Fi",
+        "RF",
+        "Access Point",
+        "Heatmap"
+      ],
+      "projectUrl": "/templates/04-wifi/project.json",
+      "previewUrl": "/templates/04-wifi/preview.svg",
+      "hasProjectData": true,
+      "stats": {
+        "nodes": 3,
+        "assets": 3,
+        "racks": 0,
+        "cables": 0,
+        "floors": 0
+      }
+    },
+    {
+      "id": "floorplan-hachihi2-005",
+      "slug": "05-floorplan",
+      "name": "Tòa nhà HACHIHI 2 (B1 + G + 5 Tầng · 2D & 3D Cutaway)",
+      "category": "Mặt bằng",
+      "mode": "floorplan",
+      "badge": "2D CAD & 3D",
+      "version": "1.0.0",
+      "updatedAt": "2026-11-19",
+      "author": "HACHIHI",
+      "description": "Mô hình tòa nhà văn phòng kết nối HACHIHI 2 (Hahihi2) đầy đủ 7 mặt bằng (Tầng hầm B1 bãi xe & cổng chính, Tầng G trệt, Tầng 1–5): Main Rack Tầng 4 (42U), Small Rack 12U từng tầng liên thông trục đứng Riser, Thang máy kính, Máy chấm công, PC, Wi-Fi 6 & Camera giám sát rõ nét trên cả 2D CAD và 3D Cutaway.",
+      "highlights": [
+        "B1 + G + 5 Tầng (Main Rack 42U T4)",
+        "6x Small Rack 12U + Trục Riser",
+        "Thang máy · Chấm công · CCTV"
+      ],
+      "tags": [
+        "Mặt bằng",
+        "CAD",
+        "3D",
+        "Building"
+      ],
+      "projectUrl": "/templates/05-floorplan/project.json",
+      "previewUrl": "/templates/05-floorplan/preview.svg",
+      "hasProjectData": true,
+      "stats": {
+        "nodes": 66,
+        "assets": 88,
+        "racks": 7,
+        "cables": 58,
+        "floors": 7
+      }
+    },
+    {
+      "id": "fiber-odf-006",
+      "slug": "06-fiber",
+      "name": "Trục Cáp quang ODF & Đấu nối Tủ Mạng",
+      "category": "Cáp quang",
+      "mode": "fiber",
+      "badge": "Cáp quang ODF",
+      "version": "1.0.0",
+      "updatedAt": "2026-11-19",
+      "author": "HACHIHI",
+      "description": "Sơ đồ luồng cáp quang đa lõi Single-mode OS2 kết nối giữa ODF phòng máy chủ trung tâm (MDF) với ODF các tầng (IDF) và bảng đấu dây Patch Panel Cat6A.",
+      "highlights": [
+        "1 tầng",
+        "4 thiết bị",
+        "3 tuyến cáp"
+      ],
+      "tags": [
+        "Fiber",
+        "ODF",
+        "OS2",
+        "Backbone"
+      ],
+      "projectUrl": "/templates/06-fiber/project.json",
+      "previewUrl": "/templates/06-fiber/preview.svg",
+      "hasProjectData": true,
+      "stats": {
+        "nodes": 4,
+        "assets": 4,
+        "racks": 0,
+        "cables": 3,
+        "floors": 0
+      }
+    },
+    {
+      "id": "lan-star-007",
+      "slug": "07-lan-star",
+      "name": "Mạng LAN Cơ bản (Star 2-Tầng PoE)",
+      "category": "Mạng LAN",
+      "mode": "topology",
+      "badge": "LAN Star",
+      "version": "1.0.0",
+      "updatedAt": "2026-11-19",
+      "author": "HACHIHI",
+      "description": "Sơ đồ LAN hình sao 2 tầng chuẩn mực: WAN ISP → Router MikroTik → Switch PoE 24-port cấp nguồn cho Wi-Fi 6 AP, Camera IP, đầu ghi NVR và máy chủ NAS nội bộ.",
+      "highlights": [
+        "Router → Switch PoE → AP/Cam/NAS",
+        "3 VLAN (LAN, Wi-Fi, CCTV)",
+        "Sẵn sàng cho văn phòng 15–40 người"
+      ],
+      "tags": [
+        "LAN",
+        "PoE",
+        "Star",
+        "Router"
+      ],
+      "projectUrl": "/templates/07-lan-star/project.json",
+      "previewUrl": "/templates/07-lan-star/preview.svg",
+      "hasProjectData": true,
+      "stats": {
+        "nodes": 9,
+        "assets": 9,
+        "racks": 0,
+        "cables": 8,
+        "floors": 0
+      }
+    },
+    {
+      "id": "multisite-sdwan-008",
+      "slug": "08-multisite",
+      "name": "Tổng thể Đa Chi Nhánh (HQ & 3 Chi Nhánh)",
+      "category": "Đa chi nhánh",
+      "mode": "multisite",
+      "badge": "WAN / SD-WAN",
+      "version": "1.0.0",
+      "updatedAt": "2026-11-19",
+      "author": "HACHIHI",
+      "description": "Mô hình liên kết diện rộng kết nối Trụ sở chính (Headquarters), Chi nhánh Hà Nội, Chi nhánh Đà Nẵng và Đám mây AWS qua mạng riêng ảo IPsec / SD-WAN.",
+      "highlights": [
+        "1 tầng",
+        "5 thiết bị",
+        "4 tuyến cáp"
+      ],
+      "tags": [
+        "SD-WAN",
+        "WAN",
+        "VPN",
+        "Multi-Site"
+      ],
+      "projectUrl": "/templates/08-multisite/project.json",
+      "previewUrl": "/templates/08-multisite/preview.svg",
+      "hasProjectData": true,
+      "stats": {
+        "nodes": 5,
+        "assets": 5,
+        "racks": 0,
+        "cables": 4,
+        "floors": 0
+      }
+    },
+    {
+      "id": "campus-core-dist-009",
+      "slug": "09-datacenter",
+      "name": "Kiến trúc Campus 3-Tầng (Core / Distribution / Access)",
+      "category": "Data Center",
+      "mode": "topology",
+      "badge": "Core / Dist / Acc",
+      "version": "1.0.0",
+      "updatedAt": "2026-11-19",
+      "author": "HACHIHI",
+      "description": "Chuẩn Campus 3 lớp doanh nghiệp lớn: cặp Core Switch Nexus 100G liên kết vòng ISL, nối quang OS2 dual-homed xuống 3 Distribution Switch cho Khối Văn phòng, Xưởng sản xuất và Server Farm.",
+      "highlights": [
+        "Dual Core Switch 100G ISL",
+        "3 lớp Core–Dist–Access dự phòng kép",
+        "Cụm ảo hóa Server & SAN Storage"
+      ],
+      "tags": [
+        "Core",
+        "Distribution",
+        "Access",
+        "100G"
+      ],
+      "projectUrl": "/templates/09-datacenter/project.json",
+      "previewUrl": "/templates/09-datacenter/preview.svg",
+      "hasProjectData": true,
+      "stats": {
+        "nodes": 12,
+        "assets": 12,
+        "racks": 0,
+        "cables": 15,
+        "floors": 0
+      }
+    },
+    {
+      "id": "lan-vlan-dmz-010",
+      "slug": "10-lan-dmz",
+      "name": "Mạng LAN Phân tách VLAN & Vùng DMZ Bảo mật",
+      "category": "Mạng LAN",
+      "mode": "topology",
+      "badge": "LAN + DMZ",
+      "version": "1.0.0",
+      "updatedAt": "2026-11-19",
+      "author": "HACHIHI",
+      "description": "Kiến trúc LAN bảo mật cho doanh nghiệp: Firewall biên phân vùng DMZ (Web/API công cộng), tách 6 VLAN Nội bộ/Kế toán/Guest/Camera/DMZ và bảo vệ nguồn bằng UPS Online.",
+      "highlights": [
+        "Firewall FortiGate + DMZ Server",
+        "6 VLAN tách biệt lưu lượng",
+        "Có UPS bảo vệ vùng Core"
+      ],
+      "tags": [
+        "DMZ",
+        "Firewall",
+        "VLAN",
+        "Security"
+      ],
+      "projectUrl": "/templates/10-lan-dmz/project.json",
+      "previewUrl": "/templates/10-lan-dmz/preview.svg",
+      "hasProjectData": true,
+      "stats": {
+        "nodes": 9,
+        "assets": 9,
+        "racks": 0,
+        "cables": 8,
+        "floors": 0
+      }
+    },
+    {
+      "id": "wan-dual-isp-011",
+      "slug": "11-wan-dual-isp",
+      "name": "Mạng WAN Dual-ISP & Kết nối Chi nhánh IPsec VPN",
+      "category": "Đa chi nhánh",
+      "mode": "topology",
+      "badge": "WAN Multi-Site",
+      "version": "1.0.0",
+      "updatedAt": "2026-11-19",
+      "author": "HACHIHI",
+      "description": "Mô hình kết nối WAN đa đường truyền dự phòng (Active-Active/Failover) qua 2 nhà mạng độc lập, kết hợp đường hầm VPN IPsec Site-to-Site liên kết Hội sở chính và 2 chi nhánh.",
+      "highlights": [
+        "2 đường truyền ISP (Viettel + VNPT)",
+        "IPsec VPN Site-to-Site HN & ĐN",
+        "BGP/Failover tự động"
+      ],
+      "tags": [
+        "Dual-ISP",
+        "Failover",
+        "IPsec",
+        "WAN"
+      ],
+      "projectUrl": "/templates/11-wan-dual-isp/project.json",
+      "previewUrl": "/templates/11-wan-dual-isp/preview.svg",
+      "hasProjectData": true,
+      "stats": {
+        "nodes": 9,
+        "assets": 9,
+        "racks": 0,
+        "cables": 8,
+        "floors": 0
+      }
+    },
+    {
+      "id": "collapsed-core-012",
+      "slug": "12-collapsed-core",
+      "name": "Kiến trúc Collapsed Core (Gom Core + Dist 3 Tầng)",
+      "category": "Mạng LAN",
+      "mode": "topology",
+      "badge": "Collapsed Core",
+      "version": "1.0.0",
+      "updatedAt": "2026-11-19",
+      "author": "HACHIHI",
+      "description": "Mô hình Collapsed Core thực dụng cho tòa nhà vừa: gộp tầng Core và Distribution vào Switch L3 hiệu năng cao kết nối Firewall/Server, kéo cáp quang trục đứng OS2 lên các tủ Access từng tầng.",
+      "highlights": [
+        "Core L3 + 3 Switch Access liên tầng",
+        "Cáp quang OS2 10G trục đứng",
+        "Tối ưu chi phí tòa nhà 3–5 tầng"
+      ],
+      "tags": [
+        "Collapsed Core",
+        "L3",
+        "Fiber",
+        "3-Floor"
+      ],
+      "projectUrl": "/templates/12-collapsed-core/project.json",
+      "previewUrl": "/templates/12-collapsed-core/preview.svg",
+      "hasProjectData": true,
+      "stats": {
+        "nodes": 11,
+        "assets": 11,
+        "racks": 0,
+        "cables": 10,
+        "floors": 0
+      }
+    },
+    {
+      "id": "enterprise-logic-013",
+      "slug": "13-enterprise-logic",
+      "name": "Doanh nghiệp Đa phòng ban & VLAN",
+      "category": "Mạng LAN",
+      "mode": "topology",
+      "badge": "Doanh nghiệp",
+      "version": "1.0.0",
+      "updatedAt": "2026-11-19",
+      "author": "HACHIHI",
+      "description": "Sơ đồ mạng hoàn chỉnh gồm WAN Dual-ISP, Firewall HA FortiGate, Core Switch Nexus 9300, 3x Distribution Switch cho Phòng Kinh Doanh, Kỹ Thuật và Server Farm.",
+      "highlights": [
+        "1 tầng",
+        "6 thiết bị",
+        "5 tuyến cáp"
+      ],
+      "tags": [
+        "Enterprise",
+        "HA",
+        "Firewall",
+        "Core"
+      ],
+      "projectUrl": "/templates/13-enterprise-logic/project.json",
+      "previewUrl": "/templates/13-enterprise-logic/preview.svg",
+      "hasProjectData": true,
+      "stats": {
+        "nodes": 6,
+        "assets": 6,
+        "racks": 0,
+        "cables": 5,
+        "floors": 0
+      }
+    },
+    {
+      "id": "smb-office-014",
+      "slug": "14-smb-office",
+      "name": "Văn phòng Vừa & Nhỏ (SMB)",
+      "category": "Mạng LAN",
+      "mode": "topology",
+      "badge": "Văn phòng SMB",
+      "version": "1.0.0",
+      "updatedAt": "2026-11-19",
+      "author": "HACHIHI",
+      "description": "Mô hình chuẩn cho văn phòng 30-50 nhân sự: Router cân bằng tải Dual-WAN, Switch PoE 24 port, 2x Wi-Fi 6 APs, Máy chủ NAS và Máy in mạng.",
+      "highlights": [
+        "1 tầng",
+        "4 thiết bị",
+        "3 tuyến cáp"
+      ],
+      "tags": [
+        "SMB",
+        "Office",
+        "NAS",
+        "PoE"
+      ],
+      "projectUrl": "/templates/14-smb-office/project.json",
+      "previewUrl": "/templates/14-smb-office/preview.svg",
+      "hasProjectData": true,
+      "stats": {
+        "nodes": 4,
+        "assets": 4,
+        "racks": 0,
+        "cables": 3,
+        "floors": 0
+      }
+    },
+    {
+      "id": "building-5floors-015",
+      "slug": "15-building-5floors",
+      "name": "Tòa nhà HACHIHI Building (5 Tầng + 1 Hầm)",
+      "category": "Mặt bằng",
+      "mode": "floorplan",
+      "badge": "Mặt bằng CAD",
+      "version": "1.0.0",
+      "updatedAt": "2026-11-19",
+      "author": "HACHIHI",
+      "description": "Mặt bằng kiến trúc kỹ thuật gồm 5 tầng nổi và 1 tầng hầm B1: Trục kỹ thuật đứng (Vertical Riser), phòng máy chủ, phòng kinh doanh, lễ tân và tủ phân phối IDF từng tầng.",
+      "highlights": [
+        "6 tầng",
+        "4 thiết bị",
+        "3 tuyến cáp"
+      ],
+      "tags": [
+        "Building",
+        "5-Floor",
+        "Riser",
+        "Floorplan"
+      ],
+      "projectUrl": "/templates/15-building-5floors/project.json",
+      "previewUrl": "/templates/15-building-5floors/preview.svg",
+      "hasProjectData": true,
+      "stats": {
+        "nodes": 6,
+        "assets": 4,
+        "racks": 1,
+        "cables": 3,
+        "floors": 6
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "floorplan-hachihi2-005",
+  "legacyId": "tpl_building_hachihi2",
+  "name": "Tòa nhà HACHIHI 2 (B1 + G + 5 Tầng · 2D & 3D Cutaway)",
+  "category": "Mặt bằng",
+  "mode": "floorplan",
+  "badge": "2D CAD & 3D",
+  "version": "1.0.0",
+  "updatedAt": "2026-11-19",
+  "author": "HACHIHI",
+  "description": "Mô hình tòa nhà văn phòng kết nối HACHIHI 2 (Hahihi2) đầy đủ 7 mặt bằng (Tầng hầm B1 bãi xe & cổng chính, Tầng G trệt, Tầng 1–5): Main Rack Tầng 4 (42U), Small Rack 12U từng tầng liên thông trục đứng Riser, Thang máy kính, Máy chấm công, PC, Wi-Fi 6 & Camera giám sát rõ nét trên cả 2D CAD và 3D Cutaway.",
+  "highlights": [
+    "B1 + G + 5 Tầng (Main Rack 42U T4)",
+    "6x Small Rack 12U + Trục Riser",
+    "Thang máy · Chấm công · CCTV"
+  ],
+  "projectFile": "project.json",
+  "preview": "preview.svg",
+  "tags": [
+    "Mặt bằng",
+    "CAD",
+    "3D",
+    "Building"
+  ]
+}

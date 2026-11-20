@@ -1,0 +1,8 @@
+{
+  "name": "HACHIHI Network Designer – allinone 201126 1500",
+  "description": "Phần mềm thiết kế hạ tầng tổng hợp, sơ đồ mạng, mặt bằng tòa nhà nhiều tầng và tủ rack máy chủ chuyên nghiệp với bảng thuộc tính động thời gian thực.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

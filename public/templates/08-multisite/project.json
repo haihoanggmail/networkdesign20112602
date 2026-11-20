@@ -1,0 +1,415 @@
+{
+  "id": "proj_multisite",
+  "name": "HACHIHI Multi-Site SD-WAN Enterprise Architecture",
+  "author": "Chief Network Architect",
+  "version": "1.0.0",
+  "lastModified": "2026-11-19T08:10:03.204Z",
+  "buildings": [],
+  "floors": [],
+  "rooms": [],
+  "racks": [],
+  "assets": {
+    "dev_1795075803204_xcpq": {
+      "id": "dev_1795075803204_xcpq",
+      "name": "HACHIHI SD-WAN CLOUD MESH",
+      "category": "cloud",
+      "vendor": "VNPT",
+      "model": "Cloud Gateway",
+      "assetTag": "AST-0001",
+      "serialNumber": "SNW59PNHOL",
+      "ipAddress": "192.168.10.11",
+      "subnetMask": "255.255.255.0",
+      "gateway": "192.168.10.1",
+      "macAddress": "00:1A:2B:00:01:C1",
+      "vlan": "10, 20",
+      "status": "online",
+      "powerWatts": 0,
+      "weightKg": 0,
+      "ports": [
+        {
+          "id": "port_1",
+          "name": "ISP_Link1",
+          "type": "FIBER_LC",
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_2",
+          "name": "ISP_Link2",
+          "type": "RJ45_1G",
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        }
+      ]
+    },
+    "dev_1795075803204_vbe1": {
+      "id": "dev_1795075803204_vbe1",
+      "name": "TRỤ SỞ CHÍNH (TP. HỒ CHÍ MINH)",
+      "category": "router",
+      "vendor": "Cisco",
+      "model": "ASR 1001-X",
+      "assetTag": "AST-0002",
+      "serialNumber": "SN62R9KS4U",
+      "ipAddress": "192.168.10.12",
+      "subnetMask": "255.255.255.0",
+      "gateway": "192.168.10.1",
+      "macAddress": "00:1A:2B:00:02:C1",
+      "vlan": "10, 20",
+      "status": "online",
+      "powerWatts": 250,
+      "weightKg": 8.5,
+      "ports": [
+        {
+          "id": "port_1",
+          "name": "WAN1_ISP1",
+          "type": "SFP_PLUS_10G",
+          "speed": "10 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_2",
+          "name": "WAN2_ISP2",
+          "type": "RJ45_1G",
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_3",
+          "name": "LAN1_Core",
+          "type": "SFP_PLUS_10G",
+          "speed": "10 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_4",
+          "name": "LAN2_DMZ",
+          "type": "RJ45_1G",
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        }
+      ]
+    },
+    "dev_1795075803204_ta3n": {
+      "id": "dev_1795075803204_ta3n",
+      "name": "CHI NHÁNH HÀ NỘI",
+      "category": "router",
+      "vendor": "Cisco",
+      "model": "ASR 1001-X",
+      "assetTag": "AST-0003",
+      "serialNumber": "SNNCLAZMJC",
+      "ipAddress": "192.168.10.13",
+      "subnetMask": "255.255.255.0",
+      "gateway": "192.168.10.1",
+      "macAddress": "00:1A:2B:00:03:C1",
+      "vlan": "10, 20",
+      "status": "online",
+      "powerWatts": 250,
+      "weightKg": 8.5,
+      "ports": [
+        {
+          "id": "port_1",
+          "name": "WAN1_ISP1",
+          "type": "SFP_PLUS_10G",
+          "speed": "10 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_2",
+          "name": "WAN2_ISP2",
+          "type": "RJ45_1G",
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_3",
+          "name": "LAN1_Core",
+          "type": "SFP_PLUS_10G",
+          "speed": "10 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_4",
+          "name": "LAN2_DMZ",
+          "type": "RJ45_1G",
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        }
+      ]
+    },
+    "dev_1795075803204_0esv": {
+      "id": "dev_1795075803204_0esv",
+      "name": "CHI NHÁNH ĐÀ NẴNG",
+      "category": "router",
+      "vendor": "Cisco",
+      "model": "ASR 1001-X",
+      "assetTag": "AST-0004",
+      "serialNumber": "SNM6MDT9CE",
+      "ipAddress": "192.168.10.14",
+      "subnetMask": "255.255.255.0",
+      "gateway": "192.168.10.1",
+      "macAddress": "00:1A:2B:00:04:C1",
+      "vlan": "10, 20",
+      "status": "online",
+      "powerWatts": 250,
+      "weightKg": 8.5,
+      "ports": [
+        {
+          "id": "port_1",
+          "name": "WAN1_ISP1",
+          "type": "SFP_PLUS_10G",
+          "speed": "10 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_2",
+          "name": "WAN2_ISP2",
+          "type": "RJ45_1G",
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_3",
+          "name": "LAN1_Core",
+          "type": "SFP_PLUS_10G",
+          "speed": "10 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_4",
+          "name": "LAN2_DMZ",
+          "type": "RJ45_1G",
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        }
+      ]
+    },
+    "dev_1795075803204_wfq8": {
+      "id": "dev_1795075803204_wfq8",
+      "name": "DATA CENTER AWS SINGAPORE",
+      "category": "router",
+      "vendor": "Cisco",
+      "model": "ASR 1001-X",
+      "assetTag": "AST-0005",
+      "serialNumber": "SNUR95MQIV",
+      "ipAddress": "192.168.10.15",
+      "subnetMask": "255.255.255.0",
+      "gateway": "192.168.10.1",
+      "macAddress": "00:1A:2B:00:05:C1",
+      "vlan": "10, 20",
+      "status": "online",
+      "powerWatts": 250,
+      "weightKg": 8.5,
+      "ports": [
+        {
+          "id": "port_1",
+          "name": "WAN1_ISP1",
+          "type": "SFP_PLUS_10G",
+          "speed": "10 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_2",
+          "name": "WAN2_ISP2",
+          "type": "RJ45_1G",
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_3",
+          "name": "LAN1_Core",
+          "type": "SFP_PLUS_10G",
+          "speed": "10 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_4",
+          "name": "LAN2_DMZ",
+          "type": "RJ45_1G",
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        }
+      ]
+    }
+  },
+  "nodes": [
+    {
+      "id": "node_sdwan_cloud",
+      "diagramMode": "multisite",
+      "type": "cloud",
+      "assetId": "dev_1795075803204_xcpq",
+      "label": "HACHIHI SD-WAN CLOUD MESH",
+      "x": 420,
+      "y": 180,
+      "width": 200,
+      "height": 90,
+      "rotation": 0,
+      "style": {
+        "backgroundColor": "#6366f1",
+        "borderColor": "#4f46e5",
+        "borderWidth": 2,
+        "borderStyle": "solid",
+        "opacity": 1,
+        "textColor": "#fff"
+      }
+    },
+    {
+      "id": "node_site_1",
+      "diagramMode": "multisite",
+      "type": "device",
+      "assetId": "dev_1795075803204_vbe1",
+      "label": "TRỤ SỞ CHÍNH (TP. HỒ CHÍ MINH)",
+      "x": 420,
+      "y": 30,
+      "width": 210,
+      "height": 64,
+      "rotation": 0,
+      "style": {
+        "backgroundColor": "#0284c7",
+        "borderColor": "#1e293b",
+        "borderWidth": 2,
+        "borderStyle": "solid",
+        "opacity": 1,
+        "textColor": "#fff"
+      }
+    },
+    {
+      "id": "node_site_2",
+      "diagramMode": "multisite",
+      "type": "device",
+      "assetId": "dev_1795075803204_ta3n",
+      "label": "CHI NHÁNH HÀ NỘI",
+      "x": 120,
+      "y": 340,
+      "width": 210,
+      "height": 64,
+      "rotation": 0,
+      "style": {
+        "backgroundColor": "#0ea5e9",
+        "borderColor": "#1e293b",
+        "borderWidth": 2,
+        "borderStyle": "solid",
+        "opacity": 1,
+        "textColor": "#fff"
+      }
+    },
+    {
+      "id": "node_site_3",
+      "diagramMode": "multisite",
+      "type": "device",
+      "assetId": "dev_1795075803204_0esv",
+      "label": "CHI NHÁNH ĐÀ NẴNG",
+      "x": 420,
+      "y": 340,
+      "width": 210,
+      "height": 64,
+      "rotation": 0,
+      "style": {
+        "backgroundColor": "#0ea5e9",
+        "borderColor": "#1e293b",
+        "borderWidth": 2,
+        "borderStyle": "solid",
+        "opacity": 1,
+        "textColor": "#fff"
+      }
+    },
+    {
+      "id": "node_site_4",
+      "diagramMode": "multisite",
+      "type": "device",
+      "assetId": "dev_1795075803204_wfq8",
+      "label": "DATA CENTER AWS SINGAPORE",
+      "x": 720,
+      "y": 340,
+      "width": 210,
+      "height": 64,
+      "rotation": 0,
+      "style": {
+        "backgroundColor": "#475569",
+        "borderColor": "#1e293b",
+        "borderWidth": 2,
+        "borderStyle": "solid",
+        "opacity": 1,
+        "textColor": "#fff"
+      }
+    }
+  ],
+  "cables": [
+    {
+      "id": "cab_sdwan_1",
+      "cableCode": "VPN-TUNNEL-SITE-1",
+      "diagramMode": "multisite",
+      "sourceNodeId": "node_sdwan_cloud",
+      "targetNodeId": "node_site_1",
+      "cableType": "FIBER_SM_OS2",
+      "bandwidth": "1G",
+      "color": "#6366f1",
+      "routingType": "straight",
+      "lineStyle": "dashed",
+      "strokeWidth": 3,
+      "lengthMeters": 800,
+      "status": "active"
+    },
+    {
+      "id": "cab_sdwan_2",
+      "cableCode": "VPN-TUNNEL-SITE-2",
+      "diagramMode": "multisite",
+      "sourceNodeId": "node_sdwan_cloud",
+      "targetNodeId": "node_site_2",
+      "cableType": "FIBER_SM_OS2",
+      "bandwidth": "1G",
+      "color": "#6366f1",
+      "routingType": "straight",
+      "lineStyle": "dashed",
+      "strokeWidth": 3,
+      "lengthMeters": 800,
+      "status": "active"
+    },
+    {
+      "id": "cab_sdwan_3",
+      "cableCode": "VPN-TUNNEL-SITE-3",
+      "diagramMode": "multisite",
+      "sourceNodeId": "node_sdwan_cloud",
+      "targetNodeId": "node_site_3",
+      "cableType": "FIBER_SM_OS2",
+      "bandwidth": "1G",
+      "color": "#6366f1",
+      "routingType": "straight",
+      "lineStyle": "dashed",
+      "strokeWidth": 3,
+      "lengthMeters": 800,
+      "status": "active"
+    },
+    {
+      "id": "cab_sdwan_4",
+      "cableCode": "VPN-TUNNEL-SITE-4",
+      "diagramMode": "multisite",
+      "sourceNodeId": "node_sdwan_cloud",
+      "targetNodeId": "node_site_4",
+      "cableType": "FIBER_SM_OS2",
+      "bandwidth": "1G",
+      "color": "#6366f1",
+      "routingType": "straight",
+      "lineStyle": "dashed",
+      "strokeWidth": 3,
+      "lengthMeters": 800,
+      "status": "active"
+    }
+  ],
+  "activeMode": "multisite",
+  "activeBuildingId": "",
+  "activeFloorId": "",
+  "settings": {
+    "gridSize": 20,
+    "snapToGrid": true,
+    "showRulers": true,
+    "showGrid": true,
+    "showPortLabels": true,
+    "showIpAddresses": true,
+    "showCableCodes": true,
+    "showCoverageRadius": false,
+    "unit": "m",
+    "scale": 25,
+    "backgroundColor": "#f8fafc",
+    "isDarkMode": false
+  }
+}

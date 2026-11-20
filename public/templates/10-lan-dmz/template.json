@@ -1,0 +1,25 @@
+{
+  "id": "lan-vlan-dmz-010",
+  "legacyId": "tpl_std_lan_vlan_dmz",
+  "name": "Mạng LAN Phân tách VLAN & Vùng DMZ Bảo mật",
+  "category": "Mạng LAN",
+  "mode": "topology",
+  "badge": "LAN + DMZ",
+  "version": "1.0.0",
+  "updatedAt": "2026-11-19",
+  "author": "HACHIHI",
+  "description": "Kiến trúc LAN bảo mật cho doanh nghiệp: Firewall biên phân vùng DMZ (Web/API công cộng), tách 6 VLAN Nội bộ/Kế toán/Guest/Camera/DMZ và bảo vệ nguồn bằng UPS Online.",
+  "highlights": [
+    "Firewall FortiGate + DMZ Server",
+    "6 VLAN tách biệt lưu lượng",
+    "Có UPS bảo vệ vùng Core"
+  ],
+  "projectFile": "project.json",
+  "preview": "preview.svg",
+  "tags": [
+    "DMZ",
+    "Firewall",
+    "VLAN",
+    "Security"
+  ]
+}

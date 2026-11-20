@@ -1,0 +1,436 @@
+{
+  "id": "proj_cctv",
+  "name": "CCTV Surveillance & FOV Coverage Plan",
+  "author": "Security Architect",
+  "version": "1.0.0",
+  "lastModified": "2026-11-19T08:10:03.202Z",
+  "buildings": [],
+  "floors": [],
+  "rooms": [],
+  "racks": [],
+  "assets": {
+    "dev_1795075803202_vpsn": {
+      "id": "dev_1795075803202_vpsn",
+      "name": "NVR-32CH-4K-AI",
+      "category": "nvr",
+      "vendor": "Hikvision",
+      "model": "iDS-7732NXI-M4/16P",
+      "assetTag": "AST-0001",
+      "serialNumber": "SNRSP85TTN",
+      "ipAddress": "192.168.100.10",
+      "subnetMask": "255.255.255.0",
+      "gateway": "192.168.10.1",
+      "macAddress": "00:1A:2B:00:01:C1",
+      "vlan": "10, 20",
+      "status": "online",
+      "powerWatts": 300,
+      "weightKg": 5,
+      "ports": [
+        {
+          "id": "port_1",
+          "name": "LAN1",
+          "type": "RJ45_1G",
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_2",
+          "name": "Cam_PoE_1",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "100 Mbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_3",
+          "name": "Cam_PoE_2",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "100 Mbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_4",
+          "name": "Cam_PoE_3",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "100 Mbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_5",
+          "name": "Cam_PoE_4",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "100 Mbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_6",
+          "name": "Cam_PoE_5",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "100 Mbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_7",
+          "name": "Cam_PoE_6",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "100 Mbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_8",
+          "name": "Cam_PoE_7",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "100 Mbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_9",
+          "name": "Cam_PoE_8",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "100 Mbps",
+          "status": "unlinked"
+        }
+      ]
+    },
+    "dev_1795075803202_x23z": {
+      "id": "dev_1795075803202_x23z",
+      "name": "CAM-01 (Cổng Chính)",
+      "category": "camera",
+      "vendor": "Hikvision",
+      "model": "DS-2CD2186G2-ISU",
+      "assetTag": "AST-0002",
+      "serialNumber": "SNQH63ZN6G",
+      "ipAddress": "192.168.100.20",
+      "subnetMask": "255.255.255.0",
+      "gateway": "192.168.10.1",
+      "macAddress": "00:1A:2B:00:02:C1",
+      "vlan": "10, 20",
+      "status": "online",
+      "powerWatts": 12,
+      "weightKg": 0.6,
+      "cameraSpecs": {
+        "resolution": "4K 8MP (3840x2160)",
+        "lensMm": 2.8,
+        "fovAngle": 95,
+        "irDistanceMeters": 30,
+        "nvrChannel": 1
+      },
+      "ports": [
+        {
+          "id": "port_1",
+          "name": "RJ45_PoE",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        }
+      ]
+    },
+    "dev_1795075803202_cf71": {
+      "id": "dev_1795075803202_cf71",
+      "name": "CAM-02 (Hành Lang Đông)",
+      "category": "camera",
+      "vendor": "Hikvision",
+      "model": "DS-2CD2186G2-ISU",
+      "assetTag": "AST-0003",
+      "serialNumber": "SNPW5L89W9",
+      "ipAddress": "192.168.100.21",
+      "subnetMask": "255.255.255.0",
+      "gateway": "192.168.10.1",
+      "macAddress": "00:1A:2B:00:03:C1",
+      "vlan": "10, 20",
+      "status": "online",
+      "powerWatts": 12,
+      "weightKg": 0.6,
+      "cameraSpecs": {
+        "resolution": "4K 8MP (3840x2160)",
+        "lensMm": 2.8,
+        "fovAngle": 90,
+        "irDistanceMeters": 30,
+        "nvrChannel": 2
+      },
+      "ports": [
+        {
+          "id": "port_1",
+          "name": "RJ45_PoE",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        }
+      ]
+    },
+    "dev_1795075803202_j69w": {
+      "id": "dev_1795075803202_j69w",
+      "name": "CAM-03 (Bãi Xe Hầm B1)",
+      "category": "camera",
+      "vendor": "Hikvision",
+      "model": "DS-2CD2186G2-ISU",
+      "assetTag": "AST-0004",
+      "serialNumber": "SN7AK56YXH",
+      "ipAddress": "192.168.100.22",
+      "subnetMask": "255.255.255.0",
+      "gateway": "192.168.10.1",
+      "macAddress": "00:1A:2B:00:04:C1",
+      "vlan": "10, 20",
+      "status": "online",
+      "powerWatts": 12,
+      "weightKg": 0.6,
+      "cameraSpecs": {
+        "resolution": "4K 8MP (3840x2160)",
+        "lensMm": 2.8,
+        "fovAngle": 110,
+        "irDistanceMeters": 30,
+        "nvrChannel": 3
+      },
+      "ports": [
+        {
+          "id": "port_1",
+          "name": "RJ45_PoE",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        }
+      ]
+    },
+    "dev_1795075803202_f12k": {
+      "id": "dev_1795075803202_f12k",
+      "name": "CAM-04 (Cửa Phòng Server)",
+      "category": "camera",
+      "vendor": "Hikvision",
+      "model": "DS-2CD2186G2-ISU",
+      "assetTag": "AST-0005",
+      "serialNumber": "SNOMZCIODY",
+      "ipAddress": "192.168.100.23",
+      "subnetMask": "255.255.255.0",
+      "gateway": "192.168.10.1",
+      "macAddress": "00:1A:2B:00:05:C1",
+      "vlan": "10, 20",
+      "status": "online",
+      "powerWatts": 12,
+      "weightKg": 0.6,
+      "cameraSpecs": {
+        "resolution": "4K 8MP (3840x2160)",
+        "lensMm": 2.8,
+        "fovAngle": 85,
+        "irDistanceMeters": 30,
+        "nvrChannel": 4
+      },
+      "ports": [
+        {
+          "id": "port_1",
+          "name": "RJ45_PoE",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        }
+      ]
+    }
+  },
+  "nodes": [
+    {
+      "id": "node_nvr",
+      "diagramMode": "cctv",
+      "type": "device",
+      "assetId": "dev_1795075803202_vpsn",
+      "label": "NVR-32CH-4K-AI",
+      "x": 440,
+      "y": 60,
+      "width": 170,
+      "height": 56,
+      "rotation": 0,
+      "style": {
+        "backgroundColor": "#d97706",
+        "borderColor": "#b45309",
+        "borderWidth": 2,
+        "borderStyle": "solid",
+        "opacity": 1,
+        "textColor": "#fff"
+      }
+    },
+    {
+      "id": "node_cam_1",
+      "diagramMode": "cctv",
+      "type": "device",
+      "assetId": "dev_1795075803202_x23z",
+      "label": "CAM-01 (Cổng Chính)",
+      "x": 160,
+      "y": 220,
+      "width": 100,
+      "height": 80,
+      "rotation": 45,
+      "style": {
+        "backgroundColor": "#f59e0b",
+        "borderColor": "#d97706",
+        "borderWidth": 2,
+        "borderStyle": "solid",
+        "opacity": 1,
+        "textColor": "#fff"
+      },
+      "customData": {
+        "fov": 95,
+        "irDistance": 30
+      }
+    },
+    {
+      "id": "node_cam_2",
+      "diagramMode": "cctv",
+      "type": "device",
+      "assetId": "dev_1795075803202_cf71",
+      "label": "CAM-02 (Hành Lang Đông)",
+      "x": 720,
+      "y": 220,
+      "width": 100,
+      "height": 80,
+      "rotation": 135,
+      "style": {
+        "backgroundColor": "#f59e0b",
+        "borderColor": "#d97706",
+        "borderWidth": 2,
+        "borderStyle": "solid",
+        "opacity": 1,
+        "textColor": "#fff"
+      },
+      "customData": {
+        "fov": 90,
+        "irDistance": 30
+      }
+    },
+    {
+      "id": "node_cam_3",
+      "diagramMode": "cctv",
+      "type": "device",
+      "assetId": "dev_1795075803202_j69w",
+      "label": "CAM-03 (Bãi Xe Hầm B1)",
+      "x": 160,
+      "y": 440,
+      "width": 100,
+      "height": 80,
+      "rotation": 315,
+      "style": {
+        "backgroundColor": "#f59e0b",
+        "borderColor": "#d97706",
+        "borderWidth": 2,
+        "borderStyle": "solid",
+        "opacity": 1,
+        "textColor": "#fff"
+      },
+      "customData": {
+        "fov": 110,
+        "irDistance": 30
+      }
+    },
+    {
+      "id": "node_cam_4",
+      "diagramMode": "cctv",
+      "type": "device",
+      "assetId": "dev_1795075803202_f12k",
+      "label": "CAM-04 (Cửa Phòng Server)",
+      "x": 720,
+      "y": 440,
+      "width": 100,
+      "height": 80,
+      "rotation": 225,
+      "style": {
+        "backgroundColor": "#f59e0b",
+        "borderColor": "#d97706",
+        "borderWidth": 2,
+        "borderStyle": "solid",
+        "opacity": 1,
+        "textColor": "#fff"
+      },
+      "customData": {
+        "fov": 85,
+        "irDistance": 30
+      }
+    }
+  ],
+  "cables": [
+    {
+      "id": "cab_cam_1",
+      "cableCode": "CAM-CABLE-1",
+      "diagramMode": "cctv",
+      "sourceNodeId": "node_nvr",
+      "targetNodeId": "node_cam_1",
+      "cableType": "CAT6_UTP",
+      "bandwidth": "1G",
+      "color": "#f59e0b",
+      "routingType": "orthogonal",
+      "lineStyle": "solid",
+      "strokeWidth": 2,
+      "lengthMeters": 30,
+      "status": "active"
+    },
+    {
+      "id": "cab_cam_2",
+      "cableCode": "CAM-CABLE-2",
+      "diagramMode": "cctv",
+      "sourceNodeId": "node_nvr",
+      "targetNodeId": "node_cam_2",
+      "cableType": "CAT6_UTP",
+      "bandwidth": "1G",
+      "color": "#f59e0b",
+      "routingType": "orthogonal",
+      "lineStyle": "solid",
+      "strokeWidth": 2,
+      "lengthMeters": 40,
+      "status": "active"
+    },
+    {
+      "id": "cab_cam_3",
+      "cableCode": "CAM-CABLE-3",
+      "diagramMode": "cctv",
+      "sourceNodeId": "node_nvr",
+      "targetNodeId": "node_cam_3",
+      "cableType": "CAT6_UTP",
+      "bandwidth": "1G",
+      "color": "#f59e0b",
+      "routingType": "orthogonal",
+      "lineStyle": "solid",
+      "strokeWidth": 2,
+      "lengthMeters": 50,
+      "status": "active"
+    },
+    {
+      "id": "cab_cam_4",
+      "cableCode": "CAM-CABLE-4",
+      "diagramMode": "cctv",
+      "sourceNodeId": "node_nvr",
+      "targetNodeId": "node_cam_4",
+      "cableType": "CAT6_UTP",
+      "bandwidth": "1G",
+      "color": "#f59e0b",
+      "routingType": "orthogonal",
+      "lineStyle": "solid",
+      "strokeWidth": 2,
+      "lengthMeters": 60,
+      "status": "active"
+    }
+  ],
+  "activeMode": "cctv",
+  "activeBuildingId": "",
+  "activeFloorId": "",
+  "settings": {
+    "gridSize": 20,
+    "snapToGrid": true,
+    "showRulers": true,
+    "showGrid": true,
+    "showPortLabels": true,
+    "showIpAddresses": true,
+    "showCableCodes": true,
+    "showCoverageRadius": true,
+    "unit": "m",
+    "scale": 30,
+    "backgroundColor": "#f8fafc",
+    "isDarkMode": false
+  }
+}

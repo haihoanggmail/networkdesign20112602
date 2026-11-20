@@ -1,0 +1,25 @@
+{
+  "id": "fiber-odf-006",
+  "legacyId": "tpl_fiber_cabling",
+  "name": "Trục Cáp quang ODF & Đấu nối Tủ Mạng",
+  "category": "Cáp quang",
+  "mode": "fiber",
+  "badge": "Cáp quang ODF",
+  "version": "1.0.0",
+  "updatedAt": "2026-11-19",
+  "author": "HACHIHI",
+  "description": "Sơ đồ luồng cáp quang đa lõi Single-mode OS2 kết nối giữa ODF phòng máy chủ trung tâm (MDF) với ODF các tầng (IDF) và bảng đấu dây Patch Panel Cat6A.",
+  "highlights": [
+    "1 tầng",
+    "4 thiết bị",
+    "3 tuyến cáp"
+  ],
+  "projectFile": "project.json",
+  "preview": "preview.svg",
+  "tags": [
+    "Fiber",
+    "ODF",
+    "OS2",
+    "Backbone"
+  ]
+}

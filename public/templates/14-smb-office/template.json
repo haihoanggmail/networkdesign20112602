@@ -1,0 +1,25 @@
+{
+  "id": "smb-office-014",
+  "legacyId": "tpl_net_small_office",
+  "name": "Văn phòng Vừa & Nhỏ (SMB)",
+  "category": "Mạng LAN",
+  "mode": "topology",
+  "badge": "Văn phòng SMB",
+  "version": "1.0.0",
+  "updatedAt": "2026-11-19",
+  "author": "HACHIHI",
+  "description": "Mô hình chuẩn cho văn phòng 30-50 nhân sự: Router cân bằng tải Dual-WAN, Switch PoE 24 port, 2x Wi-Fi 6 APs, Máy chủ NAS và Máy in mạng.",
+  "highlights": [
+    "1 tầng",
+    "4 thiết bị",
+    "3 tuyến cáp"
+  ],
+  "projectFile": "project.json",
+  "preview": "preview.svg",
+  "tags": [
+    "SMB",
+    "Office",
+    "NAS",
+    "PoE"
+  ]
+}

@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="90 -10 800 642" width="800" height="642" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+<rect class="svg-bg" x="90" y="-10" width="800" height="642" fill="#ffffff" />
+<g data-layer="camera-fov">
+<path d="M 210.0 260.0 L 569.7 244.3 A 360.0 360.0 0 0 1 194.3 619.7 Z" fill="#f59e0b" fill-opacity="0.22" stroke="#d97706" stroke-width="1.5" stroke-dasharray="4 4" />
+<text x="375.5" y="425.5" text-anchor="middle" fill="#b45309" font-size="9" font-weight="700">FOV 95° (30m)</text>
+</g>
+<g data-layer="camera-fov">
+<path d="M 770.0 260.0 L 770.0 620.0 A 360.0 360.0 0 0 1 410.0 260.0 Z" fill="#f59e0b" fill-opacity="0.22" stroke="#d97706" stroke-width="1.5" stroke-dasharray="4 4" />
+<text x="604.5" y="425.5" text-anchor="middle" fill="#b45309" font-size="9" font-weight="700">FOV 90° (30m)</text>
+</g>
+<g data-layer="camera-fov">
+<path d="M 210.0 480.0 L 147.5 125.5 A 360.0 360.0 0 0 1 564.5 542.5 Z" fill="#f59e0b" fill-opacity="0.22" stroke="#d97706" stroke-width="1.5" stroke-dasharray="4 4" />
+<text x="375.5" y="314.5" text-anchor="middle" fill="#b45309" font-size="9" font-weight="700">FOV 110° (30m)</text>
+</g>
+<g data-layer="camera-fov">
+<path d="M 770.0 480.0 L 410.3 464.3 A 360.0 360.0 0 0 1 754.3 120.3 Z" fill="#f59e0b" fill-opacity="0.22" stroke="#d97706" stroke-width="1.5" stroke-dasharray="4 4" />
+<text x="604.5" y="314.5" text-anchor="middle" fill="#b45309" font-size="9" font-weight="700">FOV 85° (30m)</text>
+</g>
+<g>
+<path d="M 525 88 L 367.5 88 L 367.5 260 L 210 260" fill="none" stroke="#f59e0b" stroke-width="2"  stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<g>
+<path d="M 525 88 L 647.5 88 L 647.5 260 L 770 260" fill="none" stroke="#f59e0b" stroke-width="2"  stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<g>
+<path d="M 525 88 L 367.5 88 L 367.5 480 L 210 480" fill="none" stroke="#f59e0b" stroke-width="2"  stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<g>
+<path d="M 525 88 L 647.5 88 L 647.5 480 L 770 480" fill="none" stroke="#f59e0b" stroke-width="2"  stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<g data-layer="cable-labeling">
+<g transform="translate(367.5, 174.0) rotate(-90.0)">
+<rect class="svg-cable-badge" x="-62.0" y="-9.5" width="124" height="19" rx="4" fill="#ffffff" fill-opacity="0.96" stroke="#f59e0b" stroke-width="1.1" />
+<circle cx="-54.3" cy="0" r="2.7" fill="#f59e0b" />
+<text class="svg-cable-text" x="4.2" y="3.3" text-anchor="middle" fill="#0f172a" font-size="9.5" font-weight="600">CAM-CABLE-1 (1G)</text>
+</g>
+<g transform="translate(647.5, 174.0) rotate(-90.0)">
+<rect class="svg-cable-badge" x="-62.0" y="-9.5" width="124" height="19" rx="4" fill="#ffffff" fill-opacity="0.96" stroke="#f59e0b" stroke-width="1.1" />
+<circle cx="-54.3" cy="0" r="2.7" fill="#f59e0b" />
+<text class="svg-cable-text" x="4.2" y="3.3" text-anchor="middle" fill="#0f172a" font-size="9.5" font-weight="600">CAM-CABLE-2 (1G)</text>
+</g>
+<g transform="translate(367.5, 284.0) rotate(-90.0)">
+<rect class="svg-cable-badge" x="-62.0" y="-9.5" width="124" height="19" rx="4" fill="#ffffff" fill-opacity="0.96" stroke="#f59e0b" stroke-width="1.1" />
+<circle cx="-54.3" cy="0" r="2.7" fill="#f59e0b" />
+<text class="svg-cable-text" x="4.2" y="3.3" text-anchor="middle" fill="#0f172a" font-size="9.5" font-weight="600">CAM-CABLE-3 (1G)</text>
+</g>
+<g transform="translate(647.5, 284.0) rotate(-90.0)">
+<rect class="svg-cable-badge" x="-62.0" y="-9.5" width="124" height="19" rx="4" fill="#ffffff" fill-opacity="0.96" stroke="#f59e0b" stroke-width="1.1" />
+<circle cx="-54.3" cy="0" r="2.7" fill="#f59e0b" />
+<text class="svg-cable-text" x="4.2" y="3.3" text-anchor="middle" fill="#0f172a" font-size="9.5" font-weight="600">CAM-CABLE-4 (1G)</text>
+</g>
+</g>
+<g data-layer="device">
+<g>
+<rect class="svg-card-neutral" x="440" y="60" width="170" height="56" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="602.0" cy="68.0" r="2.8" fill="#16a34a" />
+<rect x="507.64" y="70.64" width="34.72" height="34.72" rx="7" fill="#7C3AED" />
+<rect x="513.5" y="81.5" width="16.5" height="13.0" rx="2" fill="none" stroke="#ffffff" stroke-width="2.26" /><polygon points="530.2,86.5 536.9,82.0 536.9,94.0 530.2,89.5" fill="none" stroke="#ffffff" stroke-width="2.26" stroke-linejoin="round" />
+</g>
+<text class="svg-label-primary" x="525" y="130" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">NVR-32CH-4K-AI</text>
+<rect class="svg-ip-pill" x="463.0" y="134" width="124.0" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="525" y="144" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">192.168.100.10 · V10</text>
+</g>
+<g data-layer="device">
+<g transform="rotate(45 210 260)">
+<rect class="svg-card-neutral" x="160" y="220" width="100" height="80" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="252.0" cy="228.0" r="2.8" fill="#16a34a" />
+<rect x="192" y="242" width="36" height="36" rx="7" fill="#7C3AED" />
+<rect x="198.1" y="253.3" width="17.1" height="13.5" rx="2" fill="none" stroke="#ffffff" stroke-width="2.34" /><polygon points="215.4,258.4 222.3,253.8 222.3,266.2 215.4,261.6" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linejoin="round" />
+</g>
+<text class="svg-label-primary" x="210" y="314" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">CAM-01 (Cổng Chính)</text>
+<rect class="svg-ip-pill" x="148.0" y="318" width="124.0" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="210" y="328" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">192.168.100.20 · V10</text>
+</g>
+<g data-layer="device">
+<g transform="rotate(135 770 260)">
+<rect class="svg-card-neutral" x="720" y="220" width="100" height="80" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="812.0" cy="228.0" r="2.8" fill="#16a34a" />
+<rect x="752" y="242" width="36" height="36" rx="7" fill="#7C3AED" />
+<rect x="758.1" y="253.3" width="17.1" height="13.5" rx="2" fill="none" stroke="#ffffff" stroke-width="2.34" /><polygon points="775.4,258.4 782.3,253.8 782.3,266.2 775.4,261.6" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linejoin="round" />
+</g>
+<text class="svg-label-primary" x="770" y="314" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">CAM-02 (Hành Lang Đông)</text>
+<rect class="svg-ip-pill" x="708.0" y="318" width="124.0" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="770" y="328" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">192.168.100.21 · V10</text>
+</g>
+<g data-layer="device">
+<g transform="rotate(315 210 480)">
+<rect class="svg-card-neutral" x="160" y="440" width="100" height="80" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="252.0" cy="448.0" r="2.8" fill="#16a34a" />
+<rect x="192" y="462" width="36" height="36" rx="7" fill="#7C3AED" />
+<rect x="198.1" y="473.3" width="17.1" height="13.5" rx="2" fill="none" stroke="#ffffff" stroke-width="2.34" /><polygon points="215.4,478.4 222.3,473.8 222.3,486.2 215.4,481.6" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linejoin="round" />
+</g>
+<text class="svg-label-primary" x="210" y="534" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">CAM-03 (Bãi Xe Hầm B1)</text>
+<rect class="svg-ip-pill" x="148.0" y="538" width="124.0" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="210" y="548" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">192.168.100.22 · V10</text>
+</g>
+<g data-layer="device">
+<g transform="rotate(225 770 480)">
+<rect class="svg-card-neutral" x="720" y="440" width="100" height="80" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="812.0" cy="448.0" r="2.8" fill="#16a34a" />
+<rect x="752" y="462" width="36" height="36" rx="7" fill="#7C3AED" />
+<rect x="758.1" y="473.3" width="17.1" height="13.5" rx="2" fill="none" stroke="#ffffff" stroke-width="2.34" /><polygon points="775.4,478.4 782.3,473.8 782.3,486.2 775.4,481.6" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linejoin="round" />
+</g>
+<text class="svg-label-primary" x="770" y="534" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">CAM-04 (Cửa Phòng Server)</text>
+<rect class="svg-ip-pill" x="708.0" y="538" width="124.0" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="770" y="548" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">192.168.100.23 · V10</text>
+</g>
+</svg>

@@ -1,0 +1,1749 @@
+{
+  "id": "proj_std_collapsed_core",
+  "name": "Mạng Collapsed Core – Access Tòa nhà",
+  "author": "HACHIHI Network Standard",
+  "version": "3.1.0",
+  "lastModified": "2026-11-19T08:10:03.160Z",
+  "buildings": [],
+  "floors": [],
+  "rooms": [],
+  "racks": [],
+  "assets": {
+    "ast_cc_cloud": {
+      "id": "ast_cc_cloud",
+      "name": "WAN-DUAL-ISP",
+      "category": "cloud",
+      "vendor": "VNPT",
+      "model": "Cloud Gateway",
+      "assetTag": "AST-0001",
+      "serialNumber": "SNAP74BMNK",
+      "ipAddress": "",
+      "subnetMask": "",
+      "gateway": "",
+      "macAddress": "00:1A:2B:00:01:C1",
+      "vlan": "",
+      "status": "online",
+      "powerWatts": 0,
+      "weightKg": 0,
+      "ports": [
+        {
+          "id": "port_1",
+          "name": "ISP_Link1",
+          "type": "FIBER_LC",
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_2",
+          "name": "ISP_Link2",
+          "type": "RJ45_1G",
+          "speed": "1 Gbps",
+          "status": "up",
+          "connectedCableId": "c_cc_1",
+          "connectedTarget": {
+            "deviceId": "ast_cc_fw",
+            "portId": "port_1"
+          }
+        }
+      ]
+    },
+    "ast_cc_fw": {
+      "id": "ast_cc_fw",
+      "name": "NGFW-FORTIGATE-200F",
+      "category": "firewall",
+      "vendor": "Fortinet",
+      "model": "FortiGate 200F",
+      "assetTag": "AST-0002",
+      "serialNumber": "SNKZY04T15",
+      "ipAddress": "10.50.10.1",
+      "subnetMask": "255.255.255.0",
+      "gateway": "10.50.10.1",
+      "macAddress": "00:1A:2B:00:02:C1",
+      "vlan": "10, 20, 30, 40, 50",
+      "status": "online",
+      "powerWatts": 180,
+      "weightKg": 5.8,
+      "ports": [
+        {
+          "id": "port_1",
+          "name": "WAN1",
+          "type": "RJ45_1G",
+          "speed": "1 Gbps",
+          "status": "up",
+          "connectedCableId": "c_cc_1",
+          "connectedTarget": {
+            "deviceId": "ast_cc_cloud",
+            "portId": "port_2"
+          }
+        },
+        {
+          "id": "port_2",
+          "name": "WAN2",
+          "type": "RJ45_1G",
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_3",
+          "name": "DMZ",
+          "type": "RJ45_1G",
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_4",
+          "name": "Internal",
+          "type": "SFP_PLUS_10G",
+          "speed": "10 Gbps",
+          "status": "up",
+          "connectedCableId": "c_cc_2",
+          "connectedTarget": {
+            "deviceId": "ast_cc_core",
+            "portId": "port_5"
+          }
+        },
+        {
+          "id": "port_5",
+          "name": "HA1",
+          "type": "RJ45_1G",
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_6",
+          "name": "HA2",
+          "type": "RJ45_1G",
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        }
+      ]
+    },
+    "ast_cc_core": {
+      "id": "ast_cc_core",
+      "name": "COLLAPSED-CORE-L3",
+      "category": "core_switch",
+      "vendor": "Cisco",
+      "model": "Nexus 9336C-FX2",
+      "assetTag": "AST-0003",
+      "serialNumber": "SNQBDTJZN7",
+      "ipAddress": "10.50.10.2",
+      "subnetMask": "255.255.255.0",
+      "gateway": "10.50.10.1",
+      "macAddress": "00:1A:2B:00:03:C1",
+      "vlan": "10, 20, 30, 40, 50",
+      "status": "online",
+      "powerWatts": 450,
+      "weightKg": 10.2,
+      "ports": [
+        {
+          "id": "port_1",
+          "name": "QSFP_1",
+          "type": "QSFP28_100G",
+          "speed": "100 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_2",
+          "name": "QSFP_2",
+          "type": "QSFP28_100G",
+          "speed": "100 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_3",
+          "name": "QSFP_3",
+          "type": "QSFP28_100G",
+          "speed": "100 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_4",
+          "name": "QSFP_4",
+          "type": "QSFP28_100G",
+          "speed": "100 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_5",
+          "name": "SFP+_1",
+          "type": "SFP_PLUS_10G",
+          "speed": "10 Gbps",
+          "status": "up",
+          "connectedCableId": "c_cc_2",
+          "connectedTarget": {
+            "deviceId": "ast_cc_fw",
+            "portId": "port_4"
+          }
+        },
+        {
+          "id": "port_6",
+          "name": "SFP+_2",
+          "type": "SFP_PLUS_10G",
+          "speed": "10 Gbps",
+          "status": "up",
+          "connectedCableId": "c_cc_3",
+          "connectedTarget": {
+            "deviceId": "ast_cc_srv",
+            "portId": "port_2"
+          }
+        },
+        {
+          "id": "port_7",
+          "name": "SFP+_3",
+          "type": "SFP_PLUS_10G",
+          "speed": "10 Gbps",
+          "status": "up",
+          "connectedCableId": "c_cc_5",
+          "connectedTarget": {
+            "deviceId": "ast_cc_sw1",
+            "portId": "port_25"
+          }
+        },
+        {
+          "id": "port_8",
+          "name": "SFP+_4",
+          "type": "SFP_PLUS_10G",
+          "speed": "10 Gbps",
+          "status": "up",
+          "connectedCableId": "c_cc_6",
+          "connectedTarget": {
+            "deviceId": "ast_cc_sw2",
+            "portId": "port_25"
+          }
+        },
+        {
+          "id": "port_9",
+          "name": "SFP+_5",
+          "type": "SFP_PLUS_10G",
+          "speed": "10 Gbps",
+          "status": "up",
+          "connectedCableId": "c_cc_7",
+          "connectedTarget": {
+            "deviceId": "ast_cc_sw3",
+            "portId": "port_25"
+          }
+        },
+        {
+          "id": "port_10",
+          "name": "Mgmt0",
+          "type": "RJ45_1G",
+          "speed": "100 Mbps",
+          "status": "up",
+          "connectedCableId": "c_cc_4",
+          "connectedTarget": {
+            "deviceId": "ast_cc_ups",
+            "portId": "port_4"
+          }
+        }
+      ]
+    },
+    "ast_cc_srv": {
+      "id": "ast_cc_srv",
+      "name": "SRV-AD-ERP-MDF",
+      "category": "server",
+      "vendor": "Dell",
+      "model": "PowerEdge R760",
+      "assetTag": "AST-0004",
+      "serialNumber": "SNXU530U71",
+      "ipAddress": "10.50.50.10",
+      "subnetMask": "255.255.255.0",
+      "gateway": "10.50.50.1",
+      "macAddress": "00:1A:2B:00:04:C1",
+      "vlan": "50",
+      "status": "online",
+      "powerWatts": 750,
+      "weightKg": 28.5,
+      "ports": [
+        {
+          "id": "port_1",
+          "name": "NIC1_LAN",
+          "type": "RJ45_10G",
+          "speed": "10 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_2",
+          "name": "NIC2_SAN",
+          "type": "SFP_PLUS_10G",
+          "speed": "10 Gbps",
+          "status": "up",
+          "connectedCableId": "c_cc_3",
+          "connectedTarget": {
+            "deviceId": "ast_cc_core",
+            "portId": "port_6"
+          }
+        },
+        {
+          "id": "port_3",
+          "name": "iDRAC_Mgmt",
+          "type": "RJ45_1G",
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_4",
+          "name": "PSU1",
+          "type": "POWER_C13",
+          "speed": "Power",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_5",
+          "name": "PSU2",
+          "type": "POWER_C13",
+          "speed": "Power",
+          "status": "unlinked"
+        }
+      ]
+    },
+    "ast_cc_ups": {
+      "id": "ast_cc_ups",
+      "name": "UPS-MDF-3KVA",
+      "category": "ups",
+      "vendor": "APC",
+      "model": "Smart-UPS RT 3000VA",
+      "assetTag": "AST-0005",
+      "serialNumber": "SNA1TWANPN",
+      "ipAddress": "10.50.10.5",
+      "subnetMask": "255.255.255.0",
+      "gateway": "10.50.10.1",
+      "macAddress": "00:1A:2B:00:05:C1",
+      "vlan": "10",
+      "status": "online",
+      "powerWatts": 2700,
+      "weightKg": 31,
+      "upsSpecs": {
+        "ratedVa": 3000,
+        "batteryAh": 9,
+        "batteryVoltageV": 12,
+        "batteryCount": 8,
+        "inverterEfficiency": 0.85,
+        "dodFactor": 0.8
+      },
+      "ports": [
+        {
+          "id": "port_1",
+          "name": "AC_Input",
+          "type": "POWER_C13",
+          "speed": "Input 230V",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_2",
+          "name": "Out_1",
+          "type": "POWER_C13",
+          "speed": "Output 230V",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_3",
+          "name": "Out_2",
+          "type": "POWER_C13",
+          "speed": "Output 230V",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_4",
+          "name": "NMC_Mgmt",
+          "type": "RJ45_1G",
+          "speed": "100 Mbps",
+          "status": "up",
+          "connectedCableId": "c_cc_4",
+          "connectedTarget": {
+            "deviceId": "ast_cc_core",
+            "portId": "port_10"
+          }
+        }
+      ]
+    },
+    "ast_cc_sw1": {
+      "id": "ast_cc_sw1",
+      "name": "SW-ACC-TANG1-POE",
+      "category": "switch",
+      "vendor": "Ruijie",
+      "model": "RG-NBS3200-24GT4XS-P",
+      "assetTag": "AST-0006",
+      "serialNumber": "SNYOFDQTN2",
+      "ipAddress": "10.50.10.11",
+      "subnetMask": "255.255.255.0",
+      "gateway": "10.50.10.1",
+      "macAddress": "00:1A:2B:00:06:C1",
+      "vlan": "10, 20, 30, 40",
+      "status": "online",
+      "powerWatts": 370,
+      "weightKg": 4.5,
+      "ports": [
+        {
+          "id": "port_1",
+          "name": "Gi0/1",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "up",
+          "connectedCableId": "c_cc_8",
+          "connectedTarget": {
+            "deviceId": "ast_cc_ap1",
+            "portId": "port_1"
+          }
+        },
+        {
+          "id": "port_2",
+          "name": "Gi0/2",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_3",
+          "name": "Gi0/3",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_4",
+          "name": "Gi0/4",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_5",
+          "name": "Gi0/5",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_6",
+          "name": "Gi0/6",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_7",
+          "name": "Gi0/7",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_8",
+          "name": "Gi0/8",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_9",
+          "name": "Gi0/9",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_10",
+          "name": "Gi0/10",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_11",
+          "name": "Gi0/11",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_12",
+          "name": "Gi0/12",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_13",
+          "name": "Gi0/13",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_14",
+          "name": "Gi0/14",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_15",
+          "name": "Gi0/15",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_16",
+          "name": "Gi0/16",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_17",
+          "name": "Gi0/17",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_18",
+          "name": "Gi0/18",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_19",
+          "name": "Gi0/19",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_20",
+          "name": "Gi0/20",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_21",
+          "name": "Gi0/21",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_22",
+          "name": "Gi0/22",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_23",
+          "name": "Gi0/23",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_24",
+          "name": "Gi0/24",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_25",
+          "name": "Te0/25",
+          "type": "SFP_PLUS_10G",
+          "speed": "10 Gbps",
+          "status": "up",
+          "connectedCableId": "c_cc_5",
+          "connectedTarget": {
+            "deviceId": "ast_cc_core",
+            "portId": "port_7"
+          }
+        },
+        {
+          "id": "port_26",
+          "name": "Te0/26",
+          "type": "SFP_PLUS_10G",
+          "speed": "10 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_27",
+          "name": "Te0/27",
+          "type": "SFP_PLUS_10G",
+          "speed": "10 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_28",
+          "name": "Te0/28",
+          "type": "SFP_PLUS_10G",
+          "speed": "10 Gbps",
+          "status": "unlinked"
+        }
+      ]
+    },
+    "ast_cc_sw2": {
+      "id": "ast_cc_sw2",
+      "name": "SW-ACC-TANG2-POE",
+      "category": "switch",
+      "vendor": "Ruijie",
+      "model": "RG-NBS3200-24GT4XS-P",
+      "assetTag": "AST-0007",
+      "serialNumber": "SNOKS7HJLI",
+      "ipAddress": "10.50.10.12",
+      "subnetMask": "255.255.255.0",
+      "gateway": "10.50.10.1",
+      "macAddress": "00:1A:2B:00:07:C1",
+      "vlan": "10, 20, 30, 40",
+      "status": "online",
+      "powerWatts": 370,
+      "weightKg": 4.5,
+      "ports": [
+        {
+          "id": "port_1",
+          "name": "Gi0/1",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "up",
+          "connectedCableId": "c_cc_9",
+          "connectedTarget": {
+            "deviceId": "ast_cc_ap2",
+            "portId": "port_1"
+          }
+        },
+        {
+          "id": "port_2",
+          "name": "Gi0/2",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_3",
+          "name": "Gi0/3",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_4",
+          "name": "Gi0/4",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_5",
+          "name": "Gi0/5",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_6",
+          "name": "Gi0/6",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_7",
+          "name": "Gi0/7",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_8",
+          "name": "Gi0/8",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_9",
+          "name": "Gi0/9",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_10",
+          "name": "Gi0/10",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_11",
+          "name": "Gi0/11",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_12",
+          "name": "Gi0/12",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_13",
+          "name": "Gi0/13",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_14",
+          "name": "Gi0/14",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_15",
+          "name": "Gi0/15",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_16",
+          "name": "Gi0/16",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_17",
+          "name": "Gi0/17",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_18",
+          "name": "Gi0/18",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_19",
+          "name": "Gi0/19",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_20",
+          "name": "Gi0/20",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_21",
+          "name": "Gi0/21",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_22",
+          "name": "Gi0/22",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_23",
+          "name": "Gi0/23",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_24",
+          "name": "Gi0/24",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_25",
+          "name": "Te0/25",
+          "type": "SFP_PLUS_10G",
+          "speed": "10 Gbps",
+          "status": "up",
+          "connectedCableId": "c_cc_6",
+          "connectedTarget": {
+            "deviceId": "ast_cc_core",
+            "portId": "port_8"
+          }
+        },
+        {
+          "id": "port_26",
+          "name": "Te0/26",
+          "type": "SFP_PLUS_10G",
+          "speed": "10 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_27",
+          "name": "Te0/27",
+          "type": "SFP_PLUS_10G",
+          "speed": "10 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_28",
+          "name": "Te0/28",
+          "type": "SFP_PLUS_10G",
+          "speed": "10 Gbps",
+          "status": "unlinked"
+        }
+      ]
+    },
+    "ast_cc_sw3": {
+      "id": "ast_cc_sw3",
+      "name": "SW-ACC-TANG3-POE",
+      "category": "switch",
+      "vendor": "Ruijie",
+      "model": "RG-NBS3200-24GT4XS-P",
+      "assetTag": "AST-0008",
+      "serialNumber": "SN56C7WBCS",
+      "ipAddress": "10.50.10.13",
+      "subnetMask": "255.255.255.0",
+      "gateway": "10.50.10.1",
+      "macAddress": "00:1A:2B:00:08:C1",
+      "vlan": "10, 20, 30, 40",
+      "status": "online",
+      "powerWatts": 370,
+      "weightKg": 4.5,
+      "ports": [
+        {
+          "id": "port_1",
+          "name": "Gi0/1",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "up",
+          "connectedCableId": "c_cc_10",
+          "connectedTarget": {
+            "deviceId": "ast_cc_cam3",
+            "portId": "port_1"
+          }
+        },
+        {
+          "id": "port_2",
+          "name": "Gi0/2",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_3",
+          "name": "Gi0/3",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_4",
+          "name": "Gi0/4",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_5",
+          "name": "Gi0/5",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_6",
+          "name": "Gi0/6",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_7",
+          "name": "Gi0/7",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_8",
+          "name": "Gi0/8",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_9",
+          "name": "Gi0/9",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_10",
+          "name": "Gi0/10",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_11",
+          "name": "Gi0/11",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_12",
+          "name": "Gi0/12",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_13",
+          "name": "Gi0/13",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_14",
+          "name": "Gi0/14",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_15",
+          "name": "Gi0/15",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_16",
+          "name": "Gi0/16",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_17",
+          "name": "Gi0/17",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_18",
+          "name": "Gi0/18",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_19",
+          "name": "Gi0/19",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_20",
+          "name": "Gi0/20",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_21",
+          "name": "Gi0/21",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_22",
+          "name": "Gi0/22",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_23",
+          "name": "Gi0/23",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_24",
+          "name": "Gi0/24",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_25",
+          "name": "Te0/25",
+          "type": "SFP_PLUS_10G",
+          "speed": "10 Gbps",
+          "status": "up",
+          "connectedCableId": "c_cc_7",
+          "connectedTarget": {
+            "deviceId": "ast_cc_core",
+            "portId": "port_9"
+          }
+        },
+        {
+          "id": "port_26",
+          "name": "Te0/26",
+          "type": "SFP_PLUS_10G",
+          "speed": "10 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_27",
+          "name": "Te0/27",
+          "type": "SFP_PLUS_10G",
+          "speed": "10 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_28",
+          "name": "Te0/28",
+          "type": "SFP_PLUS_10G",
+          "speed": "10 Gbps",
+          "status": "unlinked"
+        }
+      ]
+    },
+    "ast_cc_ap1": {
+      "id": "ast_cc_ap1",
+      "name": "AP-TANG1-WIFI6",
+      "category": "ap",
+      "vendor": "Aruba",
+      "model": "UniFi U6 Enterprise",
+      "assetTag": "AST-0009",
+      "serialNumber": "SNR0XAFJQT",
+      "ipAddress": "10.50.30.11",
+      "subnetMask": "255.255.255.0",
+      "gateway": "10.50.30.1",
+      "macAddress": "00:1A:2B:00:09:C1",
+      "vlan": "30",
+      "status": "online",
+      "powerWatts": 22,
+      "weightKg": 0.9,
+      "wifiSpecs": {
+        "standard": "Wi-Fi 6 (802.11ax)",
+        "bands": "2.4GHz + 5GHz",
+        "txPowerDbm": 22,
+        "coverageRadiusMeters": 18,
+        "channel24": 6,
+        "channel5": 36,
+        "maxClients": 250,
+        "ssid": "HACHIHI-CORP-WIFI"
+      },
+      "ports": [
+        {
+          "id": "port_1",
+          "name": "Eth0_PoE",
+          "type": "RJ45_10G",
+          "poe": true,
+          "speed": "2.5 Gbps",
+          "status": "up",
+          "connectedCableId": "c_cc_8",
+          "connectedTarget": {
+            "deviceId": "ast_cc_sw1",
+            "portId": "port_1"
+          }
+        }
+      ],
+      "poeEnabled": true,
+      "poeWatts": 22
+    },
+    "ast_cc_ap2": {
+      "id": "ast_cc_ap2",
+      "name": "AP-TANG2-WIFI6",
+      "category": "ap",
+      "vendor": "Aruba",
+      "model": "UniFi U6 Enterprise",
+      "assetTag": "AST-0010",
+      "serialNumber": "SNIN0AYDPF",
+      "ipAddress": "10.50.30.12",
+      "subnetMask": "255.255.255.0",
+      "gateway": "10.50.30.1",
+      "macAddress": "00:1A:2B:00:10:C1",
+      "vlan": "30",
+      "status": "online",
+      "powerWatts": 22,
+      "weightKg": 0.9,
+      "wifiSpecs": {
+        "standard": "Wi-Fi 6 (802.11ax)",
+        "bands": "2.4GHz + 5GHz",
+        "txPowerDbm": 22,
+        "coverageRadiusMeters": 18,
+        "channel24": 6,
+        "channel5": 36,
+        "maxClients": 250,
+        "ssid": "HACHIHI-CORP-WIFI"
+      },
+      "ports": [
+        {
+          "id": "port_1",
+          "name": "Eth0_PoE",
+          "type": "RJ45_10G",
+          "poe": true,
+          "speed": "2.5 Gbps",
+          "status": "up",
+          "connectedCableId": "c_cc_9",
+          "connectedTarget": {
+            "deviceId": "ast_cc_sw2",
+            "portId": "port_1"
+          }
+        }
+      ],
+      "poeEnabled": true,
+      "poeWatts": 22
+    },
+    "ast_cc_cam3": {
+      "id": "ast_cc_cam3",
+      "name": "CAM-TANG3-01",
+      "category": "camera",
+      "vendor": "Hikvision",
+      "model": "DS-2CD2186G2-ISU",
+      "assetTag": "AST-0011",
+      "serialNumber": "SNDGI94XGN",
+      "ipAddress": "10.50.40.21",
+      "subnetMask": "255.255.255.0",
+      "gateway": "10.50.40.1",
+      "macAddress": "00:1A:2B:00:11:C1",
+      "vlan": "40",
+      "status": "online",
+      "powerWatts": 12,
+      "weightKg": 0.6,
+      "cameraSpecs": {
+        "resolution": "4K 8MP (3840x2160)",
+        "lensMm": 2.8,
+        "fovAngle": 95,
+        "irDistanceMeters": 30,
+        "nvrChannel": 1
+      },
+      "ports": [
+        {
+          "id": "port_1",
+          "name": "RJ45_PoE",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "up",
+          "connectedCableId": "c_cc_10",
+          "connectedTarget": {
+            "deviceId": "ast_cc_sw3",
+            "portId": "port_1"
+          }
+        }
+      ],
+      "poeEnabled": true,
+      "poeWatts": 12
+    }
+  },
+  "nodes": [
+    {
+      "id": "node_cc_cloud",
+      "diagramMode": "topology",
+      "type": "cloud",
+      "assetId": "ast_cc_cloud",
+      "label": "WAN-DUAL-ISP",
+      "x": 420,
+      "y": 25,
+      "width": 170,
+      "height": 58,
+      "rotation": 0,
+      "style": {
+        "backgroundColor": "#6366f1",
+        "borderColor": "#4f46e5",
+        "borderWidth": 2,
+        "borderStyle": "solid",
+        "opacity": 1,
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "id": "node_cc_fw",
+      "diagramMode": "topology",
+      "type": "device",
+      "assetId": "ast_cc_fw",
+      "label": "NGFW-FORTIGATE-200F",
+      "x": 415,
+      "y": 130,
+      "width": 180,
+      "height": 56,
+      "rotation": 0,
+      "style": {
+        "backgroundColor": "#dc2626",
+        "borderColor": "#b91c1c",
+        "borderWidth": 2,
+        "borderStyle": "solid",
+        "opacity": 1,
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "id": "node_cc_core",
+      "diagramMode": "topology",
+      "type": "device",
+      "assetId": "ast_cc_core",
+      "label": "COLLAPSED-CORE-L3",
+      "x": 415,
+      "y": 250,
+      "width": 180,
+      "height": 58,
+      "rotation": 0,
+      "style": {
+        "backgroundColor": "#1e40af",
+        "borderColor": "#1e3a8a",
+        "borderWidth": 2,
+        "borderStyle": "solid",
+        "opacity": 1,
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "id": "node_cc_srv",
+      "diagramMode": "topology",
+      "type": "device",
+      "assetId": "ast_cc_srv",
+      "label": "SRV-AD-ERP-MDF",
+      "x": 110,
+      "y": 250,
+      "width": 170,
+      "height": 56,
+      "rotation": 0,
+      "style": {
+        "backgroundColor": "#475569",
+        "borderColor": "#334155",
+        "borderWidth": 2,
+        "borderStyle": "solid",
+        "opacity": 1,
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "id": "node_cc_ups",
+      "diagramMode": "topology",
+      "type": "device",
+      "assetId": "ast_cc_ups",
+      "label": "UPS-MDF-3KVA",
+      "x": 720,
+      "y": 250,
+      "width": 160,
+      "height": 56,
+      "rotation": 0,
+      "style": {
+        "backgroundColor": "#e11d48",
+        "borderColor": "#be123c",
+        "borderWidth": 2,
+        "borderStyle": "solid",
+        "opacity": 1,
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "id": "node_cc_sw1",
+      "diagramMode": "topology",
+      "type": "device",
+      "assetId": "ast_cc_sw1",
+      "label": "SW-ACC-TANG1-POE",
+      "x": 120,
+      "y": 410,
+      "width": 170,
+      "height": 56,
+      "rotation": 0,
+      "style": {
+        "backgroundColor": "#0ea5e9",
+        "borderColor": "#0284c7",
+        "borderWidth": 2,
+        "borderStyle": "solid",
+        "opacity": 1,
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "id": "node_cc_sw2",
+      "diagramMode": "topology",
+      "type": "device",
+      "assetId": "ast_cc_sw2",
+      "label": "SW-ACC-TANG2-POE",
+      "x": 420,
+      "y": 410,
+      "width": 170,
+      "height": 56,
+      "rotation": 0,
+      "style": {
+        "backgroundColor": "#0ea5e9",
+        "borderColor": "#0284c7",
+        "borderWidth": 2,
+        "borderStyle": "solid",
+        "opacity": 1,
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "id": "node_cc_sw3",
+      "diagramMode": "topology",
+      "type": "device",
+      "assetId": "ast_cc_sw3",
+      "label": "SW-ACC-TANG3-POE",
+      "x": 720,
+      "y": 410,
+      "width": 170,
+      "height": 56,
+      "rotation": 0,
+      "style": {
+        "backgroundColor": "#0ea5e9",
+        "borderColor": "#0284c7",
+        "borderWidth": 2,
+        "borderStyle": "solid",
+        "opacity": 1,
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "id": "node_cc_ap1",
+      "diagramMode": "topology",
+      "type": "device",
+      "assetId": "ast_cc_ap1",
+      "label": "AP-TANG1-WIFI6",
+      "x": 135,
+      "y": 540,
+      "width": 140,
+      "height": 62,
+      "rotation": 0,
+      "style": {
+        "backgroundColor": "#10b981",
+        "borderColor": "#059669",
+        "borderWidth": 2,
+        "borderStyle": "solid",
+        "opacity": 1,
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "id": "node_cc_ap2",
+      "diagramMode": "topology",
+      "type": "device",
+      "assetId": "ast_cc_ap2",
+      "label": "AP-TANG2-WIFI6",
+      "x": 435,
+      "y": 540,
+      "width": 140,
+      "height": 62,
+      "rotation": 0,
+      "style": {
+        "backgroundColor": "#10b981",
+        "borderColor": "#059669",
+        "borderWidth": 2,
+        "borderStyle": "solid",
+        "opacity": 1,
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "id": "node_cc_cam3",
+      "diagramMode": "topology",
+      "type": "device",
+      "assetId": "ast_cc_cam3",
+      "label": "CAM-TANG3-01",
+      "x": 735,
+      "y": 540,
+      "width": 140,
+      "height": 62,
+      "rotation": 0,
+      "style": {
+        "backgroundColor": "#f59e0b",
+        "borderColor": "#d97706",
+        "borderWidth": 2,
+        "borderStyle": "solid",
+        "opacity": 1,
+        "textColor": "#ffffff"
+      }
+    }
+  ],
+  "cables": [
+    {
+      "id": "c_cc_1",
+      "cableCode": "WAN-FTTH-01",
+      "diagramMode": "topology",
+      "sourceNodeId": "node_cc_cloud",
+      "sourcePortId": "port_2",
+      "targetNodeId": "node_cc_fw",
+      "targetPortId": "port_1",
+      "cableType": "CAT6_UTP",
+      "bandwidth": "1G",
+      "color": "#6366f1",
+      "routingType": "straight",
+      "lineStyle": "solid",
+      "strokeWidth": 3,
+      "lengthMeters": 5,
+      "status": "active"
+    },
+    {
+      "id": "c_cc_2",
+      "cableCode": "FW-COLLAPSED-CORE",
+      "diagramMode": "topology",
+      "sourceNodeId": "node_cc_fw",
+      "sourcePortId": "port_4",
+      "targetNodeId": "node_cc_core",
+      "targetPortId": "port_5",
+      "cableType": "DAC_10G",
+      "bandwidth": "10G",
+      "color": "#dc2626",
+      "routingType": "straight",
+      "lineStyle": "solid",
+      "strokeWidth": 3,
+      "lengthMeters": 1.5,
+      "vlan": "10, 20, 30, 40, 50",
+      "status": "active"
+    },
+    {
+      "id": "c_cc_3",
+      "cableCode": "CORE-SRV-10G",
+      "diagramMode": "topology",
+      "sourceNodeId": "node_cc_core",
+      "sourcePortId": "port_6",
+      "targetNodeId": "node_cc_srv",
+      "targetPortId": "port_2",
+      "cableType": "DAC_10G",
+      "bandwidth": "10G",
+      "color": "#475569",
+      "routingType": "straight",
+      "lineStyle": "solid",
+      "strokeWidth": 3,
+      "lengthMeters": 2,
+      "vlan": "50",
+      "status": "active"
+    },
+    {
+      "id": "c_cc_4",
+      "cableCode": "CORE-UPS-MGMT",
+      "diagramMode": "topology",
+      "sourceNodeId": "node_cc_core",
+      "sourcePortId": "port_10",
+      "targetNodeId": "node_cc_ups",
+      "targetPortId": "port_4",
+      "cableType": "CAT6_UTP",
+      "bandwidth": "1G",
+      "color": "#e11d48",
+      "routingType": "straight",
+      "lineStyle": "dashed",
+      "strokeWidth": 2,
+      "lengthMeters": 2,
+      "vlan": "10",
+      "status": "active"
+    },
+    {
+      "id": "c_cc_5",
+      "cableCode": "FO-TRUNK-FL1",
+      "diagramMode": "topology",
+      "sourceNodeId": "node_cc_core",
+      "sourcePortId": "port_7",
+      "targetNodeId": "node_cc_sw1",
+      "targetPortId": "port_25",
+      "cableType": "FIBER_SM_OS2",
+      "bandwidth": "10G",
+      "color": "#0284c7",
+      "routingType": "orthogonal",
+      "lineStyle": "solid",
+      "strokeWidth": 3,
+      "lengthMeters": 18,
+      "vlan": "10, 20, 30, 40",
+      "status": "active"
+    },
+    {
+      "id": "c_cc_6",
+      "cableCode": "FO-TRUNK-FL2",
+      "diagramMode": "topology",
+      "sourceNodeId": "node_cc_core",
+      "sourcePortId": "port_8",
+      "targetNodeId": "node_cc_sw2",
+      "targetPortId": "port_25",
+      "cableType": "FIBER_SM_OS2",
+      "bandwidth": "10G",
+      "color": "#0284c7",
+      "routingType": "orthogonal",
+      "lineStyle": "solid",
+      "strokeWidth": 3,
+      "lengthMeters": 28,
+      "vlan": "10, 20, 30, 40",
+      "status": "active"
+    },
+    {
+      "id": "c_cc_7",
+      "cableCode": "FO-TRUNK-FL3",
+      "diagramMode": "topology",
+      "sourceNodeId": "node_cc_core",
+      "sourcePortId": "port_9",
+      "targetNodeId": "node_cc_sw3",
+      "targetPortId": "port_25",
+      "cableType": "FIBER_SM_OS2",
+      "bandwidth": "10G",
+      "color": "#0284c7",
+      "routingType": "orthogonal",
+      "lineStyle": "solid",
+      "strokeWidth": 3,
+      "lengthMeters": 38,
+      "vlan": "10, 20, 30, 40",
+      "status": "active"
+    },
+    {
+      "id": "c_cc_8",
+      "cableCode": "POE-FL1-AP01",
+      "diagramMode": "topology",
+      "sourceNodeId": "node_cc_sw1",
+      "sourcePortId": "port_1",
+      "targetNodeId": "node_cc_ap1",
+      "targetPortId": "port_1",
+      "cableType": "CAT6_UTP",
+      "bandwidth": "1G",
+      "color": "#10b981",
+      "routingType": "straight",
+      "lineStyle": "solid",
+      "strokeWidth": 2,
+      "lengthMeters": 24,
+      "vlan": "30",
+      "status": "active"
+    },
+    {
+      "id": "c_cc_9",
+      "cableCode": "POE-FL2-AP01",
+      "diagramMode": "topology",
+      "sourceNodeId": "node_cc_sw2",
+      "sourcePortId": "port_1",
+      "targetNodeId": "node_cc_ap2",
+      "targetPortId": "port_1",
+      "cableType": "CAT6_UTP",
+      "bandwidth": "1G",
+      "color": "#10b981",
+      "routingType": "straight",
+      "lineStyle": "solid",
+      "strokeWidth": 2,
+      "lengthMeters": 24,
+      "vlan": "30",
+      "status": "active"
+    },
+    {
+      "id": "c_cc_10",
+      "cableCode": "POE-FL3-CAM01",
+      "diagramMode": "topology",
+      "sourceNodeId": "node_cc_sw3",
+      "sourcePortId": "port_1",
+      "targetNodeId": "node_cc_cam3",
+      "targetPortId": "port_1",
+      "cableType": "CAT6_UTP",
+      "bandwidth": "1G",
+      "color": "#f59e0b",
+      "routingType": "straight",
+      "lineStyle": "solid",
+      "strokeWidth": 2,
+      "lengthMeters": 30,
+      "vlan": "40",
+      "status": "active"
+    }
+  ],
+  "vlans": [
+    {
+      "id": "vlan_10",
+      "vlanId": 10,
+      "name": "MGMT-INFRA",
+      "purpose": "Quản trị Core, Access & UPS",
+      "color": "#1e40af"
+    },
+    {
+      "id": "vlan_20",
+      "vlanId": 20,
+      "name": "OFFICE-LAN",
+      "purpose": "Mạng văn phòng các tầng",
+      "color": "#0ea5e9"
+    },
+    {
+      "id": "vlan_30",
+      "vlanId": 30,
+      "name": "OFFICE-WIFI",
+      "purpose": "Wi-Fi các tầng",
+      "color": "#10b981"
+    },
+    {
+      "id": "vlan_40",
+      "vlanId": 40,
+      "name": "CCTV-SEC",
+      "purpose": "Camera an ninh",
+      "color": "#f59e0b"
+    },
+    {
+      "id": "vlan_50",
+      "vlanId": 50,
+      "name": "SERVER-LOCAL",
+      "purpose": "Máy chủ AD/File nội bộ",
+      "color": "#475569"
+    }
+  ],
+  "subnets": [
+    {
+      "id": "sub_10",
+      "name": "MGMT",
+      "cidr": "10.50.10.0/24",
+      "vlanId": 10,
+      "gateway": "10.50.10.1",
+      "dnsServers": "10.50.50.10",
+      "dhcpRange": "Tĩnh",
+      "notes": "Thiết bị mạng & UPS"
+    },
+    {
+      "id": "sub_20",
+      "name": "Office LAN",
+      "cidr": "10.50.20.0/24",
+      "vlanId": 20,
+      "gateway": "10.50.20.1",
+      "dnsServers": "10.50.50.10",
+      "dhcpRange": "10.50.20.50 - 10.50.20.230",
+      "notes": "Máy trạm"
+    },
+    {
+      "id": "sub_30",
+      "name": "Wi-Fi",
+      "cidr": "10.50.30.0/24",
+      "vlanId": 30,
+      "gateway": "10.50.30.1",
+      "dnsServers": "10.50.50.10",
+      "dhcpRange": "10.50.30.50 - 10.50.30.230",
+      "notes": "AP các tầng"
+    },
+    {
+      "id": "sub_40",
+      "name": "CCTV",
+      "cidr": "10.50.40.0/24",
+      "vlanId": 40,
+      "gateway": "10.50.40.1",
+      "dnsServers": "10.50.40.1",
+      "dhcpRange": "Tĩnh",
+      "notes": "Camera IP"
+    },
+    {
+      "id": "sub_50",
+      "name": "Servers",
+      "cidr": "10.50.50.0/24",
+      "vlanId": 50,
+      "gateway": "10.50.50.1",
+      "dnsServers": "10.50.50.10",
+      "dhcpRange": "Tĩnh",
+      "notes": "Server phòng MDF"
+    }
+  ],
+  "activeMode": "topology",
+  "activeBuildingId": "",
+  "activeFloorId": "",
+  "settings": {
+    "gridSize": 20,
+    "snapToGrid": true,
+    "showRulers": true,
+    "showGrid": true,
+    "showPortLabels": true,
+    "showIpAddresses": true,
+    "showCableCodes": true,
+    "showCoverageRadius": false,
+    "unit": "m",
+    "scale": 25,
+    "backgroundColor": "#f8fafc",
+    "isDarkMode": false,
+    "ipRangeStart": "10.50.10.10",
+    "ipRangeEnd": "10.50.10.250",
+    "ipSubnetMask": "255.255.255.0",
+    "ipGateway": "10.50.10.1"
+  }
+}

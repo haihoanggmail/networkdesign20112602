@@ -1,0 +1,25 @@
+{
+  "id": "lan-star-007",
+  "legacyId": "tpl_std_lan_star",
+  "name": "Mạng LAN Cơ bản (Star 2-Tầng PoE)",
+  "category": "Mạng LAN",
+  "mode": "topology",
+  "badge": "LAN Star",
+  "version": "1.0.0",
+  "updatedAt": "2026-11-19",
+  "author": "HACHIHI",
+  "description": "Sơ đồ LAN hình sao 2 tầng chuẩn mực: WAN ISP → Router MikroTik → Switch PoE 24-port cấp nguồn cho Wi-Fi 6 AP, Camera IP, đầu ghi NVR và máy chủ NAS nội bộ.",
+  "highlights": [
+    "Router → Switch PoE → AP/Cam/NAS",
+    "3 VLAN (LAN, Wi-Fi, CCTV)",
+    "Sẵn sàng cho văn phòng 15–40 người"
+  ],
+  "projectFile": "project.json",
+  "preview": "preview.svg",
+  "tags": [
+    "LAN",
+    "PoE",
+    "Star",
+    "Router"
+  ]
+}

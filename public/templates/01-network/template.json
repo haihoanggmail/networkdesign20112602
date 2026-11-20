@@ -1,0 +1,26 @@
+{
+  "id": "network-office-001",
+  "legacyId": "tpl_sample_multifloor_office",
+  "name": "Văn phòng 3 Tầng Hoàn chỉnh (Mạng + Rack + IP Subnet)",
+  "category": "Mạng LAN",
+  "mode": "topology",
+  "badge": "Sample Project",
+  "version": "1.0.0",
+  "updatedAt": "2026-11-19",
+  "author": "HACHIHI",
+  "description": "Dự án mẫu cho người mới làm quen: tòa nhà văn phòng 3 tầng (MDF Tầng 1 + IDF Tầng 2–3), gán sẵn thiết bị vào 3 tủ Rack 19\", chia 5 VLAN/Subnet (10.10.10–50.0/24), Wi-Fi, CCTV và nguồn PoE/UPS chuẩn kỹ thuật.",
+  "highlights": [
+    "3 tầng · 4 phòng",
+    "3 tủ Rack (MDF + 2 IDF)",
+    "5 VLAN & Subnet CIDR"
+  ],
+  "projectFile": "project.json",
+  "preview": "preview.svg",
+  "tags": [
+    "LAN",
+    "VLAN",
+    "Rack",
+    "Office",
+    "Sample"
+  ]
+}

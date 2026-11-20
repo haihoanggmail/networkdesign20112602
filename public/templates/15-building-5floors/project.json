@@ -1,0 +1,756 @@
+{
+  "id": "proj_hachihi_v3",
+  "name": "HACHIHI Corporate Infrastructure 2026",
+  "author": "Chief Systems Architect",
+  "version": "3.0.0",
+  "lastModified": "2026-11-19T08:10:03.199Z",
+  "buildings": [
+    {
+      "id": "bld_hachihi_main",
+      "name": "HACHIHI Building",
+      "totalFloors": 5,
+      "basementFloors": 1,
+      "widthMeters": 30,
+      "depthMeters": 20,
+      "floorHeightMeters": 3.6,
+      "wallThicknessMm": 200,
+      "layoutStyle": "rectangle"
+    }
+  ],
+  "floors": [
+    {
+      "id": "flr_5",
+      "buildingId": "bld_hachihi_main",
+      "level": 5,
+      "name": "Tầng 5 - Văn phòng Quản lý & BOD",
+      "description": "Ban Giám đốc, Phòng Họp VIP, Tài chính",
+      "widthMeters": 30,
+      "depthMeters": 20
+    },
+    {
+      "id": "flr_4",
+      "buildingId": "bld_hachihi_main",
+      "level": 4,
+      "name": "Tầng 4 - Phòng Kỹ thuật & R&D",
+      "description": "Kỹ sư phần mềm, IT Support, Phòng Lab",
+      "widthMeters": 30,
+      "depthMeters": 20
+    },
+    {
+      "id": "flr_3",
+      "buildingId": "bld_hachihi_main",
+      "level": 3,
+      "name": "Tầng 3 - Khối Kinh doanh & Marketing",
+      "description": "Sales, Marketing, Telesales mở rộng",
+      "widthMeters": 30,
+      "depthMeters": 20
+    },
+    {
+      "id": "flr_2",
+      "buildingId": "bld_hachihi_main",
+      "level": 2,
+      "name": "Tầng 2 - Kho & Vận hành Logistics",
+      "description": "Kho kiểm thử thiết bị, đóng gói",
+      "widthMeters": 30,
+      "depthMeters": 20
+    },
+    {
+      "id": "flr_1",
+      "buildingId": "bld_hachihi_main",
+      "level": 1,
+      "name": "Tầng 1 - Sảnh Lễ tân & Showroom",
+      "description": "Lễ tân, Showroom sản phẩm, Khu tiếp khách",
+      "widthMeters": 30,
+      "depthMeters": 20
+    },
+    {
+      "id": "flr_b1",
+      "buildingId": "bld_hachihi_main",
+      "level": -1,
+      "name": "Tầng hầm B1 - Bãi xe & Phòng Máy Biến Áp",
+      "description": "Bãi đỗ xe nhân viên, Trạm biến áp, Máy phát",
+      "widthMeters": 30,
+      "depthMeters": 20
+    }
+  ],
+  "rooms": [
+    {
+      "id": "rm_101",
+      "floorId": "flr_1",
+      "name": "Sảnh Lễ tân & Check-in",
+      "type": "reception",
+      "x": 80,
+      "y": 80,
+      "width": 340,
+      "height": 220,
+      "color": "#f8fafc",
+      "wallThickness": 6
+    },
+    {
+      "id": "rm_102",
+      "floorId": "flr_1",
+      "name": "Phòng Server / MDF Tầng 1",
+      "type": "server_room",
+      "x": 440,
+      "y": 80,
+      "width": 260,
+      "height": 220,
+      "color": "#f0fdf4",
+      "wallThickness": 8
+    },
+    {
+      "id": "rm_103",
+      "floorId": "flr_1",
+      "name": "Showroom Trải nghiệm Thiết bị",
+      "type": "office",
+      "x": 80,
+      "y": 320,
+      "width": 340,
+      "height": 240,
+      "color": "#f8fafc",
+      "wallThickness": 6
+    },
+    {
+      "id": "rm_104",
+      "floorId": "flr_1",
+      "name": "Trục Kỹ thuật Điện & Mạng (Riser A)",
+      "type": "utility_riser",
+      "x": 440,
+      "y": 320,
+      "width": 120,
+      "height": 240,
+      "color": "#fef3c7",
+      "wallThickness": 8
+    },
+    {
+      "id": "rm_105",
+      "floorId": "flr_1",
+      "name": "Phòng Họp Khách Hàng",
+      "type": "meeting",
+      "x": 580,
+      "y": 320,
+      "width": 220,
+      "height": 240,
+      "color": "#f8fafc",
+      "wallThickness": 6
+    }
+  ],
+  "racks": [
+    {
+      "id": "rack_mdf_01",
+      "name": "Rack MDF-01 (42U Server Room)",
+      "buildingId": "bld_hachihi_main",
+      "floorId": "flr_1",
+      "roomId": "rm_102",
+      "totalUnits": 42,
+      "widthMm": 800,
+      "depthMm": 1000,
+      "maxLoadKg": 1200,
+      "x": 460,
+      "y": 110,
+      "slots": {
+        "36": "dev_1795075803199_1990",
+        "40": "dev_1795075803199_wzm5"
+      }
+    }
+  ],
+  "assets": {
+    "dev_1795075803199_wzm5": {
+      "id": "dev_1795075803199_wzm5",
+      "name": "SW-CORE-HACHIHI",
+      "category": "core_switch",
+      "vendor": "Cisco",
+      "model": "Nexus 9336C-FX2",
+      "assetTag": "AST-0001",
+      "serialNumber": "SNM5XM0VZ0",
+      "ipAddress": "10.10.0.1",
+      "subnetMask": "255.255.255.0",
+      "gateway": "192.168.10.1",
+      "macAddress": "00:1A:2B:00:01:C1",
+      "vlan": "10, 20",
+      "status": "online",
+      "powerWatts": 450,
+      "weightKg": 10.2,
+      "ports": [
+        {
+          "id": "port_1",
+          "name": "QSFP_1",
+          "type": "QSFP28_100G",
+          "speed": "100 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_2",
+          "name": "QSFP_2",
+          "type": "QSFP28_100G",
+          "speed": "100 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_3",
+          "name": "QSFP_3",
+          "type": "QSFP28_100G",
+          "speed": "100 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_4",
+          "name": "QSFP_4",
+          "type": "QSFP28_100G",
+          "speed": "100 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_5",
+          "name": "SFP+_1",
+          "type": "SFP_PLUS_10G",
+          "speed": "10 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_6",
+          "name": "SFP+_2",
+          "type": "SFP_PLUS_10G",
+          "speed": "10 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_7",
+          "name": "SFP+_3",
+          "type": "SFP_PLUS_10G",
+          "speed": "10 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_8",
+          "name": "SFP+_4",
+          "type": "SFP_PLUS_10G",
+          "speed": "10 Gbps",
+          "status": "unlinked"
+        }
+      ],
+      "buildingId": "bld_hachihi_main",
+      "floorId": "flr_1",
+      "roomId": "rm_102",
+      "rackId": "rack_mdf_01",
+      "rackUnitStart": 40,
+      "rackUnitHeight": 1
+    },
+    "dev_1795075803199_1990": {
+      "id": "dev_1795075803199_1990",
+      "name": "SW-ACCESS-FL01",
+      "category": "switch",
+      "vendor": "Cisco",
+      "model": "Catalyst C9300-24P",
+      "assetTag": "AST-0002",
+      "serialNumber": "SN3GU96YUJ",
+      "ipAddress": "10.10.1.2",
+      "subnetMask": "255.255.255.0",
+      "gateway": "192.168.10.1",
+      "macAddress": "00:1A:2B:00:02:C1",
+      "vlan": "10, 20",
+      "status": "online",
+      "powerWatts": 380,
+      "weightKg": 7.4,
+      "ports": [
+        {
+          "id": "port_1",
+          "name": "Gi1/0/1",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_2",
+          "name": "Gi1/0/2",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_3",
+          "name": "Gi1/0/3",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_4",
+          "name": "Gi1/0/4",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_5",
+          "name": "Gi1/0/5",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_6",
+          "name": "Gi1/0/6",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_7",
+          "name": "Gi1/0/7",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_8",
+          "name": "Gi1/0/8",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_9",
+          "name": "Gi1/0/9",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_10",
+          "name": "Gi1/0/10",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_11",
+          "name": "Gi1/0/11",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_12",
+          "name": "Gi1/0/12",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_13",
+          "name": "Gi1/0/13",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_14",
+          "name": "Gi1/0/14",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_15",
+          "name": "Gi1/0/15",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_16",
+          "name": "Gi1/0/16",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_17",
+          "name": "Gi1/0/17",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_18",
+          "name": "Gi1/0/18",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_19",
+          "name": "Gi1/0/19",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_20",
+          "name": "Gi1/0/20",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_21",
+          "name": "Gi1/0/21",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_22",
+          "name": "Gi1/0/22",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_23",
+          "name": "Gi1/0/23",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_24",
+          "name": "Gi1/0/24",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_25",
+          "name": "Te1/1/1",
+          "type": "SFP_PLUS_10G",
+          "speed": "10 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_26",
+          "name": "Te1/1/2",
+          "type": "SFP_PLUS_10G",
+          "speed": "10 Gbps",
+          "status": "unlinked"
+        }
+      ],
+      "buildingId": "bld_hachihi_main",
+      "floorId": "flr_1",
+      "roomId": "rm_102",
+      "rackId": "rack_mdf_01",
+      "rackUnitStart": 36,
+      "rackUnitHeight": 1
+    },
+    "dev_1795075803199_qv9e": {
+      "id": "dev_1795075803199_qv9e",
+      "name": "AP-RECEPTION-01",
+      "category": "ap",
+      "vendor": "Aruba",
+      "model": "UniFi U6 Enterprise",
+      "assetTag": "AST-0003",
+      "serialNumber": "SNKOZ8ZXR5",
+      "ipAddress": "10.10.1.21",
+      "subnetMask": "255.255.255.0",
+      "gateway": "192.168.10.1",
+      "macAddress": "00:1A:2B:00:03:C1",
+      "vlan": "10, 20",
+      "status": "online",
+      "powerWatts": 22,
+      "weightKg": 0.9,
+      "wifiSpecs": {
+        "standard": "Wi-Fi 6 (802.11ax)",
+        "bands": "2.4GHz + 5GHz",
+        "txPowerDbm": 22,
+        "coverageRadiusMeters": 18,
+        "channel24": 6,
+        "channel5": 36,
+        "maxClients": 250,
+        "ssid": "HACHIHI-CORP-WIFI"
+      },
+      "ports": [
+        {
+          "id": "port_1",
+          "name": "Eth0_PoE",
+          "type": "RJ45_10G",
+          "poe": true,
+          "speed": "2.5 Gbps",
+          "status": "unlinked"
+        }
+      ],
+      "buildingId": "bld_hachihi_main",
+      "floorId": "flr_1",
+      "roomId": "rm_101"
+    },
+    "dev_1795075803199_dquc": {
+      "id": "dev_1795075803199_dquc",
+      "name": "CAM-DOOR-01",
+      "category": "camera",
+      "vendor": "Hikvision",
+      "model": "DS-2CD2186G2-ISU",
+      "assetTag": "AST-0004",
+      "serialNumber": "SNTSM3ANEM",
+      "ipAddress": "10.10.100.11",
+      "subnetMask": "255.255.255.0",
+      "gateway": "192.168.10.1",
+      "macAddress": "00:1A:2B:00:04:C1",
+      "vlan": "10, 20",
+      "status": "online",
+      "powerWatts": 12,
+      "weightKg": 0.6,
+      "cameraSpecs": {
+        "resolution": "4K 8MP (3840x2160)",
+        "lensMm": 2.8,
+        "fovAngle": 95,
+        "irDistanceMeters": 30,
+        "nvrChannel": 1
+      },
+      "ports": [
+        {
+          "id": "port_1",
+          "name": "RJ45_PoE",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        }
+      ],
+      "buildingId": "bld_hachihi_main",
+      "floorId": "flr_1",
+      "roomId": "rm_101"
+    }
+  },
+  "nodes": [
+    {
+      "id": "node_core_sw",
+      "diagramMode": "floorplan",
+      "floorId": "flr_1",
+      "type": "device",
+      "assetId": "dev_1795075803199_wzm5",
+      "label": "SW-CORE-HACHIHI",
+      "x": 480,
+      "y": 130,
+      "width": 170,
+      "height": 60,
+      "rotation": 0,
+      "style": {
+        "backgroundColor": "#0284c7",
+        "borderColor": "#0369a1",
+        "borderWidth": 2,
+        "borderStyle": "solid",
+        "opacity": 1,
+        "textColor": "#ffffff",
+        "iconColor": "#ffffff"
+      }
+    },
+    {
+      "id": "node_sw_fl01",
+      "diagramMode": "floorplan",
+      "floorId": "flr_1",
+      "type": "device",
+      "assetId": "dev_1795075803199_1990",
+      "label": "SW-ACCESS-FL01",
+      "x": 480,
+      "y": 210,
+      "width": 170,
+      "height": 60,
+      "rotation": 0,
+      "style": {
+        "backgroundColor": "#0ea5e9",
+        "borderColor": "#0284c7",
+        "borderWidth": 2,
+        "borderStyle": "solid",
+        "opacity": 1,
+        "textColor": "#ffffff",
+        "iconColor": "#ffffff"
+      }
+    },
+    {
+      "id": "node_ap_rec",
+      "diagramMode": "floorplan",
+      "floorId": "flr_1",
+      "type": "device",
+      "assetId": "dev_1795075803199_qv9e",
+      "label": "AP-RECEPTION-01",
+      "x": 200,
+      "y": 160,
+      "width": 90,
+      "height": 80,
+      "rotation": 0,
+      "style": {
+        "backgroundColor": "#10b981",
+        "borderColor": "#059669",
+        "borderWidth": 2,
+        "borderStyle": "solid",
+        "opacity": 1,
+        "textColor": "#ffffff",
+        "iconColor": "#ffffff"
+      }
+    },
+    {
+      "id": "node_cam_door",
+      "diagramMode": "floorplan",
+      "floorId": "flr_1",
+      "type": "device",
+      "assetId": "dev_1795075803199_dquc",
+      "label": "CAM-DOOR-01",
+      "x": 100,
+      "y": 100,
+      "width": 80,
+      "height": 70,
+      "rotation": 45,
+      "style": {
+        "backgroundColor": "#f59e0b",
+        "borderColor": "#d97706",
+        "borderWidth": 2,
+        "borderStyle": "solid",
+        "opacity": 1,
+        "textColor": "#ffffff",
+        "iconColor": "#ffffff"
+      }
+    },
+    {
+      "id": "node_riser_shaft",
+      "diagramMode": "floorplan",
+      "floorId": "flr_1",
+      "type": "riser",
+      "label": "TRỤC KỸ THUẬT (RISER)",
+      "x": 460,
+      "y": 360,
+      "width": 80,
+      "height": 80,
+      "rotation": 0,
+      "style": {
+        "backgroundColor": "#fef3c7",
+        "borderColor": "#f59e0b",
+        "borderWidth": 3,
+        "borderStyle": "dashed",
+        "opacity": 0.9,
+        "textColor": "#78350f",
+        "iconColor": "#b45309"
+      }
+    },
+    {
+      "id": "node_rack_mdf_01",
+      "diagramMode": "rack",
+      "floorId": "flr_1",
+      "type": "rack",
+      "label": "Rack MDF-01 (42U Server Room)",
+      "x": 340,
+      "y": 40,
+      "width": 320,
+      "height": 660,
+      "rotation": 0,
+      "style": {
+        "backgroundColor": "#0f172a",
+        "borderColor": "#334155",
+        "borderWidth": 3,
+        "borderStyle": "solid",
+        "opacity": 1,
+        "textColor": "#f8fafc"
+      },
+      "customData": {
+        "rackId": "rack_mdf_01",
+        "totalUnits": 42
+      }
+    }
+  ],
+  "cables": [
+    {
+      "id": "cab_core_sw",
+      "cableCode": "FIB-F1-001",
+      "diagramMode": "floorplan",
+      "sourceNodeId": "node_core_sw",
+      "sourcePortId": "port_1",
+      "targetNodeId": "node_sw_fl01",
+      "targetPortId": "port_25",
+      "cableType": "FIBER_SM_OS2",
+      "bandwidth": "10G",
+      "color": "#0284c7",
+      "routingType": "orthogonal",
+      "lineStyle": "solid",
+      "strokeWidth": 3,
+      "lengthMeters": 2.5,
+      "vlan": "TRUNK (10,20,100)",
+      "status": "active"
+    },
+    {
+      "id": "cab_sw_ap",
+      "cableCode": "UTP-F1-012",
+      "diagramMode": "floorplan",
+      "sourceNodeId": "node_sw_fl01",
+      "sourcePortId": "port_1",
+      "targetNodeId": "node_ap_rec",
+      "targetPortId": "port_1",
+      "cableType": "CAT6_UTP",
+      "bandwidth": "1G",
+      "color": "#10b981",
+      "routingType": "orthogonal",
+      "lineStyle": "solid",
+      "strokeWidth": 2,
+      "lengthMeters": 28,
+      "vlan": "VLAN 20 (Wi-Fi)",
+      "status": "active"
+    },
+    {
+      "id": "cab_sw_cam",
+      "cableCode": "UTP-F1-015",
+      "diagramMode": "floorplan",
+      "sourceNodeId": "node_sw_fl01",
+      "sourcePortId": "port_2",
+      "targetNodeId": "node_cam_door",
+      "targetPortId": "port_1",
+      "cableType": "CAT6_UTP",
+      "bandwidth": "1G",
+      "color": "#f59e0b",
+      "routingType": "orthogonal",
+      "lineStyle": "solid",
+      "strokeWidth": 2,
+      "lengthMeters": 34.5,
+      "vlan": "VLAN 100 (CCTV)",
+      "status": "active"
+    }
+  ],
+  "activeMode": "floorplan",
+  "activeBuildingId": "bld_hachihi_main",
+  "activeFloorId": "flr_1",
+  "settings": {
+    "gridSize": 20,
+    "snapToGrid": true,
+    "showRulers": true,
+    "showGrid": true,
+    "showPortLabels": true,
+    "showIpAddresses": true,
+    "showCableCodes": true,
+    "showCoverageRadius": true,
+    "unit": "m",
+    "scale": 30,
+    "backgroundColor": "#f8fafc",
+    "isDarkMode": false
+  }
+}

@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="10 -40 940 771" width="940" height="771" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+<rect class="svg-bg" x="10" y="-40" width="940" height="771" fill="#ffffff" />
+<g>
+<path d="M 500 62 L 500 173" fill="none" stroke="#6366f1" stroke-width="3"  stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<g>
+<path d="M 500 173 L 500 303" fill="none" stroke="#2563eb" stroke-width="3"  stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<g>
+<path d="M 500 303 L 327.5 303 L 327.5 453 L 155 453" fill="none" stroke="#475569" stroke-width="2"  stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<g>
+<path d="M 500 303 L 417.5 303 L 417.5 458 L 335 458" fill="none" stroke="#10b981" stroke-width="2"  stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<g>
+<path d="M 500 303 L 502.5 303 L 502.5 458 L 505 458" fill="none" stroke="#10b981" stroke-width="2"  stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<g>
+<path d="M 500 303 L 597.5 303 L 597.5 453 L 695 453" fill="none" stroke="#d97706" stroke-width="2"  stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<g>
+<path d="M 500 303 L 580 303 L 580 587 L 660 587" fill="none" stroke="#f59e0b" stroke-width="2"  stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<g>
+<path d="M 500 303 L 660 303 L 660 587 L 820 587" fill="none" stroke="#f59e0b" stroke-width="2"  stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<g data-layer="cable-labeling">
+<g transform="translate(500.0, 117.5) rotate(-90.0)">
+<rect class="svg-cable-badge" x="-62.0" y="-9.5" width="124" height="19" rx="4" fill="#ffffff" fill-opacity="0.96" stroke="#6366f1" stroke-width="1.1" />
+<circle cx="-54.3" cy="0" r="2.7" fill="#6366f1" />
+<text class="svg-cable-text" x="4.2" y="3.3" text-anchor="middle" fill="#0f172a" font-size="9.5" font-weight="600">WAN-FTTH-01 (1G)</text>
+</g>
+<g transform="translate(500.0, 238.0) rotate(-90.0)">
+<rect class="svg-cable-badge" x="-65.0" y="-9.5" width="130" height="19" rx="4" fill="#ffffff" fill-opacity="0.96" stroke="#2563eb" stroke-width="1.1" />
+<circle cx="-57.3" cy="0" r="2.7" fill="#2563eb" />
+<text class="svg-cable-text" x="4.2" y="3.3" text-anchor="middle" fill="#0f172a" font-size="9.5" font-weight="600">LAN-TRUNK-01 (1G)</text>
+</g>
+<g transform="translate(327.5, 378.0) rotate(-90.0)">
+<rect class="svg-cable-badge" x="-65.0" y="-9.5" width="130" height="19" rx="4" fill="#ffffff" fill-opacity="0.96" stroke="#475569" stroke-width="1.1" />
+<circle cx="-57.3" cy="0" r="2.7" fill="#475569" />
+<text class="svg-cable-text" x="4.2" y="3.3" text-anchor="middle" fill="#0f172a" font-size="9.5" font-weight="600">LAN-NAS-10G (10G)</text>
+</g>
+<g transform="translate(417.5, 380.5) rotate(-90.0)">
+<rect class="svg-cable-badge" x="-56.0" y="-9.5" width="112" height="19" rx="4" fill="#ffffff" fill-opacity="0.96" stroke="#10b981" stroke-width="1.1" />
+<circle cx="-48.3" cy="0" r="2.7" fill="#10b981" />
+<text class="svg-cable-text" x="4.2" y="3.3" text-anchor="middle" fill="#0f172a" font-size="9.5" font-weight="600">POE-AP-01 (1G)</text>
+</g>
+<g transform="translate(502.5, 380.5) rotate(-90.0)">
+<rect class="svg-cable-badge" x="-56.0" y="-9.5" width="112" height="19" rx="4" fill="#ffffff" fill-opacity="0.96" stroke="#10b981" stroke-width="1.1" />
+<circle cx="-48.3" cy="0" r="2.7" fill="#10b981" />
+<text class="svg-cable-text" x="4.2" y="3.3" text-anchor="middle" fill="#0f172a" font-size="9.5" font-weight="600">POE-AP-02 (1G)</text>
+</g>
+<g transform="translate(597.5, 378.0) rotate(-90.0)">
+<rect class="svg-cable-badge" x="-59.0" y="-9.5" width="118" height="19" rx="4" fill="#ffffff" fill-opacity="0.96" stroke="#d97706" stroke-width="1.1" />
+<circle cx="-51.3" cy="0" r="2.7" fill="#d97706" />
+<text class="svg-cable-text" x="4.2" y="3.3" text-anchor="middle" fill="#0f172a" font-size="9.5" font-weight="600">LAN-NVR-01 (1G)</text>
+</g>
+<g transform="translate(580.0, 445.0) rotate(-90.0)">
+<rect class="svg-cable-badge" x="-59.0" y="-9.5" width="118" height="19" rx="4" fill="#ffffff" fill-opacity="0.96" stroke="#f59e0b" stroke-width="1.1" />
+<circle cx="-51.3" cy="0" r="2.7" fill="#f59e0b" />
+<text class="svg-cable-text" x="4.2" y="3.3" text-anchor="middle" fill="#0f172a" font-size="9.5" font-weight="600">POE-CAM-01 (1G)</text>
+</g>
+<g transform="translate(660.0, 445.0) rotate(-90.0)">
+<rect class="svg-cable-badge" x="-59.0" y="-9.5" width="118" height="19" rx="4" fill="#ffffff" fill-opacity="0.96" stroke="#f59e0b" stroke-width="1.1" />
+<circle cx="-51.3" cy="0" r="2.7" fill="#f59e0b" />
+<text class="svg-cable-text" x="4.2" y="3.3" text-anchor="middle" fill="#0f172a" font-size="9.5" font-weight="600">POE-CAM-02 (1G)</text>
+</g>
+</g>
+<g data-layer="device">
+<g>
+<rect class="svg-card-neutral" x="420" y="30" width="160" height="64" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="572.0" cy="38.0" r="2.8" fill="#16a34a" />
+<rect x="482" y="44" width="36" height="36" rx="7" fill="#0891B2" />
+<path d="M 492.9 69.1 H 508.0 A 5.4 5.4 0 0 0 506.7 58.4 A 7.1 7.1 0 0 0 493.5 59.4 A 5.2 5.2 0 0 0 492.9 69.1 Z" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linejoin="round" />
+</g>
+<text class="svg-label-primary" x="500" y="108" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">FTTH-ISP-WAN</text>
+</g>
+<g data-layer="device">
+<g>
+<rect class="svg-card-neutral" x="420" y="145" width="160" height="56" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="572.0" cy="153.0" r="2.8" fill="#16a34a" />
+<rect x="482.64" y="155.64" width="34.72" height="34.72" rx="7" fill="#155EEF" />
+<circle cx="500" cy="173" r="11.5" fill="none" stroke="#ffffff" stroke-width="2.26" /><path d="M 491.9 173 L 508.1 173 M 500 164.9 L 500 181.1" stroke="#ffffff" stroke-width="2.26" stroke-linecap="round" />
+</g>
+<text class="svg-label-primary" x="500" y="215" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">RTR-MIKROTIK-GW</text>
+<rect class="svg-ip-pill" x="443.6" y="219" width="112.8" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="500" y="229" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">192.168.10.1 · V10</text>
+</g>
+<g data-layer="device">
+<g>
+<rect class="svg-card-neutral" x="410" y="275" width="180" height="56" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="582.0" cy="283.0" r="2.8" fill="#16a34a" />
+<rect x="482.64" y="285.64" width="34.72" height="34.72" rx="7" fill="#1D4ED8" />
+<rect x="488.5" y="296.1" width="23.0" height="13.7" rx="2" fill="none" stroke="#ffffff" stroke-width="2.26" /><path d="M 493.1 300.8 H 506.9 M 503.1 298.5 L 506.9 300.8 L 503.1 303" fill="none" stroke="#ffffff" stroke-width="2.26" stroke-linecap="round" stroke-linejoin="round" /><path d="M 506.9 305.7 H 493.1 M 496.9 303.5 L 493.1 305.7 L 496.9 308.0" fill="none" stroke="#ffffff" stroke-width="2.26" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text class="svg-label-primary" x="500" y="345" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">SW-POE-ACCESS-24P</text>
+<rect class="svg-ip-pill" x="443.6" y="349" width="112.8" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="500" y="359" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">192.168.10.2 · V10</text>
+</g>
+<g data-layer="device">
+<g>
+<rect class="svg-card-neutral" x="80" y="425" width="150" height="56" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="222.0" cy="433.0" r="2.8" fill="#16a34a" />
+<rect x="137.64" y="435.64" width="34.72" height="34.72" rx="7" fill="#475569" />
+<rect x="144.4" y="442.8" width="21.2" height="8.7" rx="1.5" fill="none" stroke="#ffffff" stroke-width="2.26" /><rect x="144.4" y="454.5" width="21.2" height="8.7" rx="1.5" fill="none" stroke="#ffffff" stroke-width="2.26" /><circle cx="148.8" cy="447.1" r="1.5" fill="#ffffff" /><circle cx="148.8" cy="458.9" r="1.5" fill="#ffffff" />
+</g>
+<text class="svg-label-primary" x="155" y="495" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">SRV-NAS-NOI-BO</text>
+<rect class="svg-ip-pill" x="95.8" y="499" width="118.4" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="155" y="509" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">192.168.10.10 · V10</text>
+</g>
+<g data-layer="device">
+<g>
+<rect class="svg-card-neutral" x="270" y="425" width="130" height="66" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="392.0" cy="433.0" r="2.8" fill="#16a34a" />
+<rect x="317" y="440" width="36" height="36" rx="7" fill="#16A34A" />
+<path d="M 323.6 456.1 A 14.3 14.3 0 0 1 346.4 456.1" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linecap="round" /><path d="M 327.9 460.6 A 9.1 9.1 0 0 1 342.1 460.6" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linecap="round" /><circle cx="335" cy="466.0" r="2.9" fill="#ffffff" />
+</g>
+<text class="svg-label-primary" x="335" y="505" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">AP-WIFI6-VP01</text>
+<rect class="svg-ip-pill" x="275.8" y="509" width="118.4" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="335" y="519" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">192.168.20.11 · V20</text>
+</g>
+<g data-layer="device">
+<g>
+<rect class="svg-card-neutral" x="440" y="425" width="130" height="66" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="562.0" cy="433.0" r="2.8" fill="#16a34a" />
+<rect x="487" y="440" width="36" height="36" rx="7" fill="#16A34A" />
+<path d="M 493.6 456.1 A 14.3 14.3 0 0 1 516.4 456.1" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linecap="round" /><path d="M 497.9 460.6 A 9.1 9.1 0 0 1 512.1 460.6" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linecap="round" /><circle cx="505" cy="466.0" r="2.9" fill="#ffffff" />
+</g>
+<text class="svg-label-primary" x="505" y="505" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">AP-WIFI6-VP02</text>
+<rect class="svg-ip-pill" x="445.8" y="509" width="118.4" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="505" y="519" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">192.168.20.12 · V20</text>
+</g>
+<g data-layer="device">
+<g>
+<rect class="svg-card-neutral" x="620" y="425" width="150" height="56" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="762.0" cy="433.0" r="2.8" fill="#16a34a" />
+<rect x="677.64" y="435.64" width="34.72" height="34.72" rx="7" fill="#7C3AED" />
+<rect x="683.5" y="446.5" width="16.5" height="13.0" rx="2" fill="none" stroke="#ffffff" stroke-width="2.26" /><polygon points="700.2,451.5 706.9,447.0 706.9,459.0 700.2,454.5" fill="none" stroke="#ffffff" stroke-width="2.26" stroke-linejoin="round" />
+</g>
+<text class="svg-label-primary" x="695" y="495" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">NVR-CCTV-01</text>
+<rect class="svg-ip-pill" x="635.8" y="499" width="118.4" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="695" y="509" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">192.168.30.10 · V30</text>
+</g>
+<g data-layer="device">
+<g>
+<rect class="svg-card-neutral" x="600" y="555" width="120" height="64" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="712.0" cy="563.0" r="2.8" fill="#16a34a" />
+<rect x="642" y="569" width="36" height="36" rx="7" fill="#7C3AED" />
+<rect x="648.1" y="580.3" width="17.1" height="13.5" rx="2" fill="none" stroke="#ffffff" stroke-width="2.34" /><polygon points="665.4,585.4 672.3,580.8 672.3,593.2 665.4,588.6" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linejoin="round" />
+</g>
+<text class="svg-label-primary" x="660" y="633" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">CAM-CUA-CHINH</text>
+<rect class="svg-ip-pill" x="600.8" y="637" width="118.4" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="660" y="647" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">192.168.30.21 · V30</text>
+</g>
+<g data-layer="device">
+<g>
+<rect class="svg-card-neutral" x="760" y="555" width="120" height="64" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="872.0" cy="563.0" r="2.8" fill="#16a34a" />
+<rect x="802" y="569" width="36" height="36" rx="7" fill="#7C3AED" />
+<rect x="808.1" y="580.3" width="17.1" height="13.5" rx="2" fill="none" stroke="#ffffff" stroke-width="2.34" /><polygon points="825.4,585.4 832.3,580.8 832.3,593.2 825.4,588.6" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linejoin="round" />
+</g>
+<text class="svg-label-primary" x="820" y="633" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">CAM-KHO-HANG</text>
+<rect class="svg-ip-pill" x="760.8" y="637" width="118.4" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="820" y="647" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">192.168.30.22 · V30</text>
+</g>
+</svg>

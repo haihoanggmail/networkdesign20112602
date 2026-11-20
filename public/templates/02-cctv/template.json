@@ -1,0 +1,25 @@
+{
+  "id": "cctv-security-002",
+  "legacyId": "tpl_cctv_security",
+  "name": "Hệ thống Camera Giám sát An ninh AI",
+  "category": "Camera",
+  "mode": "cctv",
+  "badge": "An ninh AI",
+  "version": "1.0.0",
+  "updatedAt": "2026-11-19",
+  "author": "HACHIHI",
+  "description": "Bố trí 8 camera 4K AI kèm nón góc quét quan sát (FOV 95°), tầm xa hồng ngoại 30m, kết nối PoE Switch tới đầu ghi NVR 32 kênh và màn hình giám sát trung tâm.",
+  "highlights": [
+    "1 tầng",
+    "5 thiết bị",
+    "4 tuyến cáp"
+  ],
+  "projectFile": "project.json",
+  "preview": "preview.svg",
+  "tags": [
+    "Camera",
+    "CCTV",
+    "NVR",
+    "PoE"
+  ]
+}

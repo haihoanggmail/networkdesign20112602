@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="130 10 730 532" width="730" height="532" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+<rect class="svg-bg" x="130" y="10" width="730" height="532" fill="#ffffff" />
+<g>
+<path d="M 505 108 L 505 248" fill="none" stroke="#2563eb" stroke-width="3"  stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<g>
+<path d="M 505 248 L 380 248 L 380 395 L 255 395" fill="none" stroke="#10b981" stroke-width="2"  stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<g>
+<path d="M 505 248 L 610 248 L 610 390 L 715 390" fill="none" stroke="#0284c7" stroke-width="2"  stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<g data-layer="cable-labeling">
+<g transform="translate(505.0, 178.0) rotate(-90.0)">
+<rect class="svg-cable-badge" x="-56.0" y="-9.5" width="112" height="19" rx="4" fill="#ffffff" fill-opacity="0.96" stroke="#2563eb" stroke-width="1.1" />
+<circle cx="-48.3" cy="0" r="2.7" fill="#2563eb" />
+<text class="svg-cable-text" x="4.2" y="3.3" text-anchor="middle" fill="#0f172a" font-size="9.5" font-weight="600">UPLINK-01 (1G)</text>
+</g>
+<g transform="translate(380.0, 321.5) rotate(-90.0)">
+<rect class="svg-cable-badge" x="-56.0" y="-9.5" width="112" height="19" rx="4" fill="#ffffff" fill-opacity="0.96" stroke="#10b981" stroke-width="1.1" />
+<circle cx="-48.3" cy="0" r="2.7" fill="#10b981" />
+<text class="svg-cable-text" x="4.2" y="3.3" text-anchor="middle" fill="#0f172a" font-size="9.5" font-weight="600">POE-AP-01 (1G)</text>
+</g>
+<g transform="translate(610.0, 319.0) rotate(-90.0)">
+<rect class="svg-cable-badge" x="-62.0" y="-9.5" width="124" height="19" rx="4" fill="#ffffff" fill-opacity="0.96" stroke="#0284c7" stroke-width="1.1" />
+<circle cx="-54.3" cy="0" r="2.7" fill="#0284c7" />
+<text class="svg-cable-text" x="4.2" y="3.3" text-anchor="middle" fill="#0f172a" font-size="9.5" font-weight="600">LAN-NAS-01 (10G)</text>
+</g>
+</g>
+<g data-layer="device">
+<g>
+<rect class="svg-card-neutral" x="420" y="80" width="170" height="56" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="582.0" cy="88.0" r="2.8" fill="#16a34a" />
+<rect x="487.64" y="90.64" width="34.72" height="34.72" rx="7" fill="#155EEF" />
+<circle cx="505" cy="108" r="11.5" fill="none" stroke="#ffffff" stroke-width="2.26" /><path d="M 496.9 108 L 513.1 108 M 505 99.9 L 505 116.1" stroke="#ffffff" stroke-width="2.26" stroke-linecap="round" />
+</g>
+<text class="svg-label-primary" x="505" y="150" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">Gateway-Router-SMB</text>
+<rect class="svg-ip-pill" x="451.4" y="154" width="107.2" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="505" y="164" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">192.168.1.1 · V10</text>
+</g>
+<g data-layer="device">
+<g>
+<rect class="svg-card-neutral" x="420" y="220" width="170" height="56" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="582.0" cy="228.0" r="2.8" fill="#16a34a" />
+<rect x="487.64" y="230.64" width="34.72" height="34.72" rx="7" fill="#1D4ED8" />
+<rect x="493.5" y="241.1" width="23.0" height="13.7" rx="2" fill="none" stroke="#ffffff" stroke-width="2.26" /><path d="M 498.1 245.8 H 511.9 M 508.1 243.5 L 511.9 245.8 L 508.1 248" fill="none" stroke="#ffffff" stroke-width="2.26" stroke-linecap="round" stroke-linejoin="round" /><path d="M 511.9 250.7 H 498.1 M 501.9 248.5 L 498.1 250.7 L 501.9 253.0" fill="none" stroke="#ffffff" stroke-width="2.26" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text class="svg-label-primary" x="505" y="290" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">Switch-PoE-24P</text>
+<rect class="svg-ip-pill" x="451.4" y="294" width="107.2" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="505" y="304" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">192.168.1.2 · V10</text>
+</g>
+<g data-layer="device">
+<g>
+<rect class="svg-card-neutral" x="200" y="360" width="110" height="70" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="302.0" cy="368.0" r="2.8" fill="#16a34a" />
+<rect x="237" y="377" width="36" height="36" rx="7" fill="#16A34A" />
+<path d="M 243.6 393.1 A 14.3 14.3 0 0 1 266.4 393.1" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linecap="round" /><path d="M 247.9 397.6 A 9.1 9.1 0 0 1 262.1 397.6" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linecap="round" /><circle cx="255" cy="403.0" r="2.9" fill="#ffffff" />
+</g>
+<text class="svg-label-primary" x="255" y="444" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">UniFi-AP-Office</text>
+<rect class="svg-ip-pill" x="198.6" y="448" width="112.8" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="255" y="458" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">192.168.1.20 · V10</text>
+</g>
+<g data-layer="device">
+<g>
+<rect class="svg-card-neutral" x="640" y="360" width="150" height="60" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="782.0" cy="368.0" r="2.8" fill="#16a34a" />
+<rect x="697" y="372" width="36" height="36" rx="7" fill="#475569" />
+<rect x="704.0" y="379.4" width="22.0" height="9.1" rx="1.5" fill="none" stroke="#ffffff" stroke-width="2.34" /><rect x="704.0" y="391.6" width="22.0" height="9.1" rx="1.5" fill="none" stroke="#ffffff" stroke-width="2.34" /><circle cx="708.5" cy="383.9" r="1.6" fill="#ffffff" /><circle cx="708.5" cy="396.1" r="1.6" fill="#ffffff" />
+</g>
+<text class="svg-label-primary" x="715" y="434" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">NAS-FileServer</text>
+<rect class="svg-ip-pill" x="655.8" y="438" width="118.4" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="715" y="448" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">192.168.1.100 · V10</text>
+</g>
+</svg>

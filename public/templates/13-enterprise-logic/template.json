@@ -1,0 +1,25 @@
+{
+  "id": "enterprise-logic-013",
+  "legacyId": "tpl_net_enterprise",
+  "name": "Doanh nghiệp Đa phòng ban & VLAN",
+  "category": "Mạng LAN",
+  "mode": "topology",
+  "badge": "Doanh nghiệp",
+  "version": "1.0.0",
+  "updatedAt": "2026-11-19",
+  "author": "HACHIHI",
+  "description": "Sơ đồ mạng hoàn chỉnh gồm WAN Dual-ISP, Firewall HA FortiGate, Core Switch Nexus 9300, 3x Distribution Switch cho Phòng Kinh Doanh, Kỹ Thuật và Server Farm.",
+  "highlights": [
+    "1 tầng",
+    "6 thiết bị",
+    "5 tuyến cáp"
+  ],
+  "projectFile": "project.json",
+  "preview": "preview.svg",
+  "tags": [
+    "Enterprise",
+    "HA",
+    "Firewall",
+    "Core"
+  ]
+}

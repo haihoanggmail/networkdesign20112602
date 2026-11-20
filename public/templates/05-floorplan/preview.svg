@@ -1,0 +1,1448 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1812 2214" width="1812" height="2214" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+<rect class="svg-bg" x="0" y="0" width="1812" height="2214" fill="#ffffff" />
+<g data-layer="floor-card" data-floor-id="flr_h2_b1" data-floor-layer="flr_h2_b1">
+<rect class="svg-card-neutral" x="32" y="32" width="860" height="515" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.6" />
+<rect class="svg-room-hdr" x="33" y="33" width="858" height="33" rx="9" fill="#e2e8f0" />
+<text class="svg-room-title" x="46" y="54" fill="#0f172a" font-size="13" font-weight="700">Tầng Hầm (B1) - Bãi Đỗ Xe &amp; Cổng Ra Vào Chính</text>
+<text class="svg-label-muted" x="878" y="54" text-anchor="end" fill="#475569" font-size="11" font-family="ui-monospace, monospace">8 phần tử · 1 Rack</text>
+<svg x="34" y="66" width="856" height="479" viewBox="-10 -10 1360 760" preserveAspectRatio="xMidYMid meet">
+<rect class="svg-bg" x="-10" y="-10" width="1360" height="760" fill="#ffffff" />
+<g data-layer="room">
+<rect class="svg-room-body" x="60" y="60" width="140" height="620" rx="4" fill="#e2e8f0" fill-opacity="0.82" stroke="#94a3b8" stroke-width="6"  />
+<rect class="svg-room-hdr" x="60" y="60" width="140" height="22" rx="4" fill="#e2e8f0" fill-opacity="0.88" />
+<text class="svg-room-title" x="68" y="75" fill="#334155" font-size="10.5" font-weight="700">Cầu Thang Bộ &amp; Mặt Kính (B1) · 139m²</text>
+</g>
+<g data-layer="room">
+<rect class="svg-room-body" x="200" y="60" width="300" height="360" rx="4" fill="#dbeafe" fill-opacity="0.82" stroke="#94a3b8" stroke-width="6" stroke-dasharray="6 4" />
+<rect class="svg-room-hdr" x="200" y="60" width="300" height="22" rx="4" fill="#e2e8f0" fill-opacity="0.88" />
+<text class="svg-room-title" x="208" y="75" fill="#334155" font-size="10.5" font-weight="700">Khu Tủ Small Rack 12U &amp; Trục Riser (B1) · 173m²</text>
+</g>
+<g data-layer="room">
+<rect class="svg-room-body" x="200" y="420" width="300" height="260" rx="4" fill="#fef3c7" fill-opacity="0.82" stroke="#94a3b8" stroke-width="6"  />
+<rect class="svg-room-hdr" x="200" y="420" width="300" height="22" rx="4" fill="#e2e8f0" fill-opacity="0.88" />
+<text class="svg-room-title" x="208" y="435" fill="#334155" font-size="10.5" font-weight="700">Cổng Ra Vào Chính &amp; Kiểm Soát An Ninh · 125m²</text>
+</g>
+<g data-layer="room">
+<rect class="svg-room-body" x="500" y="420" width="200" height="260" rx="4" fill="#e0f2fe" fill-opacity="0.82" stroke="#94a3b8" stroke-width="6"  />
+<rect class="svg-room-hdr" x="500" y="420" width="200" height="22" rx="4" fill="#e2e8f0" fill-opacity="0.88" />
+<text class="svg-room-title" x="508" y="435" fill="#334155" font-size="10.5" font-weight="700">Thang Máy &amp; Máy Chấm Công (B1) · 83m²</text>
+</g>
+<g data-layer="room">
+<rect class="svg-room-body" x="500" y="60" width="780" height="360" rx="4" fill="#f1f5f9" fill-opacity="0.82" stroke="#94a3b8" stroke-width="6"  />
+<rect class="svg-room-hdr" x="500" y="60" width="780" height="22" rx="4" fill="#e2e8f0" fill-opacity="0.88" />
+<text class="svg-room-title" x="508" y="75" fill="#334155" font-size="10.5" font-weight="700">Bãi Đỗ Xe Tầng Hầm - Ô Đậu Xe 1 · 449m²</text>
+</g>
+<g data-layer="room">
+<rect class="svg-room-body" x="700" y="420" width="580" height="260" rx="4" fill="#e2e8f0" fill-opacity="0.82" stroke="#94a3b8" stroke-width="6"  />
+<rect class="svg-room-hdr" x="700" y="420" width="580" height="22" rx="4" fill="#e2e8f0" fill-opacity="0.88" />
+<text class="svg-room-title" x="708" y="435" fill="#334155" font-size="10.5" font-weight="700">Bãi Đỗ Xe Tầng Hầm - Ô Đậu Xe 2 · 241m²</text>
+</g>
+<g data-layer="cable-trays">
+<g opacity="0.88">
+<polyline points="468,188 1185,188 1185,560" fill="none" stroke="#0284c7" stroke-width="20" stroke-opacity="0.14" stroke-linecap="round" stroke-linejoin="round" />
+<polyline points="468,188 1185,188 1185,560" fill="none" stroke="#0284c7" stroke-width="14.4" stroke-opacity="0.32" stroke-dasharray="4 5" stroke-linecap="butt" stroke-linejoin="round" />
+<polyline points="468,188 1185,188 1185,560" fill="none" stroke="#0284c7" stroke-width="1.4" stroke-opacity="0.75" stroke-dasharray="6 4" stroke-linecap="round" stroke-linejoin="round" />
+<g transform="translate(826.5, 170.0)">
+<rect class="svg-tray-badge" x="-90.0" y="-8" width="180.0" height="14" rx="3" fill="#ffffff" fill-opacity="0.92" stroke="#0284c7" stroke-opacity="0.6" stroke-width="0.9" />
+<text x="0" y="2" text-anchor="middle" fill="#0284c7" font-size="8" font-weight="700">Máng Cáp Mạng Trục Chính (B1)</text>
+</g>
+</g>
+<g opacity="0.88">
+<polyline points="646,188 646,548" fill="none" stroke="#0d9488" stroke-width="14" stroke-opacity="0.14" stroke-linecap="round" stroke-linejoin="round" />
+<polyline points="646,188 646,548" fill="none" stroke="#0d9488" stroke-width="10.1" stroke-opacity="0.32"  stroke-linecap="butt" stroke-linejoin="round" />
+<polyline points="646,188 646,548" fill="none" stroke="#0d9488" stroke-width="1.4" stroke-opacity="0.75" stroke-dasharray="6 4" stroke-linecap="round" stroke-linejoin="round" />
+<g transform="translate(646.0, 353.0)">
+<rect class="svg-tray-badge" x="-90.0" y="-8" width="180.0" height="14" rx="3" fill="#ffffff" fill-opacity="0.92" stroke="#0d9488" stroke-opacity="0.6" stroke-width="0.9" />
+<text x="0" y="2" text-anchor="middle" fill="#0d9488" font-size="8" font-weight="700">Ống Luồn Sảnh Thang Máy (B1)</text>
+</g>
+</g>
+</g>
+<g data-layer="rack">
+<rect x="215" y="95" width="215" height="232" rx="6" fill="#0b1120" stroke="#334155" stroke-width="2" />
+<rect x="216" y="96" width="213" height="34" rx="5" fill="#1e293b" />
+<text x="225" y="116" fill="#f8fafc" font-size="10.5" font-weight="700">Small Rack B1 (12U) (12U)</text>
+<rect x="378" y="103" width="44" height="17" rx="4" fill="#0f766e" />
+<text x="400" y="114.5" text-anchor="middle" fill="#ffffff" font-size="8.5" font-weight="700" font-family="ui-monospace, monospace">TRƯỚC</text>
+<rect x="219" y="133" width="24" height="168" rx="2" fill="#0f172a" />
+<rect x="245" y="133" width="175" height="168" fill="#020617" stroke="#1e293b" stroke-width="1" />
+<line x1="245" y1="147.0" x2="420" y2="147.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="143.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U12</text>
+<line x1="245" y1="161.0" x2="420" y2="161.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="157.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U11</text>
+<line x1="245" y1="175.0" x2="420" y2="175.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="171.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U10</text>
+<line x1="245" y1="189.0" x2="420" y2="189.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="185.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U09</text>
+<line x1="245" y1="203.0" x2="420" y2="203.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="199.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U08</text>
+<line x1="245" y1="217.0" x2="420" y2="217.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="213.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U07</text>
+<line x1="245" y1="231.0" x2="420" y2="231.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="227.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U06</text>
+<line x1="245" y1="245.0" x2="420" y2="245.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="241.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U05</text>
+<line x1="245" y1="259.0" x2="420" y2="259.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="255.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U04</text>
+<line x1="245" y1="273.0" x2="420" y2="273.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="269.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U03</text>
+<line x1="245" y1="287.0" x2="420" y2="287.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="283.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U02</text>
+<line x1="245" y1="301.0" x2="420" y2="301.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="297.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U01</text>
+<rect x="247" y="189.8" width="171" height="12.4" rx="2" fill="#1e293b" stroke="#1D4ED8" stroke-width="1.1" />
+<rect x="247" y="189.8" width="4" height="12.4" rx="1" fill="#1D4ED8" />
+<circle cx="257" cy="196.0" r="2.5" fill="#22c55e" />
+<text x="263" y="199.0" fill="#f8fafc" font-size="6.8" font-weight="600">SW-POE-B1</text>
+<text x="412" y="198.5" text-anchor="end" fill="#94a3b8" font-size="7.5" font-family="ui-monospace, monospace">U8</text>
+<rect x="247" y="161.8" width="171" height="12.4" rx="2" fill="#1e293b" stroke="#475569" stroke-width="1.1" />
+<rect x="247" y="161.8" width="4" height="12.4" rx="1" fill="#475569" />
+<circle cx="257" cy="168.0" r="2.5" fill="#22c55e" />
+<text x="263" y="171.0" fill="#f8fafc" font-size="6.8" font-weight="600">PP-B1-24P</text>
+<text x="412" y="170.5" text-anchor="end" fill="#94a3b8" font-size="7.5" font-family="ui-monospace, monospace">U10</text>
+<rect x="247" y="133.8" width="171" height="12.4" rx="2" fill="#1e293b" stroke="#0891B2" stroke-width="1.1" />
+<rect x="247" y="133.8" width="4" height="12.4" rx="1" fill="#0891B2" />
+<circle cx="257" cy="140.0" r="2.5" fill="#22c55e" />
+<text x="263" y="143.0" fill="#f8fafc" font-size="6.8" font-weight="600">ODF-B1-12F</text>
+<text x="412" y="142.5" text-anchor="end" fill="#94a3b8" font-size="7.5" font-family="ui-monospace, monospace">U12</text>
+<rect x="216" y="304" width="213" height="22" rx="4" fill="#111827" />
+<text x="225" y="319" fill="#94a3b8" font-size="8" font-family="ui-monospace, monospace">3U dùng · 9U trống</text>
+<text x="420" y="319" text-anchor="end" fill="#34d399" font-size="8.5" font-weight="700" font-family="ui-monospace, monospace">175W · 13kg</text>
+</g>
+<g data-layer="cable-labeling">
+</g>
+<g data-layer="device">
+<g>
+<rect class="svg-card-neutral" x="446" y="160" width="46" height="56" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="484.0" cy="168.0" r="2.8" fill="#16a34a" />
+<rect x="454.74" y="173.74" width="28.52" height="28.52" rx="7" fill="#16A34A" />
+<rect x="459.6" y="182.4" width="18.9" height="11.3" rx="2" fill="none" stroke="#ffffff" stroke-width="1.85" /><path d="M 463.4 186.2 H 474.6 M 471.6 184.3 L 474.6 186.2 L 471.6 188" fill="none" stroke="#ffffff" stroke-width="1.85" stroke-linecap="round" stroke-linejoin="round" /><path d="M 474.6 190.3 H 463.4 M 466.4 188.4 L 463.4 190.3 L 466.4 192.1" fill="none" stroke="#ffffff" stroke-width="1.85" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text class="svg-label-primary" x="469" y="230" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">Trục Riser B1</text>
+<rect class="svg-ip-pill" x="442.0" y="234" width="54.0" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="469" y="244" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">V10</text>
+</g>
+<g data-layer="device">
+<g>
+<rect class="svg-card-neutral" x="608" y="518" width="78" height="58" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="678.0" cy="526.0" r="2.8" fill="#16a34a" />
+<rect x="629.02" y="529.02" width="35.96" height="35.96" rx="7" fill="#059669" />
+<rect x="635.1" y="539.9" width="23.8" height="14.2" rx="2" fill="none" stroke="#ffffff" stroke-width="2.34" /><path d="M 639.9 544.7 H 654.1 M 650.2 542.3 L 654.1 544.7 L 650.2 547" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linecap="round" stroke-linejoin="round" /><path d="M 654.1 549.8 H 639.9 M 643.8 547.5 L 639.9 549.8 L 643.8 552.2" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text class="svg-label-primary" x="647" y="590" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">Máy Chấm Công B1</text>
+<rect class="svg-ip-pill" x="593.4" y="594" width="107.2" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="647" y="604" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">10.20.60.11 · V60</text>
+</g>
+<g data-layer="device">
+<g>
+<rect class="svg-card-neutral" x="785" y="255" width="80" height="74" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="857.0" cy="263.0" r="2.8" fill="#16a34a" />
+<rect x="807" y="274" width="36" height="36" rx="7" fill="#16A34A" />
+<path d="M 813.6 290.1 A 14.3 14.3 0 0 1 836.4 290.1" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linecap="round" /><path d="M 817.9 294.6 A 9.1 9.1 0 0 1 832.1 294.6" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linecap="round" /><circle cx="825" cy="300.0" r="2.9" fill="#ffffff" />
+</g>
+<text class="svg-label-primary" x="825" y="343" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">AP-WIFI-B1</text>
+<rect class="svg-ip-pill" x="771.4" y="347" width="107.2" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="825" y="357" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">10.20.30.11 · V30</text>
+</g>
+<g data-layer="device">
+<g transform="rotate(165 1177 137)">
+<rect class="svg-card-neutral" x="1140" y="105" width="74" height="64" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="1206.0" cy="113.0" r="2.8" fill="#16a34a" />
+<rect x="1159" y="119" width="36" height="36" rx="7" fill="#7C3AED" />
+<rect x="1165.1" y="130.3" width="17.1" height="13.5" rx="2" fill="none" stroke="#ffffff" stroke-width="2.34" /><polygon points="1182.4,135.4 1189.3,130.8 1189.3,143.2 1182.4,138.6" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linejoin="round" />
+</g>
+<text class="svg-label-primary" x="1177" y="183" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">CAM-Hầm-B1-01</text>
+<rect class="svg-ip-pill" x="1120.6" y="187" width="112.8" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="1177" y="197" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">10.20.40.111 · V40</text>
+</g>
+<g data-layer="device">
+<g transform="rotate(210 1177 557)">
+<rect class="svg-card-neutral" x="1140" y="525" width="74" height="64" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="1206.0" cy="533.0" r="2.8" fill="#16a34a" />
+<rect x="1159" y="539" width="36" height="36" rx="7" fill="#7C3AED" />
+<rect x="1165.1" y="550.3" width="17.1" height="13.5" rx="2" fill="none" stroke="#ffffff" stroke-width="2.34" /><polygon points="1182.4,555.4 1189.3,550.8 1189.3,563.2 1182.4,558.6" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linejoin="round" />
+</g>
+<text class="svg-label-primary" x="1177" y="603" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">CAM-Hầm-B1-02</text>
+<rect class="svg-ip-pill" x="1120.6" y="607" width="112.8" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="1177" y="617" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">10.20.40.112 · V40</text>
+</g>
+<g data-layer="device">
+<g transform="rotate(20 347 547)">
+<rect class="svg-card-neutral" x="310" y="515" width="74" height="64" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="376.0" cy="523.0" r="2.8" fill="#16a34a" />
+<rect x="329" y="529" width="36" height="36" rx="7" fill="#7C3AED" />
+<rect x="335.1" y="540.3" width="17.1" height="13.5" rx="2" fill="none" stroke="#ffffff" stroke-width="2.34" /><polygon points="352.4,545.4 359.3,540.8 359.3,553.2 352.4,548.6" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linejoin="round" />
+</g>
+<text class="svg-label-primary" x="347" y="593" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">CAM-Cổng-Chính</text>
+<rect class="svg-ip-pill" x="290.6" y="597" width="112.8" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="347" y="607" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">10.20.40.113 · V40</text>
+</g>
+</svg>
+</g>
+<g data-layer="floor-card" data-floor-id="flr_h2_g" data-floor-layer="flr_h2_g">
+<rect class="svg-card-neutral" x="920" y="32" width="860" height="515" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.6" />
+<rect class="svg-room-hdr" x="921" y="33" width="858" height="33" rx="9" fill="#e2e8f0" />
+<text class="svg-room-title" x="934" y="54" fill="#0f172a" font-size="13" font-weight="700">Tầng G (Trệt) - Sảnh Lễ Tân, Thang Máy &amp; Chấm Công</text>
+<text class="svg-label-muted" x="1766" y="54" text-anchor="end" fill="#475569" font-size="11" font-family="ui-monospace, monospace">10 phần tử · 1 Rack</text>
+<svg x="922" y="66" width="856" height="479" viewBox="-10 -10 1360 760" preserveAspectRatio="xMidYMid meet">
+<rect class="svg-bg" x="-10" y="-10" width="1360" height="760" fill="#ffffff" />
+<g data-layer="room">
+<rect class="svg-room-body" x="60" y="60" width="140" height="620" rx="4" fill="#e2e8f0" fill-opacity="0.82" stroke="#94a3b8" stroke-width="6"  />
+<rect class="svg-room-hdr" x="60" y="60" width="140" height="22" rx="4" fill="#e2e8f0" fill-opacity="0.88" />
+<text class="svg-room-title" x="68" y="75" fill="#334155" font-size="10.5" font-weight="700">Cầu Thang Bộ &amp; Mặt Kính (G) · 139m²</text>
+</g>
+<g data-layer="room">
+<rect class="svg-room-body" x="200" y="60" width="300" height="360" rx="4" fill="#dbeafe" fill-opacity="0.82" stroke="#94a3b8" stroke-width="6" stroke-dasharray="6 4" />
+<rect class="svg-room-hdr" x="200" y="60" width="300" height="22" rx="4" fill="#e2e8f0" fill-opacity="0.88" />
+<text class="svg-room-title" x="208" y="75" fill="#334155" font-size="10.5" font-weight="700">Khu Tủ Small Rack 12U &amp; Trục Riser (G) · 173m²</text>
+</g>
+<g data-layer="room">
+<rect class="svg-room-body" x="200" y="420" width="300" height="260" rx="4" fill="#f1f5f9" fill-opacity="0.82" stroke="#94a3b8" stroke-width="6"  />
+<rect class="svg-room-hdr" x="200" y="420" width="300" height="22" rx="4" fill="#e2e8f0" fill-opacity="0.88" />
+<text class="svg-room-title" x="208" y="435" fill="#334155" font-size="10.5" font-weight="700">Hành Lang Kỹ Thuật (G) · 125m²</text>
+</g>
+<g data-layer="room">
+<rect class="svg-room-body" x="500" y="420" width="200" height="260" rx="4" fill="#e0f2fe" fill-opacity="0.82" stroke="#94a3b8" stroke-width="6"  />
+<rect class="svg-room-hdr" x="500" y="420" width="200" height="22" rx="4" fill="#e2e8f0" fill-opacity="0.88" />
+<text class="svg-room-title" x="508" y="435" fill="#334155" font-size="10.5" font-weight="700">Thang Máy &amp; Máy Chấm Công (G) · 83m²</text>
+</g>
+<g data-layer="room">
+<rect class="svg-room-body" x="500" y="60" width="780" height="360" rx="4" fill="#f8fafc" fill-opacity="0.82" stroke="#94a3b8" stroke-width="6"  />
+<rect class="svg-room-hdr" x="500" y="60" width="780" height="22" rx="4" fill="#e2e8f0" fill-opacity="0.88" />
+<text class="svg-room-title" x="508" y="75" fill="#334155" font-size="10.5" font-weight="700">Sảnh Lễ Tân &amp; Tiếp Khách Tầng G · 449m²</text>
+</g>
+<g data-layer="room">
+<rect class="svg-room-body" x="700" y="420" width="580" height="260" rx="4" fill="#f8fafc" fill-opacity="0.82" stroke="#94a3b8" stroke-width="6"  />
+<rect class="svg-room-hdr" x="700" y="420" width="580" height="22" rx="4" fill="#e2e8f0" fill-opacity="0.88" />
+<text class="svg-room-title" x="708" y="435" fill="#334155" font-size="10.5" font-weight="700">Khu Văn Phòng Hỗ Trợ Tầng G · 241m²</text>
+</g>
+<g data-layer="cable-trays">
+<g opacity="0.88">
+<polyline points="468,188 1185,188 1185,560" fill="none" stroke="#0284c7" stroke-width="20" stroke-opacity="0.14" stroke-linecap="round" stroke-linejoin="round" />
+<polyline points="468,188 1185,188 1185,560" fill="none" stroke="#0284c7" stroke-width="14.4" stroke-opacity="0.32" stroke-dasharray="4 5" stroke-linecap="butt" stroke-linejoin="round" />
+<polyline points="468,188 1185,188 1185,560" fill="none" stroke="#0284c7" stroke-width="1.4" stroke-opacity="0.75" stroke-dasharray="6 4" stroke-linecap="round" stroke-linejoin="round" />
+<g transform="translate(826.5, 170.0)">
+<rect class="svg-tray-badge" x="-90.0" y="-8" width="180.0" height="14" rx="3" fill="#ffffff" fill-opacity="0.92" stroke="#0284c7" stroke-opacity="0.6" stroke-width="0.9" />
+<text x="0" y="2" text-anchor="middle" fill="#0284c7" font-size="8" font-weight="700">Máng Cáp Mạng Trục Chính (G)</text>
+</g>
+</g>
+<g opacity="0.88">
+<polyline points="646,188 646,548" fill="none" stroke="#0d9488" stroke-width="14" stroke-opacity="0.14" stroke-linecap="round" stroke-linejoin="round" />
+<polyline points="646,188 646,548" fill="none" stroke="#0d9488" stroke-width="10.1" stroke-opacity="0.32"  stroke-linecap="butt" stroke-linejoin="round" />
+<polyline points="646,188 646,548" fill="none" stroke="#0d9488" stroke-width="1.4" stroke-opacity="0.75" stroke-dasharray="6 4" stroke-linecap="round" stroke-linejoin="round" />
+<g transform="translate(646.0, 353.0)">
+<rect class="svg-tray-badge" x="-90.0" y="-8" width="180.0" height="14" rx="3" fill="#ffffff" fill-opacity="0.92" stroke="#0d9488" stroke-opacity="0.6" stroke-width="0.9" />
+<text x="0" y="2" text-anchor="middle" fill="#0d9488" font-size="8" font-weight="700">Ống Luồn Sảnh Thang Máy (G)</text>
+</g>
+</g>
+</g>
+<g data-layer="rack">
+<rect x="215" y="95" width="215" height="232" rx="6" fill="#0b1120" stroke="#334155" stroke-width="2" />
+<rect x="216" y="96" width="213" height="34" rx="5" fill="#1e293b" />
+<text x="225" y="116" fill="#f8fafc" font-size="10.5" font-weight="700">Small Rack G (12U) (12U)</text>
+<rect x="378" y="103" width="44" height="17" rx="4" fill="#0f766e" />
+<text x="400" y="114.5" text-anchor="middle" fill="#ffffff" font-size="8.5" font-weight="700" font-family="ui-monospace, monospace">TRƯỚC</text>
+<rect x="219" y="133" width="24" height="168" rx="2" fill="#0f172a" />
+<rect x="245" y="133" width="175" height="168" fill="#020617" stroke="#1e293b" stroke-width="1" />
+<line x1="245" y1="147.0" x2="420" y2="147.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="143.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U12</text>
+<line x1="245" y1="161.0" x2="420" y2="161.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="157.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U11</text>
+<line x1="245" y1="175.0" x2="420" y2="175.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="171.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U10</text>
+<line x1="245" y1="189.0" x2="420" y2="189.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="185.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U09</text>
+<line x1="245" y1="203.0" x2="420" y2="203.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="199.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U08</text>
+<line x1="245" y1="217.0" x2="420" y2="217.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="213.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U07</text>
+<line x1="245" y1="231.0" x2="420" y2="231.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="227.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U06</text>
+<line x1="245" y1="245.0" x2="420" y2="245.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="241.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U05</text>
+<line x1="245" y1="259.0" x2="420" y2="259.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="255.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U04</text>
+<line x1="245" y1="273.0" x2="420" y2="273.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="269.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U03</text>
+<line x1="245" y1="287.0" x2="420" y2="287.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="283.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U02</text>
+<line x1="245" y1="301.0" x2="420" y2="301.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="297.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U01</text>
+<rect x="247" y="189.8" width="171" height="12.4" rx="2" fill="#1e293b" stroke="#1D4ED8" stroke-width="1.1" />
+<rect x="247" y="189.8" width="4" height="12.4" rx="1" fill="#1D4ED8" />
+<circle cx="257" cy="196.0" r="2.5" fill="#22c55e" />
+<text x="263" y="199.0" fill="#f8fafc" font-size="6.8" font-weight="600">SW-POE-G</text>
+<text x="412" y="198.5" text-anchor="end" fill="#94a3b8" font-size="7.5" font-family="ui-monospace, monospace">U8</text>
+<rect x="247" y="161.8" width="171" height="12.4" rx="2" fill="#1e293b" stroke="#475569" stroke-width="1.1" />
+<rect x="247" y="161.8" width="4" height="12.4" rx="1" fill="#475569" />
+<circle cx="257" cy="168.0" r="2.5" fill="#22c55e" />
+<text x="263" y="171.0" fill="#f8fafc" font-size="6.8" font-weight="600">PP-G-24P</text>
+<text x="412" y="170.5" text-anchor="end" fill="#94a3b8" font-size="7.5" font-family="ui-monospace, monospace">U10</text>
+<rect x="247" y="133.8" width="171" height="12.4" rx="2" fill="#1e293b" stroke="#0891B2" stroke-width="1.1" />
+<rect x="247" y="133.8" width="4" height="12.4" rx="1" fill="#0891B2" />
+<circle cx="257" cy="140.0" r="2.5" fill="#22c55e" />
+<text x="263" y="143.0" fill="#f8fafc" font-size="6.8" font-weight="600">ODF-G-12F</text>
+<text x="412" y="142.5" text-anchor="end" fill="#94a3b8" font-size="7.5" font-family="ui-monospace, monospace">U12</text>
+<rect x="216" y="304" width="213" height="22" rx="4" fill="#111827" />
+<text x="225" y="319" fill="#94a3b8" font-size="8" font-family="ui-monospace, monospace">3U dùng · 9U trống</text>
+<text x="420" y="319" text-anchor="end" fill="#34d399" font-size="8.5" font-weight="700" font-family="ui-monospace, monospace">175W · 13kg</text>
+</g>
+<g data-layer="cable-labeling">
+</g>
+<g data-layer="device">
+<g>
+<rect class="svg-card-neutral" x="446" y="160" width="46" height="56" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="484.0" cy="168.0" r="2.8" fill="#16a34a" />
+<rect x="454.74" y="173.74" width="28.52" height="28.52" rx="7" fill="#16A34A" />
+<rect x="459.6" y="182.4" width="18.9" height="11.3" rx="2" fill="none" stroke="#ffffff" stroke-width="1.85" /><path d="M 463.4 186.2 H 474.6 M 471.6 184.3 L 474.6 186.2 L 471.6 188" fill="none" stroke="#ffffff" stroke-width="1.85" stroke-linecap="round" stroke-linejoin="round" /><path d="M 474.6 190.3 H 463.4 M 466.4 188.4 L 463.4 190.3 L 466.4 192.1" fill="none" stroke="#ffffff" stroke-width="1.85" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text class="svg-label-primary" x="469" y="230" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">Trục Riser G</text>
+<rect class="svg-ip-pill" x="442.0" y="234" width="54.0" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="469" y="244" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">V10</text>
+</g>
+<g data-layer="device">
+<g>
+<rect class="svg-card-neutral" x="608" y="518" width="78" height="58" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="678.0" cy="526.0" r="2.8" fill="#16a34a" />
+<rect x="629.02" y="529.02" width="35.96" height="35.96" rx="7" fill="#059669" />
+<rect x="635.1" y="539.9" width="23.8" height="14.2" rx="2" fill="none" stroke="#ffffff" stroke-width="2.34" /><path d="M 639.9 544.7 H 654.1 M 650.2 542.3 L 654.1 544.7 L 650.2 547" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linecap="round" stroke-linejoin="round" /><path d="M 654.1 549.8 H 639.9 M 643.8 547.5 L 639.9 549.8 L 643.8 552.2" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text class="svg-label-primary" x="647" y="590" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">Máy Chấm Công G</text>
+<rect class="svg-ip-pill" x="593.4" y="594" width="107.2" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="647" y="604" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">10.20.60.12 · V60</text>
+</g>
+<g data-layer="device">
+<g>
+<rect class="svg-card-neutral" x="785" y="255" width="80" height="74" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="857.0" cy="263.0" r="2.8" fill="#16a34a" />
+<rect x="807" y="274" width="36" height="36" rx="7" fill="#16A34A" />
+<path d="M 813.6 290.1 A 14.3 14.3 0 0 1 836.4 290.1" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linecap="round" /><path d="M 817.9 294.6 A 9.1 9.1 0 0 1 832.1 294.6" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linecap="round" /><circle cx="825" cy="300.0" r="2.9" fill="#ffffff" />
+</g>
+<text class="svg-label-primary" x="825" y="343" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">AP-WIFI-G</text>
+<rect class="svg-ip-pill" x="771.4" y="347" width="107.2" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="825" y="357" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">10.20.30.12 · V30</text>
+</g>
+<g data-layer="device">
+<g>
+<rect class="svg-card-neutral" x="560" y="120" width="96" height="64" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="648.0" cy="128.0" r="2.8" fill="#16a34a" />
+<rect x="590" y="134" width="36" height="36" rx="7" fill="#475569" />
+<rect x="596.6" y="142.7" width="22.8" height="14.5" rx="1.8" fill="none" stroke="#ffffff" stroke-width="2.34" /><path d="M 602.2 161.3 H 613.8 M 608 157.2 V 161.3" stroke="#ffffff" stroke-width="2.34" stroke-linecap="round" />
+</g>
+<text class="svg-label-primary" x="608" y="198" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">PC-G-01</text>
+<rect class="svg-ip-pill" x="554.4" y="202" width="107.2" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="608" y="212" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">10.20.20.21 · V20</text>
+</g>
+<g data-layer="device">
+<g>
+<rect class="svg-card-neutral" x="945" y="120" width="96" height="64" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="1033.0" cy="128.0" r="2.8" fill="#16a34a" />
+<rect x="975" y="134" width="36" height="36" rx="7" fill="#475569" />
+<rect x="981.6" y="142.7" width="22.8" height="14.5" rx="1.8" fill="none" stroke="#ffffff" stroke-width="2.34" /><path d="M 987.2 161.3 H 998.8 M 993 157.2 V 161.3" stroke="#ffffff" stroke-width="2.34" stroke-linecap="round" />
+</g>
+<text class="svg-label-primary" x="993" y="198" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">PC-G-02</text>
+<rect class="svg-ip-pill" x="939.4" y="202" width="107.2" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="993" y="212" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">10.20.20.22 · V20</text>
+</g>
+<g data-layer="device">
+<g transform="rotate(155 1187 137)">
+<rect class="svg-card-neutral" x="1150" y="105" width="74" height="64" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="1216.0" cy="113.0" r="2.8" fill="#16a34a" />
+<rect x="1169" y="119" width="36" height="36" rx="7" fill="#7C3AED" />
+<rect x="1175.1" y="130.3" width="17.1" height="13.5" rx="2" fill="none" stroke="#ffffff" stroke-width="2.34" /><polygon points="1192.4,135.4 1199.3,130.8 1199.3,143.2 1192.4,138.6" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linejoin="round" />
+</g>
+<text class="svg-label-primary" x="1187" y="183" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">CAM-G-01</text>
+<rect class="svg-ip-pill" x="1130.6" y="187" width="112.8" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="1187" y="197" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">10.20.40.121 · V40</text>
+</g>
+<g data-layer="device">
+<g transform="rotate(205 1187 567)">
+<rect class="svg-card-neutral" x="1150" y="535" width="74" height="64" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="1216.0" cy="543.0" r="2.8" fill="#16a34a" />
+<rect x="1169" y="549" width="36" height="36" rx="7" fill="#7C3AED" />
+<rect x="1175.1" y="560.3" width="17.1" height="13.5" rx="2" fill="none" stroke="#ffffff" stroke-width="2.34" /><polygon points="1192.4,565.4 1199.3,560.8 1199.3,573.2 1192.4,568.6" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linejoin="round" />
+</g>
+<text class="svg-label-primary" x="1187" y="613" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">CAM-G-02</text>
+<rect class="svg-ip-pill" x="1130.6" y="617" width="112.8" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="1187" y="627" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">10.20.40.122 · V40</text>
+</g>
+<g data-layer="device">
+<g>
+<rect class="svg-card-neutral" x="865" y="515" width="96" height="64" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="953.0" cy="523.0" r="2.8" fill="#16a34a" />
+<rect x="895" y="529" width="36" height="36" rx="7" fill="#475569" />
+<rect x="901.6" y="537.7" width="22.8" height="14.5" rx="1.8" fill="none" stroke="#ffffff" stroke-width="2.34" /><path d="M 907.2 556.3 H 918.8 M 913 552.2 V 556.3" stroke="#ffffff" stroke-width="2.34" stroke-linecap="round" />
+</g>
+<text class="svg-label-primary" x="913" y="593" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">PC-G-03</text>
+<rect class="svg-ip-pill" x="859.4" y="597" width="107.2" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="913" y="607" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">10.20.20.23 · V20</text>
+</g>
+</svg>
+</g>
+<g data-layer="floor-card" data-floor-id="flr_h2_1" data-floor-layer="flr_h2_1">
+<rect class="svg-card-neutral" x="32" y="575" width="860" height="515" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.6" />
+<rect class="svg-room-hdr" x="33" y="576" width="858" height="33" rx="9" fill="#e2e8f0" />
+<text class="svg-room-title" x="46" y="597" fill="#0f172a" font-size="13" font-weight="700">Tầng 1 - Khối Vận Hành &amp; CSKH</text>
+<text class="svg-label-muted" x="878" y="597" text-anchor="end" fill="#475569" font-size="11" font-family="ui-monospace, monospace">10 phần tử · 1 Rack</text>
+<svg x="34" y="609" width="856" height="479" viewBox="-10 -10 1360 760" preserveAspectRatio="xMidYMid meet">
+<rect class="svg-bg" x="-10" y="-10" width="1360" height="760" fill="#ffffff" />
+<g data-layer="room">
+<rect class="svg-room-body" x="60" y="60" width="140" height="620" rx="4" fill="#e2e8f0" fill-opacity="0.82" stroke="#94a3b8" stroke-width="6"  />
+<rect class="svg-room-hdr" x="60" y="60" width="140" height="22" rx="4" fill="#e2e8f0" fill-opacity="0.88" />
+<text class="svg-room-title" x="68" y="75" fill="#334155" font-size="10.5" font-weight="700">Cầu Thang Bộ &amp; Mặt Kính (T1) · 139m²</text>
+</g>
+<g data-layer="room">
+<rect class="svg-room-body" x="200" y="60" width="300" height="360" rx="4" fill="#dbeafe" fill-opacity="0.82" stroke="#94a3b8" stroke-width="6" stroke-dasharray="6 4" />
+<rect class="svg-room-hdr" x="200" y="60" width="300" height="22" rx="4" fill="#e2e8f0" fill-opacity="0.88" />
+<text class="svg-room-title" x="208" y="75" fill="#334155" font-size="10.5" font-weight="700">Khu Tủ Small Rack 12U &amp; Trục Riser (T1) · 173m²</text>
+</g>
+<g data-layer="room">
+<rect class="svg-room-body" x="200" y="420" width="300" height="260" rx="4" fill="#f1f5f9" fill-opacity="0.82" stroke="#94a3b8" stroke-width="6"  />
+<rect class="svg-room-hdr" x="200" y="420" width="300" height="22" rx="4" fill="#e2e8f0" fill-opacity="0.88" />
+<text class="svg-room-title" x="208" y="435" fill="#334155" font-size="10.5" font-weight="700">Hành Lang Kỹ Thuật (T1) · 125m²</text>
+</g>
+<g data-layer="room">
+<rect class="svg-room-body" x="500" y="420" width="200" height="260" rx="4" fill="#e0f2fe" fill-opacity="0.82" stroke="#94a3b8" stroke-width="6"  />
+<rect class="svg-room-hdr" x="500" y="420" width="200" height="22" rx="4" fill="#e2e8f0" fill-opacity="0.88" />
+<text class="svg-room-title" x="508" y="435" fill="#334155" font-size="10.5" font-weight="700">Thang Máy &amp; Máy Chấm Công (T1) · 83m²</text>
+</g>
+<g data-layer="room">
+<rect class="svg-room-body" x="500" y="60" width="780" height="360" rx="4" fill="#f8fafc" fill-opacity="0.82" stroke="#94a3b8" stroke-width="6"  />
+<rect class="svg-room-hdr" x="500" y="60" width="780" height="22" rx="4" fill="#e2e8f0" fill-opacity="0.88" />
+<text class="svg-room-title" x="508" y="75" fill="#334155" font-size="10.5" font-weight="700">Văn Phòng Vận Hành Tầng 1 · 449m²</text>
+</g>
+<g data-layer="room">
+<rect class="svg-room-body" x="700" y="420" width="580" height="260" rx="4" fill="#f8fafc" fill-opacity="0.82" stroke="#94a3b8" stroke-width="6"  />
+<rect class="svg-room-hdr" x="700" y="420" width="580" height="22" rx="4" fill="#e2e8f0" fill-opacity="0.88" />
+<text class="svg-room-title" x="708" y="435" fill="#334155" font-size="10.5" font-weight="700">Phòng Chăm Sóc Khách Hàng T1 · 241m²</text>
+</g>
+<g data-layer="cable-trays">
+<g opacity="0.88">
+<polyline points="468,188 1185,188 1185,560" fill="none" stroke="#0284c7" stroke-width="20" stroke-opacity="0.14" stroke-linecap="round" stroke-linejoin="round" />
+<polyline points="468,188 1185,188 1185,560" fill="none" stroke="#0284c7" stroke-width="14.4" stroke-opacity="0.32" stroke-dasharray="4 5" stroke-linecap="butt" stroke-linejoin="round" />
+<polyline points="468,188 1185,188 1185,560" fill="none" stroke="#0284c7" stroke-width="1.4" stroke-opacity="0.75" stroke-dasharray="6 4" stroke-linecap="round" stroke-linejoin="round" />
+<g transform="translate(826.5, 170.0)">
+<rect class="svg-tray-badge" x="-90.0" y="-8" width="180.0" height="14" rx="3" fill="#ffffff" fill-opacity="0.92" stroke="#0284c7" stroke-opacity="0.6" stroke-width="0.9" />
+<text x="0" y="2" text-anchor="middle" fill="#0284c7" font-size="8" font-weight="700">Máng Cáp Mạng Trục Chính (T1)</text>
+</g>
+</g>
+<g opacity="0.88">
+<polyline points="646,188 646,548" fill="none" stroke="#0d9488" stroke-width="14" stroke-opacity="0.14" stroke-linecap="round" stroke-linejoin="round" />
+<polyline points="646,188 646,548" fill="none" stroke="#0d9488" stroke-width="10.1" stroke-opacity="0.32"  stroke-linecap="butt" stroke-linejoin="round" />
+<polyline points="646,188 646,548" fill="none" stroke="#0d9488" stroke-width="1.4" stroke-opacity="0.75" stroke-dasharray="6 4" stroke-linecap="round" stroke-linejoin="round" />
+<g transform="translate(646.0, 353.0)">
+<rect class="svg-tray-badge" x="-90.0" y="-8" width="180.0" height="14" rx="3" fill="#ffffff" fill-opacity="0.92" stroke="#0d9488" stroke-opacity="0.6" stroke-width="0.9" />
+<text x="0" y="2" text-anchor="middle" fill="#0d9488" font-size="8" font-weight="700">Ống Luồn Sảnh Thang Máy (T1)</text>
+</g>
+</g>
+</g>
+<g data-layer="rack">
+<rect x="215" y="95" width="215" height="232" rx="6" fill="#0b1120" stroke="#334155" stroke-width="2" />
+<rect x="216" y="96" width="213" height="34" rx="5" fill="#1e293b" />
+<text x="225" y="116" fill="#f8fafc" font-size="10.5" font-weight="700">Small Rack T1 (12U) (12U)</text>
+<rect x="378" y="103" width="44" height="17" rx="4" fill="#0f766e" />
+<text x="400" y="114.5" text-anchor="middle" fill="#ffffff" font-size="8.5" font-weight="700" font-family="ui-monospace, monospace">TRƯỚC</text>
+<rect x="219" y="133" width="24" height="168" rx="2" fill="#0f172a" />
+<rect x="245" y="133" width="175" height="168" fill="#020617" stroke="#1e293b" stroke-width="1" />
+<line x1="245" y1="147.0" x2="420" y2="147.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="143.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U12</text>
+<line x1="245" y1="161.0" x2="420" y2="161.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="157.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U11</text>
+<line x1="245" y1="175.0" x2="420" y2="175.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="171.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U10</text>
+<line x1="245" y1="189.0" x2="420" y2="189.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="185.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U09</text>
+<line x1="245" y1="203.0" x2="420" y2="203.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="199.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U08</text>
+<line x1="245" y1="217.0" x2="420" y2="217.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="213.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U07</text>
+<line x1="245" y1="231.0" x2="420" y2="231.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="227.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U06</text>
+<line x1="245" y1="245.0" x2="420" y2="245.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="241.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U05</text>
+<line x1="245" y1="259.0" x2="420" y2="259.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="255.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U04</text>
+<line x1="245" y1="273.0" x2="420" y2="273.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="269.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U03</text>
+<line x1="245" y1="287.0" x2="420" y2="287.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="283.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U02</text>
+<line x1="245" y1="301.0" x2="420" y2="301.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="297.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U01</text>
+<rect x="247" y="189.8" width="171" height="12.4" rx="2" fill="#1e293b" stroke="#1D4ED8" stroke-width="1.1" />
+<rect x="247" y="189.8" width="4" height="12.4" rx="1" fill="#1D4ED8" />
+<circle cx="257" cy="196.0" r="2.5" fill="#22c55e" />
+<text x="263" y="199.0" fill="#f8fafc" font-size="6.8" font-weight="600">SW-POE-T1</text>
+<text x="412" y="198.5" text-anchor="end" fill="#94a3b8" font-size="7.5" font-family="ui-monospace, monospace">U8</text>
+<rect x="247" y="161.8" width="171" height="12.4" rx="2" fill="#1e293b" stroke="#475569" stroke-width="1.1" />
+<rect x="247" y="161.8" width="4" height="12.4" rx="1" fill="#475569" />
+<circle cx="257" cy="168.0" r="2.5" fill="#22c55e" />
+<text x="263" y="171.0" fill="#f8fafc" font-size="6.8" font-weight="600">PP-T1-24P</text>
+<text x="412" y="170.5" text-anchor="end" fill="#94a3b8" font-size="7.5" font-family="ui-monospace, monospace">U10</text>
+<rect x="247" y="133.8" width="171" height="12.4" rx="2" fill="#1e293b" stroke="#0891B2" stroke-width="1.1" />
+<rect x="247" y="133.8" width="4" height="12.4" rx="1" fill="#0891B2" />
+<circle cx="257" cy="140.0" r="2.5" fill="#22c55e" />
+<text x="263" y="143.0" fill="#f8fafc" font-size="6.8" font-weight="600">ODF-T1-12F</text>
+<text x="412" y="142.5" text-anchor="end" fill="#94a3b8" font-size="7.5" font-family="ui-monospace, monospace">U12</text>
+<rect x="216" y="304" width="213" height="22" rx="4" fill="#111827" />
+<text x="225" y="319" fill="#94a3b8" font-size="8" font-family="ui-monospace, monospace">3U dùng · 9U trống</text>
+<text x="420" y="319" text-anchor="end" fill="#34d399" font-size="8.5" font-weight="700" font-family="ui-monospace, monospace">175W · 13kg</text>
+</g>
+<g data-layer="cable-labeling">
+</g>
+<g data-layer="device">
+<g>
+<rect class="svg-card-neutral" x="446" y="160" width="46" height="56" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="484.0" cy="168.0" r="2.8" fill="#16a34a" />
+<rect x="454.74" y="173.74" width="28.52" height="28.52" rx="7" fill="#16A34A" />
+<rect x="459.6" y="182.4" width="18.9" height="11.3" rx="2" fill="none" stroke="#ffffff" stroke-width="1.85" /><path d="M 463.4 186.2 H 474.6 M 471.6 184.3 L 474.6 186.2 L 471.6 188" fill="none" stroke="#ffffff" stroke-width="1.85" stroke-linecap="round" stroke-linejoin="round" /><path d="M 474.6 190.3 H 463.4 M 466.4 188.4 L 463.4 190.3 L 466.4 192.1" fill="none" stroke="#ffffff" stroke-width="1.85" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text class="svg-label-primary" x="469" y="230" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">Trục Riser T1</text>
+<rect class="svg-ip-pill" x="442.0" y="234" width="54.0" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="469" y="244" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">V10</text>
+</g>
+<g data-layer="device">
+<g>
+<rect class="svg-card-neutral" x="608" y="518" width="78" height="58" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="678.0" cy="526.0" r="2.8" fill="#16a34a" />
+<rect x="629.02" y="529.02" width="35.96" height="35.96" rx="7" fill="#059669" />
+<rect x="635.1" y="539.9" width="23.8" height="14.2" rx="2" fill="none" stroke="#ffffff" stroke-width="2.34" /><path d="M 639.9 544.7 H 654.1 M 650.2 542.3 L 654.1 544.7 L 650.2 547" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linecap="round" stroke-linejoin="round" /><path d="M 654.1 549.8 H 639.9 M 643.8 547.5 L 639.9 549.8 L 643.8 552.2" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text class="svg-label-primary" x="647" y="590" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">Máy Chấm Công T1</text>
+<rect class="svg-ip-pill" x="593.4" y="594" width="107.2" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="647" y="604" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">10.20.60.13 · V60</text>
+</g>
+<g data-layer="device">
+<g>
+<rect class="svg-card-neutral" x="785" y="255" width="80" height="74" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="857.0" cy="263.0" r="2.8" fill="#16a34a" />
+<rect x="807" y="274" width="36" height="36" rx="7" fill="#16A34A" />
+<path d="M 813.6 290.1 A 14.3 14.3 0 0 1 836.4 290.1" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linecap="round" /><path d="M 817.9 294.6 A 9.1 9.1 0 0 1 832.1 294.6" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linecap="round" /><circle cx="825" cy="300.0" r="2.9" fill="#ffffff" />
+</g>
+<text class="svg-label-primary" x="825" y="343" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">AP-WIFI-T1</text>
+<rect class="svg-ip-pill" x="771.4" y="347" width="107.2" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="825" y="357" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">10.20.30.13 · V30</text>
+</g>
+<g data-layer="device">
+<g>
+<rect class="svg-card-neutral" x="560" y="120" width="96" height="64" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="648.0" cy="128.0" r="2.8" fill="#16a34a" />
+<rect x="590" y="134" width="36" height="36" rx="7" fill="#475569" />
+<rect x="596.6" y="142.7" width="22.8" height="14.5" rx="1.8" fill="none" stroke="#ffffff" stroke-width="2.34" /><path d="M 602.2 161.3 H 613.8 M 608 157.2 V 161.3" stroke="#ffffff" stroke-width="2.34" stroke-linecap="round" />
+</g>
+<text class="svg-label-primary" x="608" y="198" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">PC-T1-01</text>
+<rect class="svg-ip-pill" x="554.4" y="202" width="107.2" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="608" y="212" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">10.20.20.31 · V20</text>
+</g>
+<g data-layer="device">
+<g>
+<rect class="svg-card-neutral" x="945" y="120" width="96" height="64" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="1033.0" cy="128.0" r="2.8" fill="#16a34a" />
+<rect x="975" y="134" width="36" height="36" rx="7" fill="#475569" />
+<rect x="981.6" y="142.7" width="22.8" height="14.5" rx="1.8" fill="none" stroke="#ffffff" stroke-width="2.34" /><path d="M 987.2 161.3 H 998.8 M 993 157.2 V 161.3" stroke="#ffffff" stroke-width="2.34" stroke-linecap="round" />
+</g>
+<text class="svg-label-primary" x="993" y="198" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">PC-T1-02</text>
+<rect class="svg-ip-pill" x="939.4" y="202" width="107.2" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="993" y="212" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">10.20.20.32 · V20</text>
+</g>
+<g data-layer="device">
+<g transform="rotate(155 1187 137)">
+<rect class="svg-card-neutral" x="1150" y="105" width="74" height="64" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="1216.0" cy="113.0" r="2.8" fill="#16a34a" />
+<rect x="1169" y="119" width="36" height="36" rx="7" fill="#7C3AED" />
+<rect x="1175.1" y="130.3" width="17.1" height="13.5" rx="2" fill="none" stroke="#ffffff" stroke-width="2.34" /><polygon points="1192.4,135.4 1199.3,130.8 1199.3,143.2 1192.4,138.6" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linejoin="round" />
+</g>
+<text class="svg-label-primary" x="1187" y="183" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">CAM-T1-01</text>
+<rect class="svg-ip-pill" x="1130.6" y="187" width="112.8" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="1187" y="197" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">10.20.40.131 · V40</text>
+</g>
+<g data-layer="device">
+<g transform="rotate(205 1187 567)">
+<rect class="svg-card-neutral" x="1150" y="535" width="74" height="64" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="1216.0" cy="543.0" r="2.8" fill="#16a34a" />
+<rect x="1169" y="549" width="36" height="36" rx="7" fill="#7C3AED" />
+<rect x="1175.1" y="560.3" width="17.1" height="13.5" rx="2" fill="none" stroke="#ffffff" stroke-width="2.34" /><polygon points="1192.4,565.4 1199.3,560.8 1199.3,573.2 1192.4,568.6" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linejoin="round" />
+</g>
+<text class="svg-label-primary" x="1187" y="613" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">CAM-T1-02</text>
+<rect class="svg-ip-pill" x="1130.6" y="617" width="112.8" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="1187" y="627" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">10.20.40.132 · V40</text>
+</g>
+<g data-layer="device">
+<g>
+<rect class="svg-card-neutral" x="865" y="515" width="96" height="64" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="953.0" cy="523.0" r="2.8" fill="#16a34a" />
+<rect x="895" y="529" width="36" height="36" rx="7" fill="#475569" />
+<rect x="901.6" y="537.7" width="22.8" height="14.5" rx="1.8" fill="none" stroke="#ffffff" stroke-width="2.34" /><path d="M 907.2 556.3 H 918.8 M 913 552.2 V 556.3" stroke="#ffffff" stroke-width="2.34" stroke-linecap="round" />
+</g>
+<text class="svg-label-primary" x="913" y="593" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">PC-T1-03</text>
+<rect class="svg-ip-pill" x="859.4" y="597" width="107.2" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="913" y="607" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">10.20.20.33 · V20</text>
+</g>
+</svg>
+</g>
+<g data-layer="floor-card" data-floor-id="flr_h2_2" data-floor-layer="flr_h2_2">
+<rect class="svg-card-neutral" x="920" y="575" width="860" height="515" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.6" />
+<rect class="svg-room-hdr" x="921" y="576" width="858" height="33" rx="9" fill="#e2e8f0" />
+<text class="svg-room-title" x="934" y="597" fill="#0f172a" font-size="13" font-weight="700">Tầng 2 - Khối Kinh Doanh &amp; Marketing</text>
+<text class="svg-label-muted" x="1766" y="597" text-anchor="end" fill="#475569" font-size="11" font-family="ui-monospace, monospace">10 phần tử · 1 Rack</text>
+<svg x="922" y="609" width="856" height="479" viewBox="-10 -10 1360 760" preserveAspectRatio="xMidYMid meet">
+<rect class="svg-bg" x="-10" y="-10" width="1360" height="760" fill="#ffffff" />
+<g data-layer="room">
+<rect class="svg-room-body" x="60" y="60" width="140" height="620" rx="4" fill="#e2e8f0" fill-opacity="0.82" stroke="#94a3b8" stroke-width="6"  />
+<rect class="svg-room-hdr" x="60" y="60" width="140" height="22" rx="4" fill="#e2e8f0" fill-opacity="0.88" />
+<text class="svg-room-title" x="68" y="75" fill="#334155" font-size="10.5" font-weight="700">Cầu Thang Bộ &amp; Mặt Kính (T2) · 139m²</text>
+</g>
+<g data-layer="room">
+<rect class="svg-room-body" x="200" y="60" width="300" height="360" rx="4" fill="#dbeafe" fill-opacity="0.82" stroke="#94a3b8" stroke-width="6" stroke-dasharray="6 4" />
+<rect class="svg-room-hdr" x="200" y="60" width="300" height="22" rx="4" fill="#e2e8f0" fill-opacity="0.88" />
+<text class="svg-room-title" x="208" y="75" fill="#334155" font-size="10.5" font-weight="700">Khu Tủ Small Rack 12U &amp; Trục Riser (T2) · 173m²</text>
+</g>
+<g data-layer="room">
+<rect class="svg-room-body" x="200" y="420" width="300" height="260" rx="4" fill="#f1f5f9" fill-opacity="0.82" stroke="#94a3b8" stroke-width="6"  />
+<rect class="svg-room-hdr" x="200" y="420" width="300" height="22" rx="4" fill="#e2e8f0" fill-opacity="0.88" />
+<text class="svg-room-title" x="208" y="435" fill="#334155" font-size="10.5" font-weight="700">Hành Lang Kỹ Thuật (T2) · 125m²</text>
+</g>
+<g data-layer="room">
+<rect class="svg-room-body" x="500" y="420" width="200" height="260" rx="4" fill="#e0f2fe" fill-opacity="0.82" stroke="#94a3b8" stroke-width="6"  />
+<rect class="svg-room-hdr" x="500" y="420" width="200" height="22" rx="4" fill="#e2e8f0" fill-opacity="0.88" />
+<text class="svg-room-title" x="508" y="435" fill="#334155" font-size="10.5" font-weight="700">Thang Máy &amp; Máy Chấm Công (T2) · 83m²</text>
+</g>
+<g data-layer="room">
+<rect class="svg-room-body" x="500" y="60" width="780" height="360" rx="4" fill="#f8fafc" fill-opacity="0.82" stroke="#94a3b8" stroke-width="6"  />
+<rect class="svg-room-hdr" x="500" y="60" width="780" height="22" rx="4" fill="#e2e8f0" fill-opacity="0.88" />
+<text class="svg-room-title" x="508" y="75" fill="#334155" font-size="10.5" font-weight="700">Văn Phòng Kinh Doanh Tầng 2 · 449m²</text>
+</g>
+<g data-layer="room">
+<rect class="svg-room-body" x="700" y="420" width="580" height="260" rx="4" fill="#f8fafc" fill-opacity="0.82" stroke="#94a3b8" stroke-width="6"  />
+<rect class="svg-room-hdr" x="700" y="420" width="580" height="22" rx="4" fill="#e2e8f0" fill-opacity="0.88" />
+<text class="svg-room-title" x="708" y="435" fill="#334155" font-size="10.5" font-weight="700">Phòng Marketing &amp; Media T2 · 241m²</text>
+</g>
+<g data-layer="cable-trays">
+<g opacity="0.88">
+<polyline points="468,188 1185,188 1185,560" fill="none" stroke="#0284c7" stroke-width="20" stroke-opacity="0.14" stroke-linecap="round" stroke-linejoin="round" />
+<polyline points="468,188 1185,188 1185,560" fill="none" stroke="#0284c7" stroke-width="14.4" stroke-opacity="0.32" stroke-dasharray="4 5" stroke-linecap="butt" stroke-linejoin="round" />
+<polyline points="468,188 1185,188 1185,560" fill="none" stroke="#0284c7" stroke-width="1.4" stroke-opacity="0.75" stroke-dasharray="6 4" stroke-linecap="round" stroke-linejoin="round" />
+<g transform="translate(826.5, 170.0)">
+<rect class="svg-tray-badge" x="-90.0" y="-8" width="180.0" height="14" rx="3" fill="#ffffff" fill-opacity="0.92" stroke="#0284c7" stroke-opacity="0.6" stroke-width="0.9" />
+<text x="0" y="2" text-anchor="middle" fill="#0284c7" font-size="8" font-weight="700">Máng Cáp Mạng Trục Chính (T2)</text>
+</g>
+</g>
+<g opacity="0.88">
+<polyline points="646,188 646,548" fill="none" stroke="#0d9488" stroke-width="14" stroke-opacity="0.14" stroke-linecap="round" stroke-linejoin="round" />
+<polyline points="646,188 646,548" fill="none" stroke="#0d9488" stroke-width="10.1" stroke-opacity="0.32"  stroke-linecap="butt" stroke-linejoin="round" />
+<polyline points="646,188 646,548" fill="none" stroke="#0d9488" stroke-width="1.4" stroke-opacity="0.75" stroke-dasharray="6 4" stroke-linecap="round" stroke-linejoin="round" />
+<g transform="translate(646.0, 353.0)">
+<rect class="svg-tray-badge" x="-90.0" y="-8" width="180.0" height="14" rx="3" fill="#ffffff" fill-opacity="0.92" stroke="#0d9488" stroke-opacity="0.6" stroke-width="0.9" />
+<text x="0" y="2" text-anchor="middle" fill="#0d9488" font-size="8" font-weight="700">Ống Luồn Sảnh Thang Máy (T2)</text>
+</g>
+</g>
+</g>
+<g data-layer="rack">
+<rect x="215" y="95" width="215" height="232" rx="6" fill="#0b1120" stroke="#334155" stroke-width="2" />
+<rect x="216" y="96" width="213" height="34" rx="5" fill="#1e293b" />
+<text x="225" y="116" fill="#f8fafc" font-size="10.5" font-weight="700">Small Rack T2 (12U) (12U)</text>
+<rect x="378" y="103" width="44" height="17" rx="4" fill="#0f766e" />
+<text x="400" y="114.5" text-anchor="middle" fill="#ffffff" font-size="8.5" font-weight="700" font-family="ui-monospace, monospace">TRƯỚC</text>
+<rect x="219" y="133" width="24" height="168" rx="2" fill="#0f172a" />
+<rect x="245" y="133" width="175" height="168" fill="#020617" stroke="#1e293b" stroke-width="1" />
+<line x1="245" y1="147.0" x2="420" y2="147.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="143.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U12</text>
+<line x1="245" y1="161.0" x2="420" y2="161.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="157.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U11</text>
+<line x1="245" y1="175.0" x2="420" y2="175.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="171.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U10</text>
+<line x1="245" y1="189.0" x2="420" y2="189.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="185.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U09</text>
+<line x1="245" y1="203.0" x2="420" y2="203.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="199.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U08</text>
+<line x1="245" y1="217.0" x2="420" y2="217.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="213.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U07</text>
+<line x1="245" y1="231.0" x2="420" y2="231.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="227.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U06</text>
+<line x1="245" y1="245.0" x2="420" y2="245.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="241.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U05</text>
+<line x1="245" y1="259.0" x2="420" y2="259.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="255.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U04</text>
+<line x1="245" y1="273.0" x2="420" y2="273.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="269.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U03</text>
+<line x1="245" y1="287.0" x2="420" y2="287.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="283.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U02</text>
+<line x1="245" y1="301.0" x2="420" y2="301.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="297.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U01</text>
+<rect x="247" y="189.8" width="171" height="12.4" rx="2" fill="#1e293b" stroke="#1D4ED8" stroke-width="1.1" />
+<rect x="247" y="189.8" width="4" height="12.4" rx="1" fill="#1D4ED8" />
+<circle cx="257" cy="196.0" r="2.5" fill="#22c55e" />
+<text x="263" y="199.0" fill="#f8fafc" font-size="6.8" font-weight="600">SW-POE-T2</text>
+<text x="412" y="198.5" text-anchor="end" fill="#94a3b8" font-size="7.5" font-family="ui-monospace, monospace">U8</text>
+<rect x="247" y="161.8" width="171" height="12.4" rx="2" fill="#1e293b" stroke="#475569" stroke-width="1.1" />
+<rect x="247" y="161.8" width="4" height="12.4" rx="1" fill="#475569" />
+<circle cx="257" cy="168.0" r="2.5" fill="#22c55e" />
+<text x="263" y="171.0" fill="#f8fafc" font-size="6.8" font-weight="600">PP-T2-24P</text>
+<text x="412" y="170.5" text-anchor="end" fill="#94a3b8" font-size="7.5" font-family="ui-monospace, monospace">U10</text>
+<rect x="247" y="133.8" width="171" height="12.4" rx="2" fill="#1e293b" stroke="#0891B2" stroke-width="1.1" />
+<rect x="247" y="133.8" width="4" height="12.4" rx="1" fill="#0891B2" />
+<circle cx="257" cy="140.0" r="2.5" fill="#22c55e" />
+<text x="263" y="143.0" fill="#f8fafc" font-size="6.8" font-weight="600">ODF-T2-12F</text>
+<text x="412" y="142.5" text-anchor="end" fill="#94a3b8" font-size="7.5" font-family="ui-monospace, monospace">U12</text>
+<rect x="216" y="304" width="213" height="22" rx="4" fill="#111827" />
+<text x="225" y="319" fill="#94a3b8" font-size="8" font-family="ui-monospace, monospace">3U dùng · 9U trống</text>
+<text x="420" y="319" text-anchor="end" fill="#34d399" font-size="8.5" font-weight="700" font-family="ui-monospace, monospace">175W · 13kg</text>
+</g>
+<g data-layer="cable-labeling">
+</g>
+<g data-layer="device">
+<g>
+<rect class="svg-card-neutral" x="446" y="160" width="46" height="56" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="484.0" cy="168.0" r="2.8" fill="#16a34a" />
+<rect x="454.74" y="173.74" width="28.52" height="28.52" rx="7" fill="#16A34A" />
+<rect x="459.6" y="182.4" width="18.9" height="11.3" rx="2" fill="none" stroke="#ffffff" stroke-width="1.85" /><path d="M 463.4 186.2 H 474.6 M 471.6 184.3 L 474.6 186.2 L 471.6 188" fill="none" stroke="#ffffff" stroke-width="1.85" stroke-linecap="round" stroke-linejoin="round" /><path d="M 474.6 190.3 H 463.4 M 466.4 188.4 L 463.4 190.3 L 466.4 192.1" fill="none" stroke="#ffffff" stroke-width="1.85" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text class="svg-label-primary" x="469" y="230" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">Trục Riser T2</text>
+<rect class="svg-ip-pill" x="442.0" y="234" width="54.0" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="469" y="244" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">V10</text>
+</g>
+<g data-layer="device">
+<g>
+<rect class="svg-card-neutral" x="608" y="518" width="78" height="58" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="678.0" cy="526.0" r="2.8" fill="#16a34a" />
+<rect x="629.02" y="529.02" width="35.96" height="35.96" rx="7" fill="#059669" />
+<rect x="635.1" y="539.9" width="23.8" height="14.2" rx="2" fill="none" stroke="#ffffff" stroke-width="2.34" /><path d="M 639.9 544.7 H 654.1 M 650.2 542.3 L 654.1 544.7 L 650.2 547" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linecap="round" stroke-linejoin="round" /><path d="M 654.1 549.8 H 639.9 M 643.8 547.5 L 639.9 549.8 L 643.8 552.2" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text class="svg-label-primary" x="647" y="590" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">Máy Chấm Công T2</text>
+<rect class="svg-ip-pill" x="593.4" y="594" width="107.2" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="647" y="604" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">10.20.60.14 · V60</text>
+</g>
+<g data-layer="device">
+<g>
+<rect class="svg-card-neutral" x="785" y="255" width="80" height="74" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="857.0" cy="263.0" r="2.8" fill="#16a34a" />
+<rect x="807" y="274" width="36" height="36" rx="7" fill="#16A34A" />
+<path d="M 813.6 290.1 A 14.3 14.3 0 0 1 836.4 290.1" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linecap="round" /><path d="M 817.9 294.6 A 9.1 9.1 0 0 1 832.1 294.6" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linecap="round" /><circle cx="825" cy="300.0" r="2.9" fill="#ffffff" />
+</g>
+<text class="svg-label-primary" x="825" y="343" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">AP-WIFI-T2</text>
+<rect class="svg-ip-pill" x="771.4" y="347" width="107.2" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="825" y="357" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">10.20.30.14 · V30</text>
+</g>
+<g data-layer="device">
+<g>
+<rect class="svg-card-neutral" x="560" y="120" width="96" height="64" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="648.0" cy="128.0" r="2.8" fill="#16a34a" />
+<rect x="590" y="134" width="36" height="36" rx="7" fill="#475569" />
+<rect x="596.6" y="142.7" width="22.8" height="14.5" rx="1.8" fill="none" stroke="#ffffff" stroke-width="2.34" /><path d="M 602.2 161.3 H 613.8 M 608 157.2 V 161.3" stroke="#ffffff" stroke-width="2.34" stroke-linecap="round" />
+</g>
+<text class="svg-label-primary" x="608" y="198" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">PC-T2-01</text>
+<rect class="svg-ip-pill" x="554.4" y="202" width="107.2" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="608" y="212" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">10.20.20.41 · V20</text>
+</g>
+<g data-layer="device">
+<g>
+<rect class="svg-card-neutral" x="945" y="120" width="96" height="64" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="1033.0" cy="128.0" r="2.8" fill="#16a34a" />
+<rect x="975" y="134" width="36" height="36" rx="7" fill="#475569" />
+<rect x="981.6" y="142.7" width="22.8" height="14.5" rx="1.8" fill="none" stroke="#ffffff" stroke-width="2.34" /><path d="M 987.2 161.3 H 998.8 M 993 157.2 V 161.3" stroke="#ffffff" stroke-width="2.34" stroke-linecap="round" />
+</g>
+<text class="svg-label-primary" x="993" y="198" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">PC-T2-02</text>
+<rect class="svg-ip-pill" x="939.4" y="202" width="107.2" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="993" y="212" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">10.20.20.42 · V20</text>
+</g>
+<g data-layer="device">
+<g transform="rotate(155 1187 137)">
+<rect class="svg-card-neutral" x="1150" y="105" width="74" height="64" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="1216.0" cy="113.0" r="2.8" fill="#16a34a" />
+<rect x="1169" y="119" width="36" height="36" rx="7" fill="#7C3AED" />
+<rect x="1175.1" y="130.3" width="17.1" height="13.5" rx="2" fill="none" stroke="#ffffff" stroke-width="2.34" /><polygon points="1192.4,135.4 1199.3,130.8 1199.3,143.2 1192.4,138.6" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linejoin="round" />
+</g>
+<text class="svg-label-primary" x="1187" y="183" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">CAM-T2-01</text>
+<rect class="svg-ip-pill" x="1130.6" y="187" width="112.8" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="1187" y="197" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">10.20.40.141 · V40</text>
+</g>
+<g data-layer="device">
+<g transform="rotate(205 1187 567)">
+<rect class="svg-card-neutral" x="1150" y="535" width="74" height="64" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="1216.0" cy="543.0" r="2.8" fill="#16a34a" />
+<rect x="1169" y="549" width="36" height="36" rx="7" fill="#7C3AED" />
+<rect x="1175.1" y="560.3" width="17.1" height="13.5" rx="2" fill="none" stroke="#ffffff" stroke-width="2.34" /><polygon points="1192.4,565.4 1199.3,560.8 1199.3,573.2 1192.4,568.6" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linejoin="round" />
+</g>
+<text class="svg-label-primary" x="1187" y="613" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">CAM-T2-02</text>
+<rect class="svg-ip-pill" x="1130.6" y="617" width="112.8" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="1187" y="627" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">10.20.40.142 · V40</text>
+</g>
+<g data-layer="device">
+<g>
+<rect class="svg-card-neutral" x="865" y="515" width="96" height="64" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="953.0" cy="523.0" r="2.8" fill="#16a34a" />
+<rect x="895" y="529" width="36" height="36" rx="7" fill="#475569" />
+<rect x="901.6" y="537.7" width="22.8" height="14.5" rx="1.8" fill="none" stroke="#ffffff" stroke-width="2.34" /><path d="M 907.2 556.3 H 918.8 M 913 552.2 V 556.3" stroke="#ffffff" stroke-width="2.34" stroke-linecap="round" />
+</g>
+<text class="svg-label-primary" x="913" y="593" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">PC-T2-03</text>
+<rect class="svg-ip-pill" x="859.4" y="597" width="107.2" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="913" y="607" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">10.20.20.43 · V20</text>
+</g>
+</svg>
+</g>
+<g data-layer="floor-card" data-floor-id="flr_h2_3" data-floor-layer="flr_h2_3">
+<rect class="svg-card-neutral" x="32" y="1118" width="860" height="515" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.6" />
+<rect class="svg-room-hdr" x="33" y="1119" width="858" height="33" rx="9" fill="#e2e8f0" />
+<text class="svg-room-title" x="46" y="1140" fill="#0f172a" font-size="13" font-weight="700">Tầng 3 - Khối Tài Chính &amp; Nhân Sự</text>
+<text class="svg-label-muted" x="878" y="1140" text-anchor="end" fill="#475569" font-size="11" font-family="ui-monospace, monospace">9 phần tử · 1 Rack</text>
+<svg x="34" y="1152" width="856" height="479" viewBox="-10 -10 1360 760" preserveAspectRatio="xMidYMid meet">
+<rect class="svg-bg" x="-10" y="-10" width="1360" height="760" fill="#ffffff" />
+<g data-layer="room">
+<rect class="svg-room-body" x="60" y="60" width="140" height="620" rx="4" fill="#e2e8f0" fill-opacity="0.82" stroke="#94a3b8" stroke-width="6"  />
+<rect class="svg-room-hdr" x="60" y="60" width="140" height="22" rx="4" fill="#e2e8f0" fill-opacity="0.88" />
+<text class="svg-room-title" x="68" y="75" fill="#334155" font-size="10.5" font-weight="700">Cầu Thang Bộ &amp; Mặt Kính (T3) · 139m²</text>
+</g>
+<g data-layer="room">
+<rect class="svg-room-body" x="200" y="60" width="300" height="360" rx="4" fill="#dbeafe" fill-opacity="0.82" stroke="#94a3b8" stroke-width="6" stroke-dasharray="6 4" />
+<rect class="svg-room-hdr" x="200" y="60" width="300" height="22" rx="4" fill="#e2e8f0" fill-opacity="0.88" />
+<text class="svg-room-title" x="208" y="75" fill="#334155" font-size="10.5" font-weight="700">Khu Tủ Small Rack 12U &amp; Trục Riser (T3) · 173m²</text>
+</g>
+<g data-layer="room">
+<rect class="svg-room-body" x="200" y="420" width="300" height="260" rx="4" fill="#f1f5f9" fill-opacity="0.82" stroke="#94a3b8" stroke-width="6"  />
+<rect class="svg-room-hdr" x="200" y="420" width="300" height="22" rx="4" fill="#e2e8f0" fill-opacity="0.88" />
+<text class="svg-room-title" x="208" y="435" fill="#334155" font-size="10.5" font-weight="700">Hành Lang Kỹ Thuật (T3) · 125m²</text>
+</g>
+<g data-layer="room">
+<rect class="svg-room-body" x="500" y="420" width="200" height="260" rx="4" fill="#e0f2fe" fill-opacity="0.82" stroke="#94a3b8" stroke-width="6"  />
+<rect class="svg-room-hdr" x="500" y="420" width="200" height="22" rx="4" fill="#e2e8f0" fill-opacity="0.88" />
+<text class="svg-room-title" x="508" y="435" fill="#334155" font-size="10.5" font-weight="700">Thang Máy &amp; Máy Chấm Công (T3) · 83m²</text>
+</g>
+<g data-layer="room">
+<rect class="svg-room-body" x="500" y="60" width="780" height="360" rx="4" fill="#f8fafc" fill-opacity="0.82" stroke="#94a3b8" stroke-width="6"  />
+<rect class="svg-room-hdr" x="500" y="60" width="780" height="22" rx="4" fill="#e2e8f0" fill-opacity="0.88" />
+<text class="svg-room-title" x="508" y="75" fill="#334155" font-size="10.5" font-weight="700">Văn Phòng Tài Chính Kế Toán T3 · 449m²</text>
+</g>
+<g data-layer="room">
+<rect class="svg-room-body" x="700" y="420" width="580" height="260" rx="4" fill="#f8fafc" fill-opacity="0.82" stroke="#94a3b8" stroke-width="6"  />
+<rect class="svg-room-hdr" x="700" y="420" width="580" height="22" rx="4" fill="#e2e8f0" fill-opacity="0.88" />
+<text class="svg-room-title" x="708" y="435" fill="#334155" font-size="10.5" font-weight="700">Phòng Nhân Sự &amp; Đào Tạo T3 · 241m²</text>
+</g>
+<g data-layer="cable-trays">
+<g opacity="0.88">
+<polyline points="468,188 1185,188 1185,560" fill="none" stroke="#0284c7" stroke-width="20" stroke-opacity="0.14" stroke-linecap="round" stroke-linejoin="round" />
+<polyline points="468,188 1185,188 1185,560" fill="none" stroke="#0284c7" stroke-width="14.4" stroke-opacity="0.32" stroke-dasharray="4 5" stroke-linecap="butt" stroke-linejoin="round" />
+<polyline points="468,188 1185,188 1185,560" fill="none" stroke="#0284c7" stroke-width="1.4" stroke-opacity="0.75" stroke-dasharray="6 4" stroke-linecap="round" stroke-linejoin="round" />
+<g transform="translate(826.5, 170.0)">
+<rect class="svg-tray-badge" x="-90.0" y="-8" width="180.0" height="14" rx="3" fill="#ffffff" fill-opacity="0.92" stroke="#0284c7" stroke-opacity="0.6" stroke-width="0.9" />
+<text x="0" y="2" text-anchor="middle" fill="#0284c7" font-size="8" font-weight="700">Máng Cáp Mạng Trục Chính (T3)</text>
+</g>
+</g>
+<g opacity="0.88">
+<polyline points="646,188 646,548" fill="none" stroke="#0d9488" stroke-width="14" stroke-opacity="0.14" stroke-linecap="round" stroke-linejoin="round" />
+<polyline points="646,188 646,548" fill="none" stroke="#0d9488" stroke-width="10.1" stroke-opacity="0.32"  stroke-linecap="butt" stroke-linejoin="round" />
+<polyline points="646,188 646,548" fill="none" stroke="#0d9488" stroke-width="1.4" stroke-opacity="0.75" stroke-dasharray="6 4" stroke-linecap="round" stroke-linejoin="round" />
+<g transform="translate(646.0, 353.0)">
+<rect class="svg-tray-badge" x="-90.0" y="-8" width="180.0" height="14" rx="3" fill="#ffffff" fill-opacity="0.92" stroke="#0d9488" stroke-opacity="0.6" stroke-width="0.9" />
+<text x="0" y="2" text-anchor="middle" fill="#0d9488" font-size="8" font-weight="700">Ống Luồn Sảnh Thang Máy (T3)</text>
+</g>
+</g>
+</g>
+<g data-layer="rack">
+<rect x="215" y="95" width="215" height="232" rx="6" fill="#0b1120" stroke="#334155" stroke-width="2" />
+<rect x="216" y="96" width="213" height="34" rx="5" fill="#1e293b" />
+<text x="225" y="116" fill="#f8fafc" font-size="10.5" font-weight="700">Small Rack T3 (12U) (12U)</text>
+<rect x="378" y="103" width="44" height="17" rx="4" fill="#0f766e" />
+<text x="400" y="114.5" text-anchor="middle" fill="#ffffff" font-size="8.5" font-weight="700" font-family="ui-monospace, monospace">TRƯỚC</text>
+<rect x="219" y="133" width="24" height="168" rx="2" fill="#0f172a" />
+<rect x="245" y="133" width="175" height="168" fill="#020617" stroke="#1e293b" stroke-width="1" />
+<line x1="245" y1="147.0" x2="420" y2="147.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="143.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U12</text>
+<line x1="245" y1="161.0" x2="420" y2="161.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="157.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U11</text>
+<line x1="245" y1="175.0" x2="420" y2="175.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="171.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U10</text>
+<line x1="245" y1="189.0" x2="420" y2="189.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="185.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U09</text>
+<line x1="245" y1="203.0" x2="420" y2="203.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="199.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U08</text>
+<line x1="245" y1="217.0" x2="420" y2="217.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="213.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U07</text>
+<line x1="245" y1="231.0" x2="420" y2="231.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="227.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U06</text>
+<line x1="245" y1="245.0" x2="420" y2="245.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="241.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U05</text>
+<line x1="245" y1="259.0" x2="420" y2="259.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="255.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U04</text>
+<line x1="245" y1="273.0" x2="420" y2="273.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="269.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U03</text>
+<line x1="245" y1="287.0" x2="420" y2="287.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="283.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U02</text>
+<line x1="245" y1="301.0" x2="420" y2="301.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="297.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U01</text>
+<rect x="247" y="189.8" width="171" height="12.4" rx="2" fill="#1e293b" stroke="#1D4ED8" stroke-width="1.1" />
+<rect x="247" y="189.8" width="4" height="12.4" rx="1" fill="#1D4ED8" />
+<circle cx="257" cy="196.0" r="2.5" fill="#22c55e" />
+<text x="263" y="199.0" fill="#f8fafc" font-size="6.8" font-weight="600">SW-POE-T3</text>
+<text x="412" y="198.5" text-anchor="end" fill="#94a3b8" font-size="7.5" font-family="ui-monospace, monospace">U8</text>
+<rect x="247" y="161.8" width="171" height="12.4" rx="2" fill="#1e293b" stroke="#475569" stroke-width="1.1" />
+<rect x="247" y="161.8" width="4" height="12.4" rx="1" fill="#475569" />
+<circle cx="257" cy="168.0" r="2.5" fill="#22c55e" />
+<text x="263" y="171.0" fill="#f8fafc" font-size="6.8" font-weight="600">PP-T3-24P</text>
+<text x="412" y="170.5" text-anchor="end" fill="#94a3b8" font-size="7.5" font-family="ui-monospace, monospace">U10</text>
+<rect x="247" y="133.8" width="171" height="12.4" rx="2" fill="#1e293b" stroke="#0891B2" stroke-width="1.1" />
+<rect x="247" y="133.8" width="4" height="12.4" rx="1" fill="#0891B2" />
+<circle cx="257" cy="140.0" r="2.5" fill="#22c55e" />
+<text x="263" y="143.0" fill="#f8fafc" font-size="6.8" font-weight="600">ODF-T3-12F</text>
+<text x="412" y="142.5" text-anchor="end" fill="#94a3b8" font-size="7.5" font-family="ui-monospace, monospace">U12</text>
+<rect x="216" y="304" width="213" height="22" rx="4" fill="#111827" />
+<text x="225" y="319" fill="#94a3b8" font-size="8" font-family="ui-monospace, monospace">3U dùng · 9U trống</text>
+<text x="420" y="319" text-anchor="end" fill="#34d399" font-size="8.5" font-weight="700" font-family="ui-monospace, monospace">175W · 13kg</text>
+</g>
+<g data-layer="cable-labeling">
+</g>
+<g data-layer="device">
+<g>
+<rect class="svg-card-neutral" x="446" y="160" width="46" height="56" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="484.0" cy="168.0" r="2.8" fill="#16a34a" />
+<rect x="454.74" y="173.74" width="28.52" height="28.52" rx="7" fill="#16A34A" />
+<rect x="459.6" y="182.4" width="18.9" height="11.3" rx="2" fill="none" stroke="#ffffff" stroke-width="1.85" /><path d="M 463.4 186.2 H 474.6 M 471.6 184.3 L 474.6 186.2 L 471.6 188" fill="none" stroke="#ffffff" stroke-width="1.85" stroke-linecap="round" stroke-linejoin="round" /><path d="M 474.6 190.3 H 463.4 M 466.4 188.4 L 463.4 190.3 L 466.4 192.1" fill="none" stroke="#ffffff" stroke-width="1.85" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text class="svg-label-primary" x="469" y="230" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">Trục Riser T3</text>
+<rect class="svg-ip-pill" x="442.0" y="234" width="54.0" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="469" y="244" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">V10</text>
+</g>
+<g data-layer="device">
+<g>
+<rect class="svg-card-neutral" x="608" y="518" width="78" height="58" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="678.0" cy="526.0" r="2.8" fill="#16a34a" />
+<rect x="629.02" y="529.02" width="35.96" height="35.96" rx="7" fill="#059669" />
+<rect x="635.1" y="539.9" width="23.8" height="14.2" rx="2" fill="none" stroke="#ffffff" stroke-width="2.34" /><path d="M 639.9 544.7 H 654.1 M 650.2 542.3 L 654.1 544.7 L 650.2 547" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linecap="round" stroke-linejoin="round" /><path d="M 654.1 549.8 H 639.9 M 643.8 547.5 L 639.9 549.8 L 643.8 552.2" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text class="svg-label-primary" x="647" y="590" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">Máy Chấm Công T3</text>
+<rect class="svg-ip-pill" x="593.4" y="594" width="107.2" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="647" y="604" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">10.20.60.15 · V60</text>
+</g>
+<g data-layer="device">
+<g>
+<rect class="svg-card-neutral" x="785" y="255" width="80" height="74" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="857.0" cy="263.0" r="2.8" fill="#16a34a" />
+<rect x="807" y="274" width="36" height="36" rx="7" fill="#16A34A" />
+<path d="M 813.6 290.1 A 14.3 14.3 0 0 1 836.4 290.1" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linecap="round" /><path d="M 817.9 294.6 A 9.1 9.1 0 0 1 832.1 294.6" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linecap="round" /><circle cx="825" cy="300.0" r="2.9" fill="#ffffff" />
+</g>
+<text class="svg-label-primary" x="825" y="343" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">AP-WIFI-T3</text>
+<rect class="svg-ip-pill" x="771.4" y="347" width="107.2" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="825" y="357" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">10.20.30.15 · V30</text>
+</g>
+<g data-layer="device">
+<g>
+<rect class="svg-card-neutral" x="560" y="120" width="96" height="64" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="648.0" cy="128.0" r="2.8" fill="#16a34a" />
+<rect x="590" y="134" width="36" height="36" rx="7" fill="#475569" />
+<rect x="596.6" y="142.7" width="22.8" height="14.5" rx="1.8" fill="none" stroke="#ffffff" stroke-width="2.34" /><path d="M 602.2 161.3 H 613.8 M 608 157.2 V 161.3" stroke="#ffffff" stroke-width="2.34" stroke-linecap="round" />
+</g>
+<text class="svg-label-primary" x="608" y="198" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">PC-T3-01</text>
+<rect class="svg-ip-pill" x="554.4" y="202" width="107.2" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="608" y="212" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">10.20.20.51 · V20</text>
+</g>
+<g data-layer="device">
+<g>
+<rect class="svg-card-neutral" x="945" y="120" width="96" height="64" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="1033.0" cy="128.0" r="2.8" fill="#16a34a" />
+<rect x="975" y="134" width="36" height="36" rx="7" fill="#475569" />
+<rect x="981.6" y="142.7" width="22.8" height="14.5" rx="1.8" fill="none" stroke="#ffffff" stroke-width="2.34" /><path d="M 987.2 161.3 H 998.8 M 993 157.2 V 161.3" stroke="#ffffff" stroke-width="2.34" stroke-linecap="round" />
+</g>
+<text class="svg-label-primary" x="993" y="198" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">PC-T3-02</text>
+<rect class="svg-ip-pill" x="939.4" y="202" width="107.2" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="993" y="212" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">10.20.20.52 · V20</text>
+</g>
+<g data-layer="device">
+<g transform="rotate(155 1187 137)">
+<rect class="svg-card-neutral" x="1150" y="105" width="74" height="64" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="1216.0" cy="113.0" r="2.8" fill="#16a34a" />
+<rect x="1169" y="119" width="36" height="36" rx="7" fill="#7C3AED" />
+<rect x="1175.1" y="130.3" width="17.1" height="13.5" rx="2" fill="none" stroke="#ffffff" stroke-width="2.34" /><polygon points="1192.4,135.4 1199.3,130.8 1199.3,143.2 1192.4,138.6" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linejoin="round" />
+</g>
+<text class="svg-label-primary" x="1187" y="183" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">CAM-T3-01</text>
+<rect class="svg-ip-pill" x="1130.6" y="187" width="112.8" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="1187" y="197" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">10.20.40.151 · V40</text>
+</g>
+<g data-layer="device">
+<g transform="rotate(205 1187 567)">
+<rect class="svg-card-neutral" x="1150" y="535" width="74" height="64" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="1216.0" cy="543.0" r="2.8" fill="#16a34a" />
+<rect x="1169" y="549" width="36" height="36" rx="7" fill="#7C3AED" />
+<rect x="1175.1" y="560.3" width="17.1" height="13.5" rx="2" fill="none" stroke="#ffffff" stroke-width="2.34" /><polygon points="1192.4,565.4 1199.3,560.8 1199.3,573.2 1192.4,568.6" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linejoin="round" />
+</g>
+<text class="svg-label-primary" x="1187" y="613" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">CAM-T3-02</text>
+<rect class="svg-ip-pill" x="1130.6" y="617" width="112.8" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="1187" y="627" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">10.20.40.152 · V40</text>
+</g>
+</svg>
+</g>
+<g data-layer="floor-card" data-floor-id="flr_h2_4" data-floor-layer="flr_h2_4">
+<rect class="svg-card-neutral" x="920" y="1118" width="860" height="521" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.6" />
+<rect class="svg-room-hdr" x="921" y="1119" width="858" height="33" rx="9" fill="#e2e8f0" />
+<text class="svg-room-title" x="934" y="1140" fill="#0f172a" font-size="13" font-weight="700">Tầng 4 - Phòng Server (Main Rack 42U) &amp; NOC</text>
+<text class="svg-label-muted" x="1766" y="1140" text-anchor="end" fill="#475569" font-size="11" font-family="ui-monospace, monospace">10 phần tử · 1 Rack</text>
+<svg x="922" y="1152" width="856" height="485" viewBox="-10 -10 1360 770" preserveAspectRatio="xMidYMid meet">
+<rect class="svg-bg" x="-10" y="-10" width="1360" height="770" fill="#ffffff" />
+<g data-layer="room">
+<rect class="svg-room-body" x="60" y="60" width="140" height="620" rx="4" fill="#e2e8f0" fill-opacity="0.82" stroke="#94a3b8" stroke-width="6"  />
+<rect class="svg-room-hdr" x="60" y="60" width="140" height="22" rx="4" fill="#e2e8f0" fill-opacity="0.88" />
+<text class="svg-room-title" x="68" y="75" fill="#334155" font-size="10.5" font-weight="700">Cầu Thang Bộ &amp; Mặt Kính (T4) · 139m²</text>
+</g>
+<g data-layer="room">
+<rect class="svg-room-body" x="200" y="60" width="300" height="620" rx="4" fill="#dcfce7" fill-opacity="0.82" stroke="#94a3b8" stroke-width="8"  />
+<rect class="svg-room-hdr" x="200" y="60" width="300" height="22" rx="4" fill="#e2e8f0" fill-opacity="0.88" />
+<text class="svg-room-title" x="208" y="75" fill="#334155" font-size="10.5" font-weight="700">Phòng Server - Main Rack Tầng 4 (42U) · 298m²</text>
+</g>
+<g data-layer="room">
+<rect class="svg-room-body" x="500" y="420" width="200" height="260" rx="4" fill="#e0f2fe" fill-opacity="0.82" stroke="#94a3b8" stroke-width="6"  />
+<rect class="svg-room-hdr" x="500" y="420" width="200" height="22" rx="4" fill="#e2e8f0" fill-opacity="0.88" />
+<text class="svg-room-title" x="508" y="435" fill="#334155" font-size="10.5" font-weight="700">Thang Máy &amp; Máy Chấm Công (T4) · 83m²</text>
+</g>
+<g data-layer="room">
+<rect class="svg-room-body" x="500" y="60" width="780" height="360" rx="4" fill="#f8fafc" fill-opacity="0.82" stroke="#94a3b8" stroke-width="6"  />
+<rect class="svg-room-hdr" x="500" y="60" width="780" height="22" rx="4" fill="#e2e8f0" fill-opacity="0.88" />
+<text class="svg-room-title" x="508" y="75" fill="#334155" font-size="10.5" font-weight="700">Phòng Điều Hành NOC &amp; Kỹ Thuật T4 · 449m²</text>
+</g>
+<g data-layer="room">
+<rect class="svg-room-body" x="700" y="420" width="580" height="260" rx="4" fill="#f8fafc" fill-opacity="0.82" stroke="#94a3b8" stroke-width="6"  />
+<rect class="svg-room-hdr" x="700" y="420" width="580" height="22" rx="4" fill="#e2e8f0" fill-opacity="0.88" />
+<text class="svg-room-title" x="708" y="435" fill="#334155" font-size="10.5" font-weight="700">Khu Lab Kiểm Thử &amp; Bảo Trì T4 · 241m²</text>
+</g>
+<g data-layer="cable-trays">
+<g opacity="0.88">
+<polyline points="468,188 1185,188 1185,560" fill="none" stroke="#0284c7" stroke-width="20" stroke-opacity="0.14" stroke-linecap="round" stroke-linejoin="round" />
+<polyline points="468,188 1185,188 1185,560" fill="none" stroke="#0284c7" stroke-width="14.4" stroke-opacity="0.32" stroke-dasharray="4 5" stroke-linecap="butt" stroke-linejoin="round" />
+<polyline points="468,188 1185,188 1185,560" fill="none" stroke="#0284c7" stroke-width="1.4" stroke-opacity="0.75" stroke-dasharray="6 4" stroke-linecap="round" stroke-linejoin="round" />
+<g transform="translate(826.5, 170.0)">
+<rect class="svg-tray-badge" x="-90.0" y="-8" width="180.0" height="14" rx="3" fill="#ffffff" fill-opacity="0.92" stroke="#0284c7" stroke-opacity="0.6" stroke-width="0.9" />
+<text x="0" y="2" text-anchor="middle" fill="#0284c7" font-size="8" font-weight="700">Máng Cáp Mạng Trục Chính (T4)</text>
+</g>
+</g>
+<g opacity="0.88">
+<polyline points="646,188 646,548" fill="none" stroke="#0d9488" stroke-width="14" stroke-opacity="0.14" stroke-linecap="round" stroke-linejoin="round" />
+<polyline points="646,188 646,548" fill="none" stroke="#0d9488" stroke-width="10.1" stroke-opacity="0.32"  stroke-linecap="butt" stroke-linejoin="round" />
+<polyline points="646,188 646,548" fill="none" stroke="#0d9488" stroke-width="1.4" stroke-opacity="0.75" stroke-dasharray="6 4" stroke-linecap="round" stroke-linejoin="round" />
+<g transform="translate(646.0, 353.0)">
+<rect class="svg-tray-badge" x="-90.0" y="-8" width="180.0" height="14" rx="3" fill="#ffffff" fill-opacity="0.92" stroke="#0d9488" stroke-opacity="0.6" stroke-width="0.9" />
+<text x="0" y="2" text-anchor="middle" fill="#0d9488" font-size="8" font-weight="700">Ống Luồn Sảnh Thang Máy (T4)</text>
+</g>
+</g>
+</g>
+<g data-layer="rack">
+<rect x="215" y="92" width="222" height="556" rx="6" fill="#0b1120" stroke="#334155" stroke-width="2" />
+<rect x="216" y="93" width="220" height="34" rx="5" fill="#1e293b" />
+<text x="225" y="113" fill="#f8fafc" font-size="10.5" font-weight="700">Main Rack Tầng 4 (42U) (42U)</text>
+<rect x="385" y="100" width="44" height="17" rx="4" fill="#0f766e" />
+<text x="407" y="111.5" text-anchor="middle" fill="#ffffff" font-size="8.5" font-weight="700" font-family="ui-monospace, monospace">TRƯỚC</text>
+<rect x="219" y="130" width="24" height="492" rx="2" fill="#0f172a" />
+<rect x="245" y="130" width="182" height="492" fill="#020617" stroke="#1e293b" stroke-width="1" />
+<line x1="245" y1="141.7" x2="427" y2="141.7" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="138.4" text-anchor="end" fill="#64748b" font-size="6.5" font-weight="600" font-family="ui-monospace, monospace">U42</text>
+<line x1="245" y1="153.4" x2="427" y2="153.4" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="150.1" text-anchor="end" fill="#64748b" font-size="6.5" font-weight="600" font-family="ui-monospace, monospace">U41</text>
+<line x1="245" y1="165.1" x2="427" y2="165.1" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="161.9" text-anchor="end" fill="#64748b" font-size="6.5" font-weight="600" font-family="ui-monospace, monospace">U40</text>
+<line x1="245" y1="176.9" x2="427" y2="176.9" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="173.6" text-anchor="end" fill="#64748b" font-size="6.5" font-weight="600" font-family="ui-monospace, monospace">U39</text>
+<line x1="245" y1="188.6" x2="427" y2="188.6" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="185.3" text-anchor="end" fill="#64748b" font-size="6.5" font-weight="600" font-family="ui-monospace, monospace">U38</text>
+<line x1="245" y1="200.3" x2="427" y2="200.3" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="197.0" text-anchor="end" fill="#64748b" font-size="6.5" font-weight="600" font-family="ui-monospace, monospace">U37</text>
+<line x1="245" y1="212.0" x2="427" y2="212.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="208.7" text-anchor="end" fill="#64748b" font-size="6.5" font-weight="600" font-family="ui-monospace, monospace">U36</text>
+<line x1="245" y1="223.7" x2="427" y2="223.7" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="220.4" text-anchor="end" fill="#64748b" font-size="6.5" font-weight="600" font-family="ui-monospace, monospace">U35</text>
+<line x1="245" y1="235.4" x2="427" y2="235.4" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="232.1" text-anchor="end" fill="#64748b" font-size="6.5" font-weight="600" font-family="ui-monospace, monospace">U34</text>
+<line x1="245" y1="247.1" x2="427" y2="247.1" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="243.9" text-anchor="end" fill="#64748b" font-size="6.5" font-weight="600" font-family="ui-monospace, monospace">U33</text>
+<line x1="245" y1="258.9" x2="427" y2="258.9" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="255.6" text-anchor="end" fill="#64748b" font-size="6.5" font-weight="600" font-family="ui-monospace, monospace">U32</text>
+<line x1="245" y1="270.6" x2="427" y2="270.6" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="267.3" text-anchor="end" fill="#64748b" font-size="6.5" font-weight="600" font-family="ui-monospace, monospace">U31</text>
+<line x1="245" y1="282.3" x2="427" y2="282.3" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="279.0" text-anchor="end" fill="#64748b" font-size="6.5" font-weight="600" font-family="ui-monospace, monospace">U30</text>
+<line x1="245" y1="294.0" x2="427" y2="294.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="290.7" text-anchor="end" fill="#64748b" font-size="6.5" font-weight="600" font-family="ui-monospace, monospace">U29</text>
+<line x1="245" y1="305.7" x2="427" y2="305.7" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="302.4" text-anchor="end" fill="#64748b" font-size="6.5" font-weight="600" font-family="ui-monospace, monospace">U28</text>
+<line x1="245" y1="317.4" x2="427" y2="317.4" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="314.1" text-anchor="end" fill="#64748b" font-size="6.5" font-weight="600" font-family="ui-monospace, monospace">U27</text>
+<line x1="245" y1="329.1" x2="427" y2="329.1" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="325.9" text-anchor="end" fill="#64748b" font-size="6.5" font-weight="600" font-family="ui-monospace, monospace">U26</text>
+<line x1="245" y1="340.9" x2="427" y2="340.9" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="337.6" text-anchor="end" fill="#64748b" font-size="6.5" font-weight="600" font-family="ui-monospace, monospace">U25</text>
+<line x1="245" y1="352.6" x2="427" y2="352.6" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="349.3" text-anchor="end" fill="#64748b" font-size="6.5" font-weight="600" font-family="ui-monospace, monospace">U24</text>
+<line x1="245" y1="364.3" x2="427" y2="364.3" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="361.0" text-anchor="end" fill="#64748b" font-size="6.5" font-weight="600" font-family="ui-monospace, monospace">U23</text>
+<line x1="245" y1="376.0" x2="427" y2="376.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="372.7" text-anchor="end" fill="#64748b" font-size="6.5" font-weight="600" font-family="ui-monospace, monospace">U22</text>
+<line x1="245" y1="387.7" x2="427" y2="387.7" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="384.4" text-anchor="end" fill="#64748b" font-size="6.5" font-weight="600" font-family="ui-monospace, monospace">U21</text>
+<line x1="245" y1="399.4" x2="427" y2="399.4" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="396.1" text-anchor="end" fill="#64748b" font-size="6.5" font-weight="600" font-family="ui-monospace, monospace">U20</text>
+<line x1="245" y1="411.1" x2="427" y2="411.1" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="407.9" text-anchor="end" fill="#64748b" font-size="6.5" font-weight="600" font-family="ui-monospace, monospace">U19</text>
+<line x1="245" y1="422.9" x2="427" y2="422.9" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="419.6" text-anchor="end" fill="#64748b" font-size="6.5" font-weight="600" font-family="ui-monospace, monospace">U18</text>
+<line x1="245" y1="434.6" x2="427" y2="434.6" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="431.3" text-anchor="end" fill="#64748b" font-size="6.5" font-weight="600" font-family="ui-monospace, monospace">U17</text>
+<line x1="245" y1="446.3" x2="427" y2="446.3" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="443.0" text-anchor="end" fill="#64748b" font-size="6.5" font-weight="600" font-family="ui-monospace, monospace">U16</text>
+<line x1="245" y1="458.0" x2="427" y2="458.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="454.7" text-anchor="end" fill="#64748b" font-size="6.5" font-weight="600" font-family="ui-monospace, monospace">U15</text>
+<line x1="245" y1="469.7" x2="427" y2="469.7" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="466.4" text-anchor="end" fill="#64748b" font-size="6.5" font-weight="600" font-family="ui-monospace, monospace">U14</text>
+<line x1="245" y1="481.4" x2="427" y2="481.4" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="478.1" text-anchor="end" fill="#64748b" font-size="6.5" font-weight="600" font-family="ui-monospace, monospace">U13</text>
+<line x1="245" y1="493.1" x2="427" y2="493.1" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="489.9" text-anchor="end" fill="#64748b" font-size="6.5" font-weight="600" font-family="ui-monospace, monospace">U12</text>
+<line x1="245" y1="504.9" x2="427" y2="504.9" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="501.6" text-anchor="end" fill="#64748b" font-size="6.5" font-weight="600" font-family="ui-monospace, monospace">U11</text>
+<line x1="245" y1="516.6" x2="427" y2="516.6" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="513.3" text-anchor="end" fill="#64748b" font-size="6.5" font-weight="600" font-family="ui-monospace, monospace">U10</text>
+<line x1="245" y1="528.3" x2="427" y2="528.3" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="525.0" text-anchor="end" fill="#64748b" font-size="6.5" font-weight="600" font-family="ui-monospace, monospace">U09</text>
+<line x1="245" y1="540.0" x2="427" y2="540.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="536.7" text-anchor="end" fill="#64748b" font-size="6.5" font-weight="600" font-family="ui-monospace, monospace">U08</text>
+<line x1="245" y1="551.7" x2="427" y2="551.7" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="548.4" text-anchor="end" fill="#64748b" font-size="6.5" font-weight="600" font-family="ui-monospace, monospace">U07</text>
+<line x1="245" y1="563.4" x2="427" y2="563.4" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="560.1" text-anchor="end" fill="#64748b" font-size="6.5" font-weight="600" font-family="ui-monospace, monospace">U06</text>
+<line x1="245" y1="575.1" x2="427" y2="575.1" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="571.9" text-anchor="end" fill="#64748b" font-size="6.5" font-weight="600" font-family="ui-monospace, monospace">U05</text>
+<line x1="245" y1="586.9" x2="427" y2="586.9" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="583.6" text-anchor="end" fill="#64748b" font-size="6.5" font-weight="600" font-family="ui-monospace, monospace">U04</text>
+<line x1="245" y1="598.6" x2="427" y2="598.6" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="595.3" text-anchor="end" fill="#64748b" font-size="6.5" font-weight="600" font-family="ui-monospace, monospace">U03</text>
+<line x1="245" y1="610.3" x2="427" y2="610.3" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="607.0" text-anchor="end" fill="#64748b" font-size="6.5" font-weight="600" font-family="ui-monospace, monospace">U02</text>
+<line x1="245" y1="622.0" x2="427" y2="622.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="618.7" text-anchor="end" fill="#64748b" font-size="6.5" font-weight="600" font-family="ui-monospace, monospace">U01</text>
+<rect x="247" y="599.4" width="178" height="21.8" rx="2" fill="#1e293b" stroke="#E11D48" stroke-width="1.1" />
+<rect x="247" y="599.4" width="4" height="21.8" rx="1" fill="#E11D48" />
+<circle cx="257" cy="610.3" r="2.5" fill="#22c55e" />
+<text x="263" y="613.3" fill="#f8fafc" font-size="9.5" font-weight="600">UPS-MAIN-A-6kVA</text>
+<text x="419" y="612.8" text-anchor="end" fill="#94a3b8" font-size="7.5" font-family="ui-monospace, monospace">U1-2</text>
+<rect x="247" y="564.2" width="178" height="21.8" rx="2" fill="#1e293b" stroke="#E11D48" stroke-width="1.1" />
+<rect x="247" y="564.2" width="4" height="21.8" rx="1" fill="#E11D48" />
+<circle cx="257" cy="575.1" r="2.5" fill="#22c55e" />
+<text x="263" y="578.1" fill="#f8fafc" font-size="9.5" font-weight="600">UPS-MAIN-B-3kVA</text>
+<text x="419" y="577.6" text-anchor="end" fill="#94a3b8" font-size="7.5" font-family="ui-monospace, monospace">U4-5</text>
+<rect x="247" y="423.7" width="178" height="21.8" rx="2" fill="#1e293b" stroke="#475569" stroke-width="1.1" />
+<rect x="247" y="423.7" width="4" height="21.8" rx="1" fill="#475569" />
+<circle cx="257" cy="434.6" r="2.5" fill="#22c55e" />
+<text x="263" y="437.6" fill="#f8fafc" font-size="9.5" font-weight="600">SAN-STORAGE-01</text>
+<text x="419" y="437.1" text-anchor="end" fill="#94a3b8" font-size="7.5" font-family="ui-monospace, monospace">U16-17</text>
+<rect x="247" y="376.8" width="178" height="21.8" rx="2" fill="#1e293b" stroke="#475569" stroke-width="1.1" />
+<rect x="247" y="376.8" width="4" height="21.8" rx="1" fill="#475569" />
+<circle cx="257" cy="387.7" r="2.5" fill="#22c55e" />
+<text x="263" y="390.7" fill="#f8fafc" font-size="9.5" font-weight="600">SRV-DB-02</text>
+<text x="419" y="390.2" text-anchor="end" fill="#94a3b8" font-size="7.5" font-family="ui-monospace, monospace">U20-21</text>
+<rect x="247" y="329.9" width="178" height="21.8" rx="2" fill="#1e293b" stroke="#475569" stroke-width="1.1" />
+<rect x="247" y="329.9" width="4" height="21.8" rx="1" fill="#475569" />
+<circle cx="257" cy="340.9" r="2.5" fill="#22c55e" />
+<text x="263" y="343.9" fill="#f8fafc" font-size="9.5" font-weight="600">SRV-CHASSIS-01</text>
+<text x="419" y="343.4" text-anchor="end" fill="#94a3b8" font-size="7.5" font-family="ui-monospace, monospace">U24-25</text>
+<rect x="247" y="294.8" width="178" height="10.1" rx="2" fill="#1e293b" stroke="#7C3AED" stroke-width="1.1" />
+<rect x="247" y="294.8" width="4" height="10.1" rx="1" fill="#7C3AED" />
+<circle cx="257" cy="299.9" r="2.5" fill="#22c55e" />
+<text x="263" y="302.9" fill="#f8fafc" font-size="6.5" font-weight="600">NVR-MAIN-32CH</text>
+<text x="419" y="302.4" text-anchor="end" fill="#94a3b8" font-size="7.5" font-family="ui-monospace, monospace">U28</text>
+<rect x="247" y="247.9" width="178" height="10.1" rx="2" fill="#1e293b" stroke="#1D4ED8" stroke-width="1.1" />
+<rect x="247" y="247.9" width="4" height="10.1" rx="1" fill="#1D4ED8" />
+<circle cx="257" cy="253.0" r="2.5" fill="#22c55e" />
+<text x="263" y="256.0" fill="#f8fafc" font-size="6.5" font-weight="600">SW-POE-T4</text>
+<text x="419" y="255.5" text-anchor="end" fill="#94a3b8" font-size="7.5" font-family="ui-monospace, monospace">U32</text>
+<rect x="247" y="224.5" width="178" height="10.1" rx="2" fill="#1e293b" stroke="#155EEF" stroke-width="1.1" />
+<rect x="247" y="224.5" width="4" height="10.1" rx="1" fill="#155EEF" />
+<circle cx="257" cy="229.6" r="2.5" fill="#22c55e" />
+<text x="263" y="232.6" fill="#f8fafc" font-size="6.5" font-weight="600">RTR-WAN-EDGE-T4</text>
+<text x="419" y="232.1" text-anchor="end" fill="#94a3b8" font-size="7.5" font-family="ui-monospace, monospace">U34</text>
+<rect x="247" y="201.1" width="178" height="10.1" rx="2" fill="#1e293b" stroke="#DC2626" stroke-width="1.1" />
+<rect x="247" y="201.1" width="4" height="10.1" rx="1" fill="#DC2626" />
+<circle cx="257" cy="206.1" r="2.5" fill="#22c55e" />
+<text x="263" y="209.1" fill="#f8fafc" font-size="6.5" font-weight="600">FW-FORTIGATE-T4</text>
+<text x="419" y="208.6" text-anchor="end" fill="#94a3b8" font-size="7.5" font-family="ui-monospace, monospace">U36</text>
+<rect x="247" y="177.7" width="178" height="10.1" rx="2" fill="#1e293b" stroke="#1E40AF" stroke-width="1.1" />
+<rect x="247" y="177.7" width="4" height="10.1" rx="1" fill="#1E40AF" />
+<circle cx="257" cy="182.7" r="2.5" fill="#22c55e" />
+<text x="263" y="185.7" fill="#f8fafc" font-size="6.5" font-weight="600">CORE-SW-T4</text>
+<text x="419" y="185.2" text-anchor="end" fill="#94a3b8" font-size="7.5" font-family="ui-monospace, monospace">U38</text>
+<rect x="247" y="154.2" width="178" height="10.1" rx="2" fill="#1e293b" stroke="#475569" stroke-width="1.1" />
+<rect x="247" y="154.2" width="4" height="10.1" rx="1" fill="#475569" />
+<circle cx="257" cy="159.3" r="2.5" fill="#22c55e" />
+<text x="263" y="162.3" fill="#f8fafc" font-size="6.5" font-weight="600">PP-MAIN-48P-T4</text>
+<text x="419" y="161.8" text-anchor="end" fill="#94a3b8" font-size="7.5" font-family="ui-monospace, monospace">U40</text>
+<rect x="247" y="130.8" width="178" height="10.1" rx="2" fill="#1e293b" stroke="#0891B2" stroke-width="1.1" />
+<rect x="247" y="130.8" width="4" height="10.1" rx="1" fill="#0891B2" />
+<circle cx="257" cy="135.9" r="2.5" fill="#22c55e" />
+<text x="263" y="138.9" fill="#f8fafc" font-size="6.5" font-weight="600">ODF-MAIN-48F-T4</text>
+<text x="419" y="138.4" text-anchor="end" fill="#94a3b8" font-size="7.5" font-family="ui-monospace, monospace">U42</text>
+<rect x="216" y="625" width="220" height="22" rx="4" fill="#111827" />
+<text x="225" y="640" fill="#94a3b8" font-size="8" font-family="ui-monospace, monospace">17U dùng · 25U trống</text>
+<text x="427" y="640" text-anchor="end" fill="#34d399" font-size="8.5" font-weight="700" font-family="ui-monospace, monospace">10015W · 185kg</text>
+</g>
+<g data-layer="cable-labeling">
+</g>
+<g data-layer="device">
+<g>
+<rect class="svg-card-neutral" x="446" y="160" width="46" height="56" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="484.0" cy="168.0" r="2.8" fill="#16a34a" />
+<rect x="454.74" y="173.74" width="28.52" height="28.52" rx="7" fill="#16A34A" />
+<rect x="459.6" y="182.4" width="18.9" height="11.3" rx="2" fill="none" stroke="#ffffff" stroke-width="1.85" /><path d="M 463.4 186.2 H 474.6 M 471.6 184.3 L 474.6 186.2 L 471.6 188" fill="none" stroke="#ffffff" stroke-width="1.85" stroke-linecap="round" stroke-linejoin="round" /><path d="M 474.6 190.3 H 463.4 M 466.4 188.4 L 463.4 190.3 L 466.4 192.1" fill="none" stroke="#ffffff" stroke-width="1.85" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text class="svg-label-primary" x="469" y="230" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">Trục Riser T4</text>
+<rect class="svg-ip-pill" x="442.0" y="234" width="54.0" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="469" y="244" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">V10</text>
+</g>
+<g data-layer="device">
+<g>
+<rect class="svg-card-neutral" x="608" y="518" width="78" height="58" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="678.0" cy="526.0" r="2.8" fill="#16a34a" />
+<rect x="629.02" y="529.02" width="35.96" height="35.96" rx="7" fill="#059669" />
+<rect x="635.1" y="539.9" width="23.8" height="14.2" rx="2" fill="none" stroke="#ffffff" stroke-width="2.34" /><path d="M 639.9 544.7 H 654.1 M 650.2 542.3 L 654.1 544.7 L 650.2 547" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linecap="round" stroke-linejoin="round" /><path d="M 654.1 549.8 H 639.9 M 643.8 547.5 L 639.9 549.8 L 643.8 552.2" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text class="svg-label-primary" x="647" y="590" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">Máy Chấm Công T4</text>
+<rect class="svg-ip-pill" x="593.4" y="594" width="107.2" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="647" y="604" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">10.20.60.16 · V60</text>
+</g>
+<g data-layer="device">
+<g>
+<rect class="svg-card-neutral" x="785" y="255" width="80" height="74" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="857.0" cy="263.0" r="2.8" fill="#16a34a" />
+<rect x="807" y="274" width="36" height="36" rx="7" fill="#16A34A" />
+<path d="M 813.6 290.1 A 14.3 14.3 0 0 1 836.4 290.1" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linecap="round" /><path d="M 817.9 294.6 A 9.1 9.1 0 0 1 832.1 294.6" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linecap="round" /><circle cx="825" cy="300.0" r="2.9" fill="#ffffff" />
+</g>
+<text class="svg-label-primary" x="825" y="343" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">AP-WIFI-T4</text>
+<rect class="svg-ip-pill" x="771.4" y="347" width="107.2" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="825" y="357" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">10.20.30.16 · V30</text>
+</g>
+<g data-layer="device">
+<g>
+<rect class="svg-card-neutral" x="560" y="120" width="96" height="64" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="648.0" cy="128.0" r="2.8" fill="#16a34a" />
+<rect x="590" y="134" width="36" height="36" rx="7" fill="#475569" />
+<rect x="596.6" y="142.7" width="22.8" height="14.5" rx="1.8" fill="none" stroke="#ffffff" stroke-width="2.34" /><path d="M 602.2 161.3 H 613.8 M 608 157.2 V 161.3" stroke="#ffffff" stroke-width="2.34" stroke-linecap="round" />
+</g>
+<text class="svg-label-primary" x="608" y="198" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">PC-T4-01</text>
+<rect class="svg-ip-pill" x="554.4" y="202" width="107.2" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="608" y="212" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">10.20.20.61 · V20</text>
+</g>
+<g data-layer="device">
+<g>
+<rect class="svg-card-neutral" x="945" y="120" width="96" height="64" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="1033.0" cy="128.0" r="2.8" fill="#16a34a" />
+<rect x="975" y="134" width="36" height="36" rx="7" fill="#475569" />
+<rect x="981.6" y="142.7" width="22.8" height="14.5" rx="1.8" fill="none" stroke="#ffffff" stroke-width="2.34" /><path d="M 987.2 161.3 H 998.8 M 993 157.2 V 161.3" stroke="#ffffff" stroke-width="2.34" stroke-linecap="round" />
+</g>
+<text class="svg-label-primary" x="993" y="198" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">PC-T4-02</text>
+<rect class="svg-ip-pill" x="939.4" y="202" width="107.2" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="993" y="212" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">10.20.20.62 · V20</text>
+</g>
+<g data-layer="device">
+<g transform="rotate(155 1187 137)">
+<rect class="svg-card-neutral" x="1150" y="105" width="74" height="64" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="1216.0" cy="113.0" r="2.8" fill="#16a34a" />
+<rect x="1169" y="119" width="36" height="36" rx="7" fill="#7C3AED" />
+<rect x="1175.1" y="130.3" width="17.1" height="13.5" rx="2" fill="none" stroke="#ffffff" stroke-width="2.34" /><polygon points="1192.4,135.4 1199.3,130.8 1199.3,143.2 1192.4,138.6" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linejoin="round" />
+</g>
+<text class="svg-label-primary" x="1187" y="183" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">CAM-T4-01</text>
+<rect class="svg-ip-pill" x="1130.6" y="187" width="112.8" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="1187" y="197" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">10.20.40.161 · V40</text>
+</g>
+<g data-layer="device">
+<g transform="rotate(205 1187 567)">
+<rect class="svg-card-neutral" x="1150" y="535" width="74" height="64" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="1216.0" cy="543.0" r="2.8" fill="#16a34a" />
+<rect x="1169" y="549" width="36" height="36" rx="7" fill="#7C3AED" />
+<rect x="1175.1" y="560.3" width="17.1" height="13.5" rx="2" fill="none" stroke="#ffffff" stroke-width="2.34" /><polygon points="1192.4,565.4 1199.3,560.8 1199.3,573.2 1192.4,568.6" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linejoin="round" />
+</g>
+<text class="svg-label-primary" x="1187" y="613" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">CAM-T4-02</text>
+<rect class="svg-ip-pill" x="1130.6" y="617" width="112.8" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="1187" y="627" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">10.20.40.162 · V40</text>
+</g>
+</svg>
+</g>
+<g data-layer="floor-card" data-floor-id="flr_h2_5" data-floor-layer="flr_h2_5">
+<rect class="svg-card-neutral" x="32" y="1667" width="860" height="515" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.6" />
+<rect class="svg-room-hdr" x="33" y="1668" width="858" height="33" rx="9" fill="#e2e8f0" />
+<text class="svg-room-title" x="46" y="1689" fill="#0f172a" font-size="13" font-weight="700">Tầng 5 - Ban Giám Đốc &amp; Điều Hành</text>
+<text class="svg-label-muted" x="878" y="1689" text-anchor="end" fill="#475569" font-size="11" font-family="ui-monospace, monospace">9 phần tử · 1 Rack</text>
+<svg x="34" y="1701" width="856" height="479" viewBox="-10 -10 1360 760" preserveAspectRatio="xMidYMid meet">
+<rect class="svg-bg" x="-10" y="-10" width="1360" height="760" fill="#ffffff" />
+<g data-layer="room">
+<rect class="svg-room-body" x="60" y="60" width="140" height="620" rx="4" fill="#e2e8f0" fill-opacity="0.82" stroke="#94a3b8" stroke-width="6"  />
+<rect class="svg-room-hdr" x="60" y="60" width="140" height="22" rx="4" fill="#e2e8f0" fill-opacity="0.88" />
+<text class="svg-room-title" x="68" y="75" fill="#334155" font-size="10.5" font-weight="700">Cầu Thang Bộ &amp; Mặt Kính (T5) · 139m²</text>
+</g>
+<g data-layer="room">
+<rect class="svg-room-body" x="200" y="60" width="300" height="360" rx="4" fill="#dbeafe" fill-opacity="0.82" stroke="#94a3b8" stroke-width="6" stroke-dasharray="6 4" />
+<rect class="svg-room-hdr" x="200" y="60" width="300" height="22" rx="4" fill="#e2e8f0" fill-opacity="0.88" />
+<text class="svg-room-title" x="208" y="75" fill="#334155" font-size="10.5" font-weight="700">Khu Tủ Small Rack 12U &amp; Trục Riser (T5) · 173m²</text>
+</g>
+<g data-layer="room">
+<rect class="svg-room-body" x="200" y="420" width="300" height="260" rx="4" fill="#f1f5f9" fill-opacity="0.82" stroke="#94a3b8" stroke-width="6"  />
+<rect class="svg-room-hdr" x="200" y="420" width="300" height="22" rx="4" fill="#e2e8f0" fill-opacity="0.88" />
+<text class="svg-room-title" x="208" y="435" fill="#334155" font-size="10.5" font-weight="700">Hành Lang Kỹ Thuật (T5) · 125m²</text>
+</g>
+<g data-layer="room">
+<rect class="svg-room-body" x="500" y="420" width="200" height="260" rx="4" fill="#e0f2fe" fill-opacity="0.82" stroke="#94a3b8" stroke-width="6"  />
+<rect class="svg-room-hdr" x="500" y="420" width="200" height="22" rx="4" fill="#e2e8f0" fill-opacity="0.88" />
+<text class="svg-room-title" x="508" y="435" fill="#334155" font-size="10.5" font-weight="700">Thang Máy &amp; Máy Chấm Công (T5) · 83m²</text>
+</g>
+<g data-layer="room">
+<rect class="svg-room-body" x="500" y="60" width="780" height="360" rx="4" fill="#f8fafc" fill-opacity="0.82" stroke="#94a3b8" stroke-width="6"  />
+<rect class="svg-room-hdr" x="500" y="60" width="780" height="22" rx="4" fill="#e2e8f0" fill-opacity="0.88" />
+<text class="svg-room-title" x="508" y="75" fill="#334155" font-size="10.5" font-weight="700">Văn Phòng Ban Giám Đốc Tầng 5 · 449m²</text>
+</g>
+<g data-layer="room">
+<rect class="svg-room-body" x="700" y="420" width="580" height="260" rx="4" fill="#f8fafc" fill-opacity="0.82" stroke="#94a3b8" stroke-width="6"  />
+<rect class="svg-room-hdr" x="700" y="420" width="580" height="22" rx="4" fill="#e2e8f0" fill-opacity="0.88" />
+<text class="svg-room-title" x="708" y="435" fill="#334155" font-size="10.5" font-weight="700">Phòng Họp Hội Đồng Tầng 5 · 241m²</text>
+</g>
+<g data-layer="cable-trays">
+<g opacity="0.88">
+<polyline points="468,188 1185,188 1185,560" fill="none" stroke="#0284c7" stroke-width="20" stroke-opacity="0.14" stroke-linecap="round" stroke-linejoin="round" />
+<polyline points="468,188 1185,188 1185,560" fill="none" stroke="#0284c7" stroke-width="14.4" stroke-opacity="0.32" stroke-dasharray="4 5" stroke-linecap="butt" stroke-linejoin="round" />
+<polyline points="468,188 1185,188 1185,560" fill="none" stroke="#0284c7" stroke-width="1.4" stroke-opacity="0.75" stroke-dasharray="6 4" stroke-linecap="round" stroke-linejoin="round" />
+<g transform="translate(826.5, 170.0)">
+<rect class="svg-tray-badge" x="-90.0" y="-8" width="180.0" height="14" rx="3" fill="#ffffff" fill-opacity="0.92" stroke="#0284c7" stroke-opacity="0.6" stroke-width="0.9" />
+<text x="0" y="2" text-anchor="middle" fill="#0284c7" font-size="8" font-weight="700">Máng Cáp Mạng Trục Chính (T5)</text>
+</g>
+</g>
+<g opacity="0.88">
+<polyline points="646,188 646,548" fill="none" stroke="#0d9488" stroke-width="14" stroke-opacity="0.14" stroke-linecap="round" stroke-linejoin="round" />
+<polyline points="646,188 646,548" fill="none" stroke="#0d9488" stroke-width="10.1" stroke-opacity="0.32"  stroke-linecap="butt" stroke-linejoin="round" />
+<polyline points="646,188 646,548" fill="none" stroke="#0d9488" stroke-width="1.4" stroke-opacity="0.75" stroke-dasharray="6 4" stroke-linecap="round" stroke-linejoin="round" />
+<g transform="translate(646.0, 353.0)">
+<rect class="svg-tray-badge" x="-90.0" y="-8" width="180.0" height="14" rx="3" fill="#ffffff" fill-opacity="0.92" stroke="#0d9488" stroke-opacity="0.6" stroke-width="0.9" />
+<text x="0" y="2" text-anchor="middle" fill="#0d9488" font-size="8" font-weight="700">Ống Luồn Sảnh Thang Máy (T5)</text>
+</g>
+</g>
+</g>
+<g data-layer="rack">
+<rect x="215" y="95" width="215" height="232" rx="6" fill="#0b1120" stroke="#334155" stroke-width="2" />
+<rect x="216" y="96" width="213" height="34" rx="5" fill="#1e293b" />
+<text x="225" y="116" fill="#f8fafc" font-size="10.5" font-weight="700">Small Rack T5 (12U) (12U)</text>
+<rect x="378" y="103" width="44" height="17" rx="4" fill="#0f766e" />
+<text x="400" y="114.5" text-anchor="middle" fill="#ffffff" font-size="8.5" font-weight="700" font-family="ui-monospace, monospace">TRƯỚC</text>
+<rect x="219" y="133" width="24" height="168" rx="2" fill="#0f172a" />
+<rect x="245" y="133" width="175" height="168" fill="#020617" stroke="#1e293b" stroke-width="1" />
+<line x1="245" y1="147.0" x2="420" y2="147.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="143.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U12</text>
+<line x1="245" y1="161.0" x2="420" y2="161.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="157.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U11</text>
+<line x1="245" y1="175.0" x2="420" y2="175.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="171.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U10</text>
+<line x1="245" y1="189.0" x2="420" y2="189.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="185.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U09</text>
+<line x1="245" y1="203.0" x2="420" y2="203.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="199.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U08</text>
+<line x1="245" y1="217.0" x2="420" y2="217.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="213.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U07</text>
+<line x1="245" y1="231.0" x2="420" y2="231.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="227.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U06</text>
+<line x1="245" y1="245.0" x2="420" y2="245.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="241.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U05</text>
+<line x1="245" y1="259.0" x2="420" y2="259.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="255.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U04</text>
+<line x1="245" y1="273.0" x2="420" y2="273.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="269.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U03</text>
+<line x1="245" y1="287.0" x2="420" y2="287.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="283.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U02</text>
+<line x1="245" y1="301.0" x2="420" y2="301.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="239" y="297.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U01</text>
+<rect x="247" y="189.8" width="171" height="12.4" rx="2" fill="#1e293b" stroke="#1D4ED8" stroke-width="1.1" />
+<rect x="247" y="189.8" width="4" height="12.4" rx="1" fill="#1D4ED8" />
+<circle cx="257" cy="196.0" r="2.5" fill="#22c55e" />
+<text x="263" y="199.0" fill="#f8fafc" font-size="6.8" font-weight="600">SW-POE-T5</text>
+<text x="412" y="198.5" text-anchor="end" fill="#94a3b8" font-size="7.5" font-family="ui-monospace, monospace">U8</text>
+<rect x="247" y="161.8" width="171" height="12.4" rx="2" fill="#1e293b" stroke="#475569" stroke-width="1.1" />
+<rect x="247" y="161.8" width="4" height="12.4" rx="1" fill="#475569" />
+<circle cx="257" cy="168.0" r="2.5" fill="#22c55e" />
+<text x="263" y="171.0" fill="#f8fafc" font-size="6.8" font-weight="600">PP-T5-24P</text>
+<text x="412" y="170.5" text-anchor="end" fill="#94a3b8" font-size="7.5" font-family="ui-monospace, monospace">U10</text>
+<rect x="247" y="133.8" width="171" height="12.4" rx="2" fill="#1e293b" stroke="#0891B2" stroke-width="1.1" />
+<rect x="247" y="133.8" width="4" height="12.4" rx="1" fill="#0891B2" />
+<circle cx="257" cy="140.0" r="2.5" fill="#22c55e" />
+<text x="263" y="143.0" fill="#f8fafc" font-size="6.8" font-weight="600">ODF-T5-12F</text>
+<text x="412" y="142.5" text-anchor="end" fill="#94a3b8" font-size="7.5" font-family="ui-monospace, monospace">U12</text>
+<rect x="216" y="304" width="213" height="22" rx="4" fill="#111827" />
+<text x="225" y="319" fill="#94a3b8" font-size="8" font-family="ui-monospace, monospace">3U dùng · 9U trống</text>
+<text x="420" y="319" text-anchor="end" fill="#34d399" font-size="8.5" font-weight="700" font-family="ui-monospace, monospace">175W · 13kg</text>
+</g>
+<g data-layer="cable-labeling">
+</g>
+<g data-layer="device">
+<g>
+<rect class="svg-card-neutral" x="446" y="160" width="46" height="56" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="484.0" cy="168.0" r="2.8" fill="#16a34a" />
+<rect x="454.74" y="173.74" width="28.52" height="28.52" rx="7" fill="#16A34A" />
+<rect x="459.6" y="182.4" width="18.9" height="11.3" rx="2" fill="none" stroke="#ffffff" stroke-width="1.85" /><path d="M 463.4 186.2 H 474.6 M 471.6 184.3 L 474.6 186.2 L 471.6 188" fill="none" stroke="#ffffff" stroke-width="1.85" stroke-linecap="round" stroke-linejoin="round" /><path d="M 474.6 190.3 H 463.4 M 466.4 188.4 L 463.4 190.3 L 466.4 192.1" fill="none" stroke="#ffffff" stroke-width="1.85" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text class="svg-label-primary" x="469" y="230" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">Trục Riser T5</text>
+<rect class="svg-ip-pill" x="442.0" y="234" width="54.0" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="469" y="244" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">V10</text>
+</g>
+<g data-layer="device">
+<g>
+<rect class="svg-card-neutral" x="608" y="518" width="78" height="58" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="678.0" cy="526.0" r="2.8" fill="#16a34a" />
+<rect x="629.02" y="529.02" width="35.96" height="35.96" rx="7" fill="#059669" />
+<rect x="635.1" y="539.9" width="23.8" height="14.2" rx="2" fill="none" stroke="#ffffff" stroke-width="2.34" /><path d="M 639.9 544.7 H 654.1 M 650.2 542.3 L 654.1 544.7 L 650.2 547" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linecap="round" stroke-linejoin="round" /><path d="M 654.1 549.8 H 639.9 M 643.8 547.5 L 639.9 549.8 L 643.8 552.2" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text class="svg-label-primary" x="647" y="590" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">Máy Chấm Công T5</text>
+<rect class="svg-ip-pill" x="593.4" y="594" width="107.2" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="647" y="604" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">10.20.60.17 · V60</text>
+</g>
+<g data-layer="device">
+<g>
+<rect class="svg-card-neutral" x="785" y="255" width="80" height="74" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="857.0" cy="263.0" r="2.8" fill="#16a34a" />
+<rect x="807" y="274" width="36" height="36" rx="7" fill="#16A34A" />
+<path d="M 813.6 290.1 A 14.3 14.3 0 0 1 836.4 290.1" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linecap="round" /><path d="M 817.9 294.6 A 9.1 9.1 0 0 1 832.1 294.6" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linecap="round" /><circle cx="825" cy="300.0" r="2.9" fill="#ffffff" />
+</g>
+<text class="svg-label-primary" x="825" y="343" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">AP-WIFI-T5</text>
+<rect class="svg-ip-pill" x="771.4" y="347" width="107.2" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="825" y="357" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">10.20.30.17 · V30</text>
+</g>
+<g data-layer="device">
+<g>
+<rect class="svg-card-neutral" x="560" y="120" width="96" height="64" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="648.0" cy="128.0" r="2.8" fill="#16a34a" />
+<rect x="590" y="134" width="36" height="36" rx="7" fill="#475569" />
+<rect x="596.6" y="142.7" width="22.8" height="14.5" rx="1.8" fill="none" stroke="#ffffff" stroke-width="2.34" /><path d="M 602.2 161.3 H 613.8 M 608 157.2 V 161.3" stroke="#ffffff" stroke-width="2.34" stroke-linecap="round" />
+</g>
+<text class="svg-label-primary" x="608" y="198" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">PC-T5-01</text>
+<rect class="svg-ip-pill" x="554.4" y="202" width="107.2" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="608" y="212" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">10.20.20.71 · V20</text>
+</g>
+<g data-layer="device">
+<g>
+<rect class="svg-card-neutral" x="945" y="120" width="96" height="64" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="1033.0" cy="128.0" r="2.8" fill="#16a34a" />
+<rect x="975" y="134" width="36" height="36" rx="7" fill="#475569" />
+<rect x="981.6" y="142.7" width="22.8" height="14.5" rx="1.8" fill="none" stroke="#ffffff" stroke-width="2.34" /><path d="M 987.2 161.3 H 998.8 M 993 157.2 V 161.3" stroke="#ffffff" stroke-width="2.34" stroke-linecap="round" />
+</g>
+<text class="svg-label-primary" x="993" y="198" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">PC-T5-02</text>
+<rect class="svg-ip-pill" x="939.4" y="202" width="107.2" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="993" y="212" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">10.20.20.72 · V20</text>
+</g>
+<g data-layer="device">
+<g transform="rotate(155 1187 137)">
+<rect class="svg-card-neutral" x="1150" y="105" width="74" height="64" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="1216.0" cy="113.0" r="2.8" fill="#16a34a" />
+<rect x="1169" y="119" width="36" height="36" rx="7" fill="#7C3AED" />
+<rect x="1175.1" y="130.3" width="17.1" height="13.5" rx="2" fill="none" stroke="#ffffff" stroke-width="2.34" /><polygon points="1192.4,135.4 1199.3,130.8 1199.3,143.2 1192.4,138.6" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linejoin="round" />
+</g>
+<text class="svg-label-primary" x="1187" y="183" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">CAM-T5-01</text>
+<rect class="svg-ip-pill" x="1130.6" y="187" width="112.8" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="1187" y="197" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">10.20.40.171 · V40</text>
+</g>
+<g data-layer="device">
+<g transform="rotate(205 1187 567)">
+<rect class="svg-card-neutral" x="1150" y="535" width="74" height="64" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="1216.0" cy="543.0" r="2.8" fill="#16a34a" />
+<rect x="1169" y="549" width="36" height="36" rx="7" fill="#7C3AED" />
+<rect x="1175.1" y="560.3" width="17.1" height="13.5" rx="2" fill="none" stroke="#ffffff" stroke-width="2.34" /><polygon points="1192.4,565.4 1199.3,560.8 1199.3,573.2 1192.4,568.6" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linejoin="round" />
+</g>
+<text class="svg-label-primary" x="1187" y="613" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">CAM-T5-02</text>
+<rect class="svg-ip-pill" x="1130.6" y="617" width="112.8" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="1187" y="627" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">10.20.40.172 · V40</text>
+</g>
+</svg>
+</g>
+</svg>

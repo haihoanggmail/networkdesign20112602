@@ -1,0 +1,204 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="40 -45 920 759" width="920" height="759" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+<rect class="svg-bg" x="40" y="-45" width="920" height="759" fill="#ffffff" />
+<g>
+<path d="M 505 54 L 505 158" fill="none" stroke="#6366f1" stroke-width="3"  stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<g>
+<path d="M 505 158 L 505 279" fill="none" stroke="#dc2626" stroke-width="3"  stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<g>
+<path d="M 505 279 L 195 278" fill="none" stroke="#475569" stroke-width="3"  stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<g>
+<path d="M 505 279 L 800 278" fill="none" stroke="#e11d48" stroke-width="2" stroke-dasharray="6 4" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<g>
+<path d="M 505 279 L 355 279 L 355 438 L 205 438" fill="none" stroke="#0284c7" stroke-width="3"  stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<g>
+<path d="M 505 279 L 505 279 L 505 438 L 505 438" fill="none" stroke="#0284c7" stroke-width="3"  stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<g>
+<path d="M 505 279 L 655 279 L 655 438 L 805 438" fill="none" stroke="#0284c7" stroke-width="3"  stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<g>
+<path d="M 205 438 L 205 571" fill="none" stroke="#10b981" stroke-width="2"  stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<g>
+<path d="M 505 438 L 505 571" fill="none" stroke="#10b981" stroke-width="2"  stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<g>
+<path d="M 805 438 L 805 571" fill="none" stroke="#f59e0b" stroke-width="2"  stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<g data-layer="cable-labeling">
+<g transform="translate(505.0, 106.0) rotate(-90.0)">
+<rect class="svg-cable-badge" x="-62.0" y="-9.5" width="124" height="19" rx="4" fill="#ffffff" fill-opacity="0.96" stroke="#6366f1" stroke-width="1.1" />
+<circle cx="-54.3" cy="0" r="2.7" fill="#6366f1" />
+<text class="svg-cable-text" x="4.2" y="3.3" text-anchor="middle" fill="#0f172a" font-size="9.5" font-weight="600">WAN-FTTH-01 (1G)</text>
+</g>
+<g transform="translate(505.0, 218.5) rotate(-90.0)">
+<rect class="svg-cable-badge" x="-83.5" y="-9.5" width="167" height="19" rx="4" fill="#ffffff" fill-opacity="0.96" stroke="#dc2626" stroke-width="1.1" />
+<circle cx="-75.8" cy="0" r="2.7" fill="#dc2626" />
+<text class="svg-cable-text" x="4.2" y="3.3" text-anchor="middle" fill="#0f172a" font-size="9.5" font-weight="600">FW-COLLAPSED-CORE (10G)</text>
+</g>
+<g transform="translate(350.0, 278.5) rotate(0.2)">
+<rect class="svg-cable-badge" x="-68.0" y="-9.5" width="136" height="19" rx="4" fill="#ffffff" fill-opacity="0.96" stroke="#475569" stroke-width="1.1" />
+<circle cx="-60.3" cy="0" r="2.7" fill="#475569" />
+<text class="svg-cable-text" x="4.2" y="3.3" text-anchor="middle" fill="#0f172a" font-size="9.5" font-weight="600">CORE-SRV-10G (10G)</text>
+</g>
+<g transform="translate(652.5, 278.5) rotate(-0.2)">
+<rect class="svg-cable-badge" x="-68.0" y="-9.5" width="136" height="19" rx="4" fill="#ffffff" fill-opacity="0.96" stroke="#e11d48" stroke-width="1.1" />
+<circle cx="-60.3" cy="0" r="2.7" fill="#e11d48" />
+<text class="svg-cable-text" x="4.2" y="3.3" text-anchor="middle" fill="#0f172a" font-size="9.5" font-weight="600">CORE-UPS-MGMT (1G)</text>
+</g>
+<g transform="translate(355.0, 358.5) rotate(-90.0)">
+<rect class="svg-cable-badge" x="-68.0" y="-9.5" width="136" height="19" rx="4" fill="#ffffff" fill-opacity="0.96" stroke="#0284c7" stroke-width="1.1" />
+<circle cx="-60.3" cy="0" r="2.7" fill="#0284c7" />
+<text class="svg-cable-text" x="4.2" y="3.3" text-anchor="middle" fill="#0f172a" font-size="9.5" font-weight="600">FO-TRUNK-FL1 (10G)</text>
+</g>
+<g transform="translate(505.0, 358.5) rotate(-90.0)">
+<rect class="svg-cable-badge" x="-68.0" y="-9.5" width="136" height="19" rx="4" fill="#ffffff" fill-opacity="0.96" stroke="#0284c7" stroke-width="1.1" />
+<circle cx="-60.3" cy="0" r="2.7" fill="#0284c7" />
+<text class="svg-cable-text" x="4.2" y="3.3" text-anchor="middle" fill="#0f172a" font-size="9.5" font-weight="600">FO-TRUNK-FL2 (10G)</text>
+</g>
+<g transform="translate(655.0, 358.5) rotate(-90.0)">
+<rect class="svg-cable-badge" x="-68.0" y="-9.5" width="136" height="19" rx="4" fill="#ffffff" fill-opacity="0.96" stroke="#0284c7" stroke-width="1.1" />
+<circle cx="-60.3" cy="0" r="2.7" fill="#0284c7" />
+<text class="svg-cable-text" x="4.2" y="3.3" text-anchor="middle" fill="#0f172a" font-size="9.5" font-weight="600">FO-TRUNK-FL3 (10G)</text>
+</g>
+<g transform="translate(205.0, 504.5) rotate(-90.0)">
+<rect class="svg-cable-badge" x="-65.0" y="-9.5" width="130" height="19" rx="4" fill="#ffffff" fill-opacity="0.96" stroke="#10b981" stroke-width="1.1" />
+<circle cx="-57.3" cy="0" r="2.7" fill="#10b981" />
+<text class="svg-cable-text" x="4.2" y="3.3" text-anchor="middle" fill="#0f172a" font-size="9.5" font-weight="600">POE-FL1-AP01 (1G)</text>
+</g>
+<g transform="translate(505.0, 504.5) rotate(-90.0)">
+<rect class="svg-cable-badge" x="-65.0" y="-9.5" width="130" height="19" rx="4" fill="#ffffff" fill-opacity="0.96" stroke="#10b981" stroke-width="1.1" />
+<circle cx="-57.3" cy="0" r="2.7" fill="#10b981" />
+<text class="svg-cable-text" x="4.2" y="3.3" text-anchor="middle" fill="#0f172a" font-size="9.5" font-weight="600">POE-FL2-AP01 (1G)</text>
+</g>
+<g transform="translate(805.0, 504.5) rotate(-90.0)">
+<rect class="svg-cable-badge" x="-68.0" y="-9.5" width="136" height="19" rx="4" fill="#ffffff" fill-opacity="0.96" stroke="#f59e0b" stroke-width="1.1" />
+<circle cx="-60.3" cy="0" r="2.7" fill="#f59e0b" />
+<text class="svg-cable-text" x="4.2" y="3.3" text-anchor="middle" fill="#0f172a" font-size="9.5" font-weight="600">POE-FL3-CAM01 (1G)</text>
+</g>
+</g>
+<g data-layer="device">
+<g>
+<rect class="svg-card-neutral" x="420" y="25" width="170" height="58" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="582.0" cy="33.0" r="2.8" fill="#16a34a" />
+<rect x="487.02" y="36.019999999999996" width="35.96" height="35.96" rx="7" fill="#0891B2" />
+<path d="M 497.9 61.1 H 513.0 A 5.4 5.4 0 0 0 511.7 50.4 A 7.1 7.1 0 0 0 498.5 51.4 A 5.2 5.2 0 0 0 497.9 61.1 Z" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linejoin="round" />
+</g>
+<text class="svg-label-primary" x="505" y="97" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">WAN-DUAL-ISP</text>
+</g>
+<g data-layer="device">
+<g>
+<rect class="svg-card-neutral" x="415" y="130" width="180" height="56" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="587.0" cy="138.0" r="2.8" fill="#16a34a" />
+<rect x="487.64" y="140.64" width="34.72" height="34.72" rx="7" fill="#DC2626" />
+<path d="M 505 146.1 L 515.0 151.1 V 159.2 C 515.0 166.1 505 170.2 505 170.2 C 505 170.2 495.0 166.1 495.0 159.2 V 151.1 Z" fill="none" stroke="#ffffff" stroke-width="2.26" stroke-linejoin="round" />
+</g>
+<text class="svg-label-primary" x="505" y="200" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">NGFW-FORTIGATE-200F</text>
+<rect class="svg-ip-pill" x="454.2" y="204" width="101.6" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="505" y="214" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">10.50.10.1 · V10</text>
+</g>
+<g data-layer="device">
+<g>
+<rect class="svg-card-neutral" x="415" y="250" width="180" height="58" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="587.0" cy="258.0" r="2.8" fill="#16a34a" />
+<rect x="487.02" y="261.02" width="35.96" height="35.96" rx="7" fill="#1E40AF" />
+<rect x="493.1" y="271.9" width="23.8" height="14.2" rx="2" fill="none" stroke="#ffffff" stroke-width="2.34" /><path d="M 497.9 276.7 H 512.1 M 508.2 274.3 L 512.1 276.7 L 508.2 279" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linecap="round" stroke-linejoin="round" /><path d="M 512.1 281.8 H 497.9 M 501.8 279.5 L 497.9 281.8 L 501.8 284.2" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text class="svg-label-primary" x="505" y="322" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">COLLAPSED-CORE-L3</text>
+<rect class="svg-ip-pill" x="454.2" y="326" width="101.6" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="505" y="336" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">10.50.10.2 · V10</text>
+</g>
+<g data-layer="device">
+<g>
+<rect class="svg-card-neutral" x="110" y="250" width="170" height="56" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="272.0" cy="258.0" r="2.8" fill="#16a34a" />
+<rect x="177.64" y="260.64" width="34.72" height="34.72" rx="7" fill="#475569" />
+<rect x="184.4" y="267.8" width="21.2" height="8.7" rx="1.5" fill="none" stroke="#ffffff" stroke-width="2.26" /><rect x="184.4" y="279.5" width="21.2" height="8.7" rx="1.5" fill="none" stroke="#ffffff" stroke-width="2.26" /><circle cx="188.8" cy="272.1" r="1.5" fill="#ffffff" /><circle cx="188.8" cy="283.9" r="1.5" fill="#ffffff" />
+</g>
+<text class="svg-label-primary" x="195" y="320" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">SRV-AD-ERP-MDF</text>
+<rect class="svg-ip-pill" x="141.4" y="324" width="107.2" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="195" y="334" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">10.50.50.10 · V50</text>
+</g>
+<g data-layer="device">
+<g>
+<rect class="svg-card-neutral" x="720" y="250" width="160" height="56" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="872.0" cy="258.0" r="2.8" fill="#16a34a" />
+<rect x="782.64" y="260.64" width="34.72" height="34.72" rx="7" fill="#E11D48" />
+<polygon points="801.9,266.1 792.8,279.0 800,279.0 798.1,289.9 807.2,277.0 800,277.0" fill="#ffffff" />
+</g>
+<text class="svg-label-primary" x="800" y="320" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">UPS-MDF-3KVA</text>
+<rect class="svg-ip-pill" x="749.2" y="324" width="101.6" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="800" y="334" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">10.50.10.5 · V10</text>
+</g>
+<g data-layer="device">
+<g>
+<rect class="svg-card-neutral" x="120" y="410" width="170" height="56" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="282.0" cy="418.0" r="2.8" fill="#16a34a" />
+<rect x="187.64" y="420.64" width="34.72" height="34.72" rx="7" fill="#1D4ED8" />
+<rect x="193.5" y="431.1" width="23.0" height="13.7" rx="2" fill="none" stroke="#ffffff" stroke-width="2.26" /><path d="M 198.1 435.8 H 211.9 M 208.1 433.5 L 211.9 435.8 L 208.1 438" fill="none" stroke="#ffffff" stroke-width="2.26" stroke-linecap="round" stroke-linejoin="round" /><path d="M 211.9 440.7 H 198.1 M 201.9 438.5 L 198.1 440.7 L 201.9 443.0" fill="none" stroke="#ffffff" stroke-width="2.26" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text class="svg-label-primary" x="205" y="480" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">SW-ACC-TANG1-POE</text>
+<rect class="svg-ip-pill" x="151.4" y="484" width="107.2" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="205" y="494" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">10.50.10.11 · V10</text>
+</g>
+<g data-layer="device">
+<g>
+<rect class="svg-card-neutral" x="420" y="410" width="170" height="56" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="582.0" cy="418.0" r="2.8" fill="#16a34a" />
+<rect x="487.64" y="420.64" width="34.72" height="34.72" rx="7" fill="#1D4ED8" />
+<rect x="493.5" y="431.1" width="23.0" height="13.7" rx="2" fill="none" stroke="#ffffff" stroke-width="2.26" /><path d="M 498.1 435.8 H 511.9 M 508.1 433.5 L 511.9 435.8 L 508.1 438" fill="none" stroke="#ffffff" stroke-width="2.26" stroke-linecap="round" stroke-linejoin="round" /><path d="M 511.9 440.7 H 498.1 M 501.9 438.5 L 498.1 440.7 L 501.9 443.0" fill="none" stroke="#ffffff" stroke-width="2.26" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text class="svg-label-primary" x="505" y="480" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">SW-ACC-TANG2-POE</text>
+<rect class="svg-ip-pill" x="451.4" y="484" width="107.2" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="505" y="494" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">10.50.10.12 · V10</text>
+</g>
+<g data-layer="device">
+<g>
+<rect class="svg-card-neutral" x="720" y="410" width="170" height="56" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="882.0" cy="418.0" r="2.8" fill="#16a34a" />
+<rect x="787.64" y="420.64" width="34.72" height="34.72" rx="7" fill="#1D4ED8" />
+<rect x="793.5" y="431.1" width="23.0" height="13.7" rx="2" fill="none" stroke="#ffffff" stroke-width="2.26" /><path d="M 798.1 435.8 H 811.9 M 808.1 433.5 L 811.9 435.8 L 808.1 438" fill="none" stroke="#ffffff" stroke-width="2.26" stroke-linecap="round" stroke-linejoin="round" /><path d="M 811.9 440.7 H 798.1 M 801.9 438.5 L 798.1 440.7 L 801.9 443.0" fill="none" stroke="#ffffff" stroke-width="2.26" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text class="svg-label-primary" x="805" y="480" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">SW-ACC-TANG3-POE</text>
+<rect class="svg-ip-pill" x="751.4" y="484" width="107.2" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="805" y="494" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">10.50.10.13 · V10</text>
+</g>
+<g data-layer="device">
+<g>
+<rect class="svg-card-neutral" x="135" y="540" width="140" height="62" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="267.0" cy="548.0" r="2.8" fill="#16a34a" />
+<rect x="187" y="553" width="36" height="36" rx="7" fill="#16A34A" />
+<path d="M 193.6 569.1 A 14.3 14.3 0 0 1 216.4 569.1" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linecap="round" /><path d="M 197.9 573.6 A 9.1 9.1 0 0 1 212.1 573.6" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linecap="round" /><circle cx="205" cy="579.0" r="2.9" fill="#ffffff" />
+</g>
+<text class="svg-label-primary" x="205" y="616" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">AP-TANG1-WIFI6</text>
+<rect class="svg-ip-pill" x="151.4" y="620" width="107.2" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="205" y="630" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">10.50.30.11 · V30</text>
+</g>
+<g data-layer="device">
+<g>
+<rect class="svg-card-neutral" x="435" y="540" width="140" height="62" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="567.0" cy="548.0" r="2.8" fill="#16a34a" />
+<rect x="487" y="553" width="36" height="36" rx="7" fill="#16A34A" />
+<path d="M 493.6 569.1 A 14.3 14.3 0 0 1 516.4 569.1" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linecap="round" /><path d="M 497.9 573.6 A 9.1 9.1 0 0 1 512.1 573.6" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linecap="round" /><circle cx="505" cy="579.0" r="2.9" fill="#ffffff" />
+</g>
+<text class="svg-label-primary" x="505" y="616" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">AP-TANG2-WIFI6</text>
+<rect class="svg-ip-pill" x="451.4" y="620" width="107.2" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="505" y="630" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">10.50.30.12 · V30</text>
+</g>
+<g data-layer="device">
+<g>
+<rect class="svg-card-neutral" x="735" y="540" width="140" height="62" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="867.0" cy="548.0" r="2.8" fill="#16a34a" />
+<rect x="787" y="553" width="36" height="36" rx="7" fill="#7C3AED" />
+<rect x="793.1" y="564.3" width="17.1" height="13.5" rx="2" fill="none" stroke="#ffffff" stroke-width="2.34" /><polygon points="810.4,569.4 817.3,564.8 817.3,577.2 810.4,572.6" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linejoin="round" />
+</g>
+<text class="svg-label-primary" x="805" y="616" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">CAM-TANG3-01</text>
+<rect class="svg-ip-pill" x="751.4" y="620" width="107.2" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="805" y="630" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">10.50.40.21 · V40</text>
+</g>
+</svg>

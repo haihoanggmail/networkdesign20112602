@@ -1,0 +1,571 @@
+{
+  "id": "proj_fiber",
+  "name": "Sơ đồ Tuyến Cáp Quang Trục Đứng ODF",
+  "author": "Optical Telecom Engineer",
+  "version": "1.0.0",
+  "lastModified": "2026-11-19T08:10:03.203Z",
+  "buildings": [],
+  "floors": [],
+  "rooms": [],
+  "racks": [],
+  "assets": {
+    "dev_1795075803203_x9sb": {
+      "id": "dev_1795075803203_x9sb",
+      "name": "ODF-MDF-TẦNG 1 (48F)",
+      "category": "odf",
+      "vendor": "HACHIHI",
+      "model": "ODF-24-LC-DUPLEX",
+      "assetTag": "AST-0001",
+      "serialNumber": "SNK2T3S4MN",
+      "ipAddress": "192.168.10.11",
+      "subnetMask": "255.255.255.0",
+      "gateway": "192.168.10.1",
+      "macAddress": "00:1A:2B:00:01:C1",
+      "vlan": "10, 20",
+      "status": "online",
+      "powerWatts": 0,
+      "weightKg": 2.8,
+      "ports": [
+        {
+          "id": "port_1",
+          "name": "LC_Port_1",
+          "type": "FIBER_LC",
+          "speed": "Fiber",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_2",
+          "name": "LC_Port_2",
+          "type": "FIBER_LC",
+          "speed": "Fiber",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_3",
+          "name": "LC_Port_3",
+          "type": "FIBER_LC",
+          "speed": "Fiber",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_4",
+          "name": "LC_Port_4",
+          "type": "FIBER_LC",
+          "speed": "Fiber",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_5",
+          "name": "LC_Port_5",
+          "type": "FIBER_LC",
+          "speed": "Fiber",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_6",
+          "name": "LC_Port_6",
+          "type": "FIBER_LC",
+          "speed": "Fiber",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_7",
+          "name": "LC_Port_7",
+          "type": "FIBER_LC",
+          "speed": "Fiber",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_8",
+          "name": "LC_Port_8",
+          "type": "FIBER_LC",
+          "speed": "Fiber",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_9",
+          "name": "LC_Port_9",
+          "type": "FIBER_LC",
+          "speed": "Fiber",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_10",
+          "name": "LC_Port_10",
+          "type": "FIBER_LC",
+          "speed": "Fiber",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_11",
+          "name": "LC_Port_11",
+          "type": "FIBER_LC",
+          "speed": "Fiber",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_12",
+          "name": "LC_Port_12",
+          "type": "FIBER_LC",
+          "speed": "Fiber",
+          "status": "unlinked"
+        }
+      ]
+    },
+    "dev_1795075803203_rz73": {
+      "id": "dev_1795075803203_rz73",
+      "name": "ODF-IDF TẦNG 2 (12F)",
+      "category": "odf",
+      "vendor": "HACHIHI",
+      "model": "ODF-24-LC-DUPLEX",
+      "assetTag": "AST-0002",
+      "serialNumber": "SNZRYGDW5B",
+      "ipAddress": "192.168.10.12",
+      "subnetMask": "255.255.255.0",
+      "gateway": "192.168.10.1",
+      "macAddress": "00:1A:2B:00:02:C1",
+      "vlan": "10, 20",
+      "status": "online",
+      "powerWatts": 0,
+      "weightKg": 2.8,
+      "ports": [
+        {
+          "id": "port_1",
+          "name": "LC_Port_1",
+          "type": "FIBER_LC",
+          "speed": "Fiber",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_2",
+          "name": "LC_Port_2",
+          "type": "FIBER_LC",
+          "speed": "Fiber",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_3",
+          "name": "LC_Port_3",
+          "type": "FIBER_LC",
+          "speed": "Fiber",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_4",
+          "name": "LC_Port_4",
+          "type": "FIBER_LC",
+          "speed": "Fiber",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_5",
+          "name": "LC_Port_5",
+          "type": "FIBER_LC",
+          "speed": "Fiber",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_6",
+          "name": "LC_Port_6",
+          "type": "FIBER_LC",
+          "speed": "Fiber",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_7",
+          "name": "LC_Port_7",
+          "type": "FIBER_LC",
+          "speed": "Fiber",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_8",
+          "name": "LC_Port_8",
+          "type": "FIBER_LC",
+          "speed": "Fiber",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_9",
+          "name": "LC_Port_9",
+          "type": "FIBER_LC",
+          "speed": "Fiber",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_10",
+          "name": "LC_Port_10",
+          "type": "FIBER_LC",
+          "speed": "Fiber",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_11",
+          "name": "LC_Port_11",
+          "type": "FIBER_LC",
+          "speed": "Fiber",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_12",
+          "name": "LC_Port_12",
+          "type": "FIBER_LC",
+          "speed": "Fiber",
+          "status": "unlinked"
+        }
+      ]
+    },
+    "dev_1795075803203_5nw6": {
+      "id": "dev_1795075803203_5nw6",
+      "name": "ODF-IDF TẦNG 3 (12F)",
+      "category": "odf",
+      "vendor": "HACHIHI",
+      "model": "ODF-24-LC-DUPLEX",
+      "assetTag": "AST-0003",
+      "serialNumber": "SN4DBXBZBJ",
+      "ipAddress": "192.168.10.13",
+      "subnetMask": "255.255.255.0",
+      "gateway": "192.168.10.1",
+      "macAddress": "00:1A:2B:00:03:C1",
+      "vlan": "10, 20",
+      "status": "online",
+      "powerWatts": 0,
+      "weightKg": 2.8,
+      "ports": [
+        {
+          "id": "port_1",
+          "name": "LC_Port_1",
+          "type": "FIBER_LC",
+          "speed": "Fiber",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_2",
+          "name": "LC_Port_2",
+          "type": "FIBER_LC",
+          "speed": "Fiber",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_3",
+          "name": "LC_Port_3",
+          "type": "FIBER_LC",
+          "speed": "Fiber",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_4",
+          "name": "LC_Port_4",
+          "type": "FIBER_LC",
+          "speed": "Fiber",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_5",
+          "name": "LC_Port_5",
+          "type": "FIBER_LC",
+          "speed": "Fiber",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_6",
+          "name": "LC_Port_6",
+          "type": "FIBER_LC",
+          "speed": "Fiber",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_7",
+          "name": "LC_Port_7",
+          "type": "FIBER_LC",
+          "speed": "Fiber",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_8",
+          "name": "LC_Port_8",
+          "type": "FIBER_LC",
+          "speed": "Fiber",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_9",
+          "name": "LC_Port_9",
+          "type": "FIBER_LC",
+          "speed": "Fiber",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_10",
+          "name": "LC_Port_10",
+          "type": "FIBER_LC",
+          "speed": "Fiber",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_11",
+          "name": "LC_Port_11",
+          "type": "FIBER_LC",
+          "speed": "Fiber",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_12",
+          "name": "LC_Port_12",
+          "type": "FIBER_LC",
+          "speed": "Fiber",
+          "status": "unlinked"
+        }
+      ]
+    },
+    "dev_1795075803203_mzo8": {
+      "id": "dev_1795075803203_mzo8",
+      "name": "ODF-IDF TẦNG 4 (12F)",
+      "category": "odf",
+      "vendor": "HACHIHI",
+      "model": "ODF-24-LC-DUPLEX",
+      "assetTag": "AST-0004",
+      "serialNumber": "SN7YMVVY3N",
+      "ipAddress": "192.168.10.14",
+      "subnetMask": "255.255.255.0",
+      "gateway": "192.168.10.1",
+      "macAddress": "00:1A:2B:00:04:C1",
+      "vlan": "10, 20",
+      "status": "online",
+      "powerWatts": 0,
+      "weightKg": 2.8,
+      "ports": [
+        {
+          "id": "port_1",
+          "name": "LC_Port_1",
+          "type": "FIBER_LC",
+          "speed": "Fiber",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_2",
+          "name": "LC_Port_2",
+          "type": "FIBER_LC",
+          "speed": "Fiber",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_3",
+          "name": "LC_Port_3",
+          "type": "FIBER_LC",
+          "speed": "Fiber",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_4",
+          "name": "LC_Port_4",
+          "type": "FIBER_LC",
+          "speed": "Fiber",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_5",
+          "name": "LC_Port_5",
+          "type": "FIBER_LC",
+          "speed": "Fiber",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_6",
+          "name": "LC_Port_6",
+          "type": "FIBER_LC",
+          "speed": "Fiber",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_7",
+          "name": "LC_Port_7",
+          "type": "FIBER_LC",
+          "speed": "Fiber",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_8",
+          "name": "LC_Port_8",
+          "type": "FIBER_LC",
+          "speed": "Fiber",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_9",
+          "name": "LC_Port_9",
+          "type": "FIBER_LC",
+          "speed": "Fiber",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_10",
+          "name": "LC_Port_10",
+          "type": "FIBER_LC",
+          "speed": "Fiber",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_11",
+          "name": "LC_Port_11",
+          "type": "FIBER_LC",
+          "speed": "Fiber",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_12",
+          "name": "LC_Port_12",
+          "type": "FIBER_LC",
+          "speed": "Fiber",
+          "status": "unlinked"
+        }
+      ]
+    }
+  },
+  "nodes": [
+    {
+      "id": "node_mdf_odf",
+      "diagramMode": "fiber",
+      "type": "device",
+      "assetId": "dev_1795075803203_x9sb",
+      "label": "ODF-MDF-TẦNG 1 (48F)",
+      "x": 420,
+      "y": 80,
+      "width": 190,
+      "height": 56,
+      "rotation": 0,
+      "style": {
+        "backgroundColor": "#06b6d4",
+        "borderColor": "#0891b2",
+        "borderWidth": 2,
+        "borderStyle": "solid",
+        "opacity": 1,
+        "textColor": "#fff"
+      }
+    },
+    {
+      "id": "node_idf_1",
+      "diagramMode": "fiber",
+      "type": "device",
+      "assetId": "dev_1795075803203_rz73",
+      "label": "ODF-IDF TẦNG 2 (12F)",
+      "x": 180,
+      "y": 300,
+      "width": 180,
+      "height": 56,
+      "rotation": 0,
+      "style": {
+        "backgroundColor": "#0ea5e9",
+        "borderColor": "#0284c7",
+        "borderWidth": 2,
+        "borderStyle": "solid",
+        "opacity": 1,
+        "textColor": "#fff"
+      }
+    },
+    {
+      "id": "node_idf_2",
+      "diagramMode": "fiber",
+      "type": "device",
+      "assetId": "dev_1795075803203_5nw6",
+      "label": "ODF-IDF TẦNG 3 (12F)",
+      "x": 420,
+      "y": 300,
+      "width": 180,
+      "height": 56,
+      "rotation": 0,
+      "style": {
+        "backgroundColor": "#0ea5e9",
+        "borderColor": "#0284c7",
+        "borderWidth": 2,
+        "borderStyle": "solid",
+        "opacity": 1,
+        "textColor": "#fff"
+      }
+    },
+    {
+      "id": "node_idf_3",
+      "diagramMode": "fiber",
+      "type": "device",
+      "assetId": "dev_1795075803203_mzo8",
+      "label": "ODF-IDF TẦNG 4 (12F)",
+      "x": 660,
+      "y": 300,
+      "width": 180,
+      "height": 56,
+      "rotation": 0,
+      "style": {
+        "backgroundColor": "#0ea5e9",
+        "borderColor": "#0284c7",
+        "borderWidth": 2,
+        "borderStyle": "solid",
+        "opacity": 1,
+        "textColor": "#fff"
+      }
+    }
+  ],
+  "cables": [
+    {
+      "id": "cab_fiber_spine_1",
+      "cableCode": "FO-BACKBONE-FL2",
+      "diagramMode": "fiber",
+      "sourceNodeId": "node_mdf_odf",
+      "targetNodeId": "node_idf_1",
+      "cableType": "FIBER_SM_OS2",
+      "bandwidth": "100G",
+      "color": "#06b6d4",
+      "routingType": "orthogonal",
+      "lineStyle": "solid",
+      "strokeWidth": 3,
+      "lengthMeters": 40,
+      "status": "active"
+    },
+    {
+      "id": "cab_fiber_spine_2",
+      "cableCode": "FO-BACKBONE-FL3",
+      "diagramMode": "fiber",
+      "sourceNodeId": "node_mdf_odf",
+      "targetNodeId": "node_idf_2",
+      "cableType": "FIBER_SM_OS2",
+      "bandwidth": "100G",
+      "color": "#06b6d4",
+      "routingType": "orthogonal",
+      "lineStyle": "solid",
+      "strokeWidth": 3,
+      "lengthMeters": 55,
+      "status": "active"
+    },
+    {
+      "id": "cab_fiber_spine_3",
+      "cableCode": "FO-BACKBONE-FL4",
+      "diagramMode": "fiber",
+      "sourceNodeId": "node_mdf_odf",
+      "targetNodeId": "node_idf_3",
+      "cableType": "FIBER_SM_OS2",
+      "bandwidth": "100G",
+      "color": "#06b6d4",
+      "routingType": "orthogonal",
+      "lineStyle": "solid",
+      "strokeWidth": 3,
+      "lengthMeters": 70,
+      "status": "active"
+    }
+  ],
+  "activeMode": "fiber",
+  "activeBuildingId": "",
+  "activeFloorId": "",
+  "settings": {
+    "gridSize": 20,
+    "snapToGrid": true,
+    "showRulers": true,
+    "showGrid": true,
+    "showPortLabels": true,
+    "showIpAddresses": true,
+    "showCableCodes": true,
+    "showCoverageRadius": false,
+    "unit": "m",
+    "scale": 30,
+    "backgroundColor": "#f8fafc",
+    "isDarkMode": false
+  }
+}

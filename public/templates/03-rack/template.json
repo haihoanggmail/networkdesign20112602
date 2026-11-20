@@ -1,0 +1,26 @@
+{
+  "id": "rack-datacenter-003",
+  "legacyId": "tpl_rack_datacenter",
+  "name": "Tủ Server Rack 42U Data Center",
+  "category": "Rack",
+  "mode": "rack",
+  "badge": "19-inch 42U",
+  "version": "1.0.0",
+  "updatedAt": "2026-11-19",
+  "author": "HACHIHI",
+  "description": "Thiết kế tủ rack 42U chuẩn quốc tế: ODF quang đỉnh tủ (U41-42), Patch Panel Cat6 (U38-40), Switch Core & Access (U34-36), Server ảo hóa VMware 2U (U20-30), Bộ lưu điện UPS Online 3kVA (U1-U4).",
+  "highlights": [
+    "1 tầng",
+    "6 thiết bị",
+    "0 tuyến cáp"
+  ],
+  "projectFile": "project.json",
+  "preview": "preview.svg",
+  "tags": [
+    "Rack",
+    "42U",
+    "Server",
+    "UPS",
+    "ODF"
+  ]
+}

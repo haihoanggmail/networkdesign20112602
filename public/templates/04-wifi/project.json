@@ -1,0 +1,213 @@
+{
+  "id": "proj_wifi",
+  "name": "Bản đồ Vùng Phủ sóng Wi-Fi 6",
+  "author": "Wireless Engineer",
+  "version": "1.0.0",
+  "lastModified": "2026-11-19T08:10:03.202Z",
+  "buildings": [],
+  "floors": [],
+  "rooms": [],
+  "racks": [],
+  "assets": {
+    "dev_1795075803202_mw5c": {
+      "id": "dev_1795075803202_mw5c",
+      "name": "AP-HALL-NORTH (Ch 1 / 36)",
+      "category": "ap",
+      "vendor": "Aruba",
+      "model": "UniFi U6 Enterprise",
+      "assetTag": "AST-0001",
+      "serialNumber": "SNPHDVPNXY",
+      "ipAddress": "10.20.1.10",
+      "subnetMask": "255.255.255.0",
+      "gateway": "192.168.10.1",
+      "macAddress": "00:1A:2B:00:01:C1",
+      "vlan": "10, 20",
+      "status": "online",
+      "powerWatts": 22,
+      "weightKg": 0.9,
+      "wifiSpecs": {
+        "standard": "Wi-Fi 6 (802.11ax)",
+        "bands": "2.4GHz + 5GHz",
+        "txPowerDbm": 22,
+        "coverageRadiusMeters": 20,
+        "channel24": 6,
+        "channel5": 36,
+        "maxClients": 250,
+        "ssid": "HACHIHI-CORP-WIFI"
+      },
+      "ports": [
+        {
+          "id": "port_1",
+          "name": "Eth0_PoE",
+          "type": "RJ45_10G",
+          "poe": true,
+          "speed": "2.5 Gbps",
+          "status": "unlinked"
+        }
+      ]
+    },
+    "dev_1795075803202_zb0d": {
+      "id": "dev_1795075803202_zb0d",
+      "name": "AP-TECH-CENTER (Ch 6 / 44)",
+      "category": "ap",
+      "vendor": "Aruba",
+      "model": "UniFi U6 Enterprise",
+      "assetTag": "AST-0002",
+      "serialNumber": "SNZD0M5AD8",
+      "ipAddress": "10.20.1.11",
+      "subnetMask": "255.255.255.0",
+      "gateway": "192.168.10.1",
+      "macAddress": "00:1A:2B:00:02:C1",
+      "vlan": "10, 20",
+      "status": "online",
+      "powerWatts": 22,
+      "weightKg": 0.9,
+      "wifiSpecs": {
+        "standard": "Wi-Fi 6 (802.11ax)",
+        "bands": "2.4GHz + 5GHz",
+        "txPowerDbm": 22,
+        "coverageRadiusMeters": 22,
+        "channel24": 6,
+        "channel5": 36,
+        "maxClients": 250,
+        "ssid": "HACHIHI-CORP-WIFI"
+      },
+      "ports": [
+        {
+          "id": "port_1",
+          "name": "Eth0_PoE",
+          "type": "RJ45_10G",
+          "poe": true,
+          "speed": "2.5 Gbps",
+          "status": "unlinked"
+        }
+      ]
+    },
+    "dev_1795075803202_sd37": {
+      "id": "dev_1795075803202_sd37",
+      "name": "AP-OFFICE-SOUTH (Ch 11 / 52)",
+      "category": "ap",
+      "vendor": "Aruba",
+      "model": "UniFi U6 Enterprise",
+      "assetTag": "AST-0003",
+      "serialNumber": "SNAITAM755",
+      "ipAddress": "10.20.1.12",
+      "subnetMask": "255.255.255.0",
+      "gateway": "192.168.10.1",
+      "macAddress": "00:1A:2B:00:03:C1",
+      "vlan": "10, 20",
+      "status": "online",
+      "powerWatts": 22,
+      "weightKg": 0.9,
+      "wifiSpecs": {
+        "standard": "Wi-Fi 6 (802.11ax)",
+        "bands": "2.4GHz + 5GHz",
+        "txPowerDbm": 22,
+        "coverageRadiusMeters": 18,
+        "channel24": 6,
+        "channel5": 36,
+        "maxClients": 250,
+        "ssid": "HACHIHI-CORP-WIFI"
+      },
+      "ports": [
+        {
+          "id": "port_1",
+          "name": "Eth0_PoE",
+          "type": "RJ45_10G",
+          "poe": true,
+          "speed": "2.5 Gbps",
+          "status": "unlinked"
+        }
+      ]
+    }
+  },
+  "nodes": [
+    {
+      "id": "node_wifi_ap_1",
+      "diagramMode": "wifi",
+      "type": "device",
+      "assetId": "dev_1795075803202_mw5c",
+      "label": "AP-HALL-NORTH (Ch 1 / 36)",
+      "x": 260,
+      "y": 180,
+      "width": 110,
+      "height": 90,
+      "rotation": 0,
+      "style": {
+        "backgroundColor": "#10b981",
+        "borderColor": "#059669",
+        "borderWidth": 2,
+        "borderStyle": "solid",
+        "opacity": 1,
+        "textColor": "#fff"
+      },
+      "customData": {
+        "coverageRadiusMeters": 20
+      }
+    },
+    {
+      "id": "node_wifi_ap_2",
+      "diagramMode": "wifi",
+      "type": "device",
+      "assetId": "dev_1795075803202_zb0d",
+      "label": "AP-TECH-CENTER (Ch 6 / 44)",
+      "x": 620,
+      "y": 180,
+      "width": 110,
+      "height": 90,
+      "rotation": 0,
+      "style": {
+        "backgroundColor": "#10b981",
+        "borderColor": "#059669",
+        "borderWidth": 2,
+        "borderStyle": "solid",
+        "opacity": 1,
+        "textColor": "#fff"
+      },
+      "customData": {
+        "coverageRadiusMeters": 22
+      }
+    },
+    {
+      "id": "node_wifi_ap_3",
+      "diagramMode": "wifi",
+      "type": "device",
+      "assetId": "dev_1795075803202_sd37",
+      "label": "AP-OFFICE-SOUTH (Ch 11 / 52)",
+      "x": 440,
+      "y": 380,
+      "width": 110,
+      "height": 90,
+      "rotation": 0,
+      "style": {
+        "backgroundColor": "#10b981",
+        "borderColor": "#059669",
+        "borderWidth": 2,
+        "borderStyle": "solid",
+        "opacity": 1,
+        "textColor": "#fff"
+      },
+      "customData": {
+        "coverageRadiusMeters": 18
+      }
+    }
+  ],
+  "cables": [],
+  "activeMode": "wifi",
+  "activeBuildingId": "",
+  "activeFloorId": "",
+  "settings": {
+    "gridSize": 20,
+    "snapToGrid": true,
+    "showRulers": true,
+    "showGrid": true,
+    "showPortLabels": true,
+    "showIpAddresses": true,
+    "showCableCodes": true,
+    "showCoverageRadius": true,
+    "unit": "m",
+    "scale": 30,
+    "backgroundColor": "#f8fafc",
+    "isDarkMode": false
+  }
+}

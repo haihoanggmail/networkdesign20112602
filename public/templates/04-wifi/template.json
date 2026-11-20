@@ -1,0 +1,25 @@
+{
+  "id": "wifi-coverage-004",
+  "legacyId": "tpl_wifi_coverage",
+  "name": "Bản đồ Phủ sóng Wi-Fi 6 Doanh nghiệp",
+  "category": "Wi-Fi",
+  "mode": "wifi",
+  "badge": "Vùng phủ RF",
+  "version": "1.0.0",
+  "updatedAt": "2026-11-19",
+  "author": "HACHIHI",
+  "description": "Mô phỏng bán kính phủ sóng RF 2.4GHz & 5GHz của các Access Point Wi-Fi 6, trực quan hóa vùng giao thoa tín hiệu và khu vực điểm mù yếu sóng trong tòa nhà.",
+  "highlights": [
+    "1 tầng",
+    "3 thiết bị",
+    "0 tuyến cáp"
+  ],
+  "projectFile": "project.json",
+  "preview": "preview.svg",
+  "tags": [
+    "Wi-Fi",
+    "RF",
+    "Access Point",
+    "Heatmap"
+  ]
+}

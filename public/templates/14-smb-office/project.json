@@ -1,0 +1,522 @@
+{
+  "id": "proj_smb_topo",
+  "name": "Văn phòng SMB Network Design",
+  "author": "Network Engineer",
+  "version": "1.0.0",
+  "lastModified": "2026-11-19T08:10:03.177Z",
+  "buildings": [],
+  "floors": [],
+  "rooms": [],
+  "racks": [],
+  "assets": {
+    "dev_1795075803177_2evc": {
+      "id": "dev_1795075803177_2evc",
+      "name": "Gateway-Router-SMB",
+      "category": "router",
+      "vendor": "Cisco",
+      "model": "ASR 1001-X",
+      "assetTag": "AST-0001",
+      "serialNumber": "SN18HN22PJ",
+      "ipAddress": "192.168.1.1",
+      "subnetMask": "255.255.255.0",
+      "gateway": "192.168.10.1",
+      "macAddress": "00:1A:2B:00:01:C1",
+      "vlan": "10, 20",
+      "status": "online",
+      "powerWatts": 250,
+      "weightKg": 8.5,
+      "ports": [
+        {
+          "id": "port_1",
+          "name": "WAN1_ISP1",
+          "type": "SFP_PLUS_10G",
+          "speed": "10 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_2",
+          "name": "WAN2_ISP2",
+          "type": "RJ45_1G",
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_3",
+          "name": "LAN1_Core",
+          "type": "SFP_PLUS_10G",
+          "speed": "10 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_4",
+          "name": "LAN2_DMZ",
+          "type": "RJ45_1G",
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        }
+      ]
+    },
+    "dev_1795075803177_zaoy": {
+      "id": "dev_1795075803177_zaoy",
+      "name": "Switch-PoE-24P",
+      "category": "switch",
+      "vendor": "Cisco",
+      "model": "Catalyst C9300-24P",
+      "assetTag": "AST-0002",
+      "serialNumber": "SNRM976AUW",
+      "ipAddress": "192.168.1.2",
+      "subnetMask": "255.255.255.0",
+      "gateway": "192.168.10.1",
+      "macAddress": "00:1A:2B:00:02:C1",
+      "vlan": "10, 20",
+      "status": "online",
+      "powerWatts": 380,
+      "weightKg": 7.4,
+      "ports": [
+        {
+          "id": "port_1",
+          "name": "Gi1/0/1",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_2",
+          "name": "Gi1/0/2",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_3",
+          "name": "Gi1/0/3",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_4",
+          "name": "Gi1/0/4",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_5",
+          "name": "Gi1/0/5",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_6",
+          "name": "Gi1/0/6",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_7",
+          "name": "Gi1/0/7",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_8",
+          "name": "Gi1/0/8",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_9",
+          "name": "Gi1/0/9",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_10",
+          "name": "Gi1/0/10",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_11",
+          "name": "Gi1/0/11",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_12",
+          "name": "Gi1/0/12",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_13",
+          "name": "Gi1/0/13",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_14",
+          "name": "Gi1/0/14",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_15",
+          "name": "Gi1/0/15",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_16",
+          "name": "Gi1/0/16",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_17",
+          "name": "Gi1/0/17",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_18",
+          "name": "Gi1/0/18",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_19",
+          "name": "Gi1/0/19",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_20",
+          "name": "Gi1/0/20",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_21",
+          "name": "Gi1/0/21",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_22",
+          "name": "Gi1/0/22",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_23",
+          "name": "Gi1/0/23",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_24",
+          "name": "Gi1/0/24",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_25",
+          "name": "Te1/1/1",
+          "type": "SFP_PLUS_10G",
+          "speed": "10 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_26",
+          "name": "Te1/1/2",
+          "type": "SFP_PLUS_10G",
+          "speed": "10 Gbps",
+          "status": "unlinked"
+        }
+      ]
+    },
+    "dev_1795075803177_5ezd": {
+      "id": "dev_1795075803177_5ezd",
+      "name": "UniFi-AP-Office",
+      "category": "ap",
+      "vendor": "Aruba",
+      "model": "UniFi U6 Enterprise",
+      "assetTag": "AST-0003",
+      "serialNumber": "SNAW5N5WBT",
+      "ipAddress": "192.168.1.20",
+      "subnetMask": "255.255.255.0",
+      "gateway": "192.168.10.1",
+      "macAddress": "00:1A:2B:00:03:C1",
+      "vlan": "10, 20",
+      "status": "online",
+      "powerWatts": 22,
+      "weightKg": 0.9,
+      "wifiSpecs": {
+        "standard": "Wi-Fi 6 (802.11ax)",
+        "bands": "2.4GHz + 5GHz",
+        "txPowerDbm": 22,
+        "coverageRadiusMeters": 18,
+        "channel24": 6,
+        "channel5": 36,
+        "maxClients": 250,
+        "ssid": "HACHIHI-CORP-WIFI"
+      },
+      "ports": [
+        {
+          "id": "port_1",
+          "name": "Eth0_PoE",
+          "type": "RJ45_10G",
+          "poe": true,
+          "speed": "2.5 Gbps",
+          "status": "unlinked"
+        }
+      ]
+    },
+    "dev_1795075803177_1v5g": {
+      "id": "dev_1795075803177_1v5g",
+      "name": "NAS-FileServer",
+      "category": "server",
+      "vendor": "Dell",
+      "model": "PowerEdge R760",
+      "assetTag": "AST-0004",
+      "serialNumber": "SNDXWS319P",
+      "ipAddress": "192.168.1.100",
+      "subnetMask": "255.255.255.0",
+      "gateway": "192.168.10.1",
+      "macAddress": "00:1A:2B:00:04:C1",
+      "vlan": "10, 20",
+      "status": "online",
+      "powerWatts": 750,
+      "weightKg": 28.5,
+      "ports": [
+        {
+          "id": "port_1",
+          "name": "NIC1_LAN",
+          "type": "RJ45_10G",
+          "speed": "10 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_2",
+          "name": "NIC2_SAN",
+          "type": "SFP_PLUS_10G",
+          "speed": "10 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_3",
+          "name": "iDRAC_Mgmt",
+          "type": "RJ45_1G",
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_4",
+          "name": "PSU1",
+          "type": "POWER_C13",
+          "speed": "Power",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_5",
+          "name": "PSU2",
+          "type": "POWER_C13",
+          "speed": "Power",
+          "status": "unlinked"
+        }
+      ]
+    }
+  },
+  "nodes": [
+    {
+      "id": "node_smb_r",
+      "diagramMode": "topology",
+      "type": "device",
+      "assetId": "dev_1795075803177_2evc",
+      "label": "Gateway-Router-SMB",
+      "x": 420,
+      "y": 80,
+      "width": 170,
+      "height": 56,
+      "rotation": 0,
+      "style": {
+        "backgroundColor": "#2563eb",
+        "borderColor": "#1d4ed8",
+        "borderWidth": 2,
+        "borderStyle": "solid",
+        "opacity": 1,
+        "textColor": "#fff"
+      }
+    },
+    {
+      "id": "node_smb_sw",
+      "diagramMode": "topology",
+      "type": "device",
+      "assetId": "dev_1795075803177_zaoy",
+      "label": "Switch-PoE-24P",
+      "x": 420,
+      "y": 220,
+      "width": 170,
+      "height": 56,
+      "rotation": 0,
+      "style": {
+        "backgroundColor": "#0ea5e9",
+        "borderColor": "#0284c7",
+        "borderWidth": 2,
+        "borderStyle": "solid",
+        "opacity": 1,
+        "textColor": "#fff"
+      }
+    },
+    {
+      "id": "node_smb_ap",
+      "diagramMode": "topology",
+      "type": "device",
+      "assetId": "dev_1795075803177_5ezd",
+      "label": "UniFi-AP-Office",
+      "x": 200,
+      "y": 360,
+      "width": 110,
+      "height": 70,
+      "rotation": 0,
+      "style": {
+        "backgroundColor": "#10b981",
+        "borderColor": "#059669",
+        "borderWidth": 2,
+        "borderStyle": "solid",
+        "opacity": 1,
+        "textColor": "#fff"
+      }
+    },
+    {
+      "id": "node_smb_srv",
+      "diagramMode": "topology",
+      "type": "device",
+      "assetId": "dev_1795075803177_1v5g",
+      "label": "NAS-FileServer",
+      "x": 640,
+      "y": 360,
+      "width": 150,
+      "height": 60,
+      "rotation": 0,
+      "style": {
+        "backgroundColor": "#475569",
+        "borderColor": "#334155",
+        "borderWidth": 2,
+        "borderStyle": "solid",
+        "opacity": 1,
+        "textColor": "#fff"
+      }
+    }
+  ],
+  "cables": [
+    {
+      "id": "cab_smb_1",
+      "cableCode": "UPLINK-01",
+      "diagramMode": "topology",
+      "sourceNodeId": "node_smb_r",
+      "targetNodeId": "node_smb_sw",
+      "cableType": "CAT6_UTP",
+      "bandwidth": "1G",
+      "color": "#2563eb",
+      "routingType": "straight",
+      "lineStyle": "solid",
+      "strokeWidth": 3,
+      "lengthMeters": 1.5,
+      "status": "active"
+    },
+    {
+      "id": "cab_smb_2",
+      "cableCode": "POE-AP-01",
+      "diagramMode": "topology",
+      "sourceNodeId": "node_smb_sw",
+      "targetNodeId": "node_smb_ap",
+      "cableType": "CAT6_UTP",
+      "bandwidth": "1G",
+      "color": "#10b981",
+      "routingType": "orthogonal",
+      "lineStyle": "solid",
+      "strokeWidth": 2,
+      "lengthMeters": 25,
+      "status": "active"
+    },
+    {
+      "id": "cab_smb_3",
+      "cableCode": "LAN-NAS-01",
+      "diagramMode": "topology",
+      "sourceNodeId": "node_smb_sw",
+      "targetNodeId": "node_smb_srv",
+      "cableType": "CAT6A_STP",
+      "bandwidth": "10G",
+      "color": "#0284c7",
+      "routingType": "orthogonal",
+      "lineStyle": "solid",
+      "strokeWidth": 2,
+      "lengthMeters": 3,
+      "status": "active"
+    }
+  ],
+  "activeMode": "topology",
+  "activeBuildingId": "",
+  "activeFloorId": "",
+  "settings": {
+    "gridSize": 20,
+    "snapToGrid": true,
+    "showRulers": true,
+    "showGrid": true,
+    "showPortLabels": true,
+    "showIpAddresses": true,
+    "showCableCodes": true,
+    "showCoverageRadius": false,
+    "unit": "m",
+    "scale": 25,
+    "backgroundColor": "#f8fafc",
+    "isDarkMode": false
+  }
+}

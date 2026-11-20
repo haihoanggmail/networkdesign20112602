@@ -1,0 +1,25 @@
+{
+  "id": "building-5floors-015",
+  "legacyId": "tpl_building_5floors",
+  "name": "Tòa nhà HACHIHI Building (5 Tầng + 1 Hầm)",
+  "category": "Mặt bằng",
+  "mode": "floorplan",
+  "badge": "Mặt bằng CAD",
+  "version": "1.0.0",
+  "updatedAt": "2026-11-19",
+  "author": "HACHIHI",
+  "description": "Mặt bằng kiến trúc kỹ thuật gồm 5 tầng nổi và 1 tầng hầm B1: Trục kỹ thuật đứng (Vertical Riser), phòng máy chủ, phòng kinh doanh, lễ tân và tủ phân phối IDF từng tầng.",
+  "highlights": [
+    "6 tầng",
+    "4 thiết bị",
+    "3 tuyến cáp"
+  ],
+  "projectFile": "project.json",
+  "preview": "preview.svg",
+  "tags": [
+    "Building",
+    "5-Floor",
+    "Riser",
+    "Floorplan"
+  ]
+}

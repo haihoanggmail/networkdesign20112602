@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="190 110 610 472" width="610" height="472" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+<rect class="svg-bg" x="190" y="110" width="610" height="472" fill="#ffffff" />
+<g data-layer="wifi-heatmap">
+<circle cx="315" cy="225" r="330.0" fill="#10b981" fill-opacity="0.16" stroke="#059669" stroke-width="1" stroke-dasharray="3 3" />
+<circle cx="315" cy="225" r="600.0" fill="#06b6d4" fill-opacity="0.08" stroke="#0891b2" stroke-width="1.5" stroke-dasharray="5 5" />
+<text x="315" y="-381.0" text-anchor="middle" fill="#059669" font-size="9.5" font-weight="700">20m (1257 m²)</text>
+</g>
+<g data-layer="wifi-heatmap">
+<circle cx="675" cy="225" r="363.0" fill="#10b981" fill-opacity="0.16" stroke="#059669" stroke-width="1" stroke-dasharray="3 3" />
+<circle cx="675" cy="225" r="660.0" fill="#06b6d4" fill-opacity="0.08" stroke="#0891b2" stroke-width="1.5" stroke-dasharray="5 5" />
+<text x="675" y="-441.0" text-anchor="middle" fill="#059669" font-size="9.5" font-weight="700">22m (1521 m²)</text>
+</g>
+<g data-layer="wifi-heatmap">
+<circle cx="495" cy="425" r="297.0" fill="#10b981" fill-opacity="0.16" stroke="#059669" stroke-width="1" stroke-dasharray="3 3" />
+<circle cx="495" cy="425" r="540.0" fill="#06b6d4" fill-opacity="0.08" stroke="#0891b2" stroke-width="1.5" stroke-dasharray="5 5" />
+<text x="495" y="-121.0" text-anchor="middle" fill="#059669" font-size="9.5" font-weight="700">18m (1018 m²)</text>
+</g>
+<g data-layer="cable-labeling">
+</g>
+<g data-layer="device">
+<g>
+<rect class="svg-card-neutral" x="260" y="180" width="110" height="90" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="362.0" cy="188.0" r="2.8" fill="#16a34a" />
+<rect x="297" y="207" width="36" height="36" rx="7" fill="#16A34A" />
+<path d="M 303.6 223.1 A 14.3 14.3 0 0 1 326.4 223.1" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linecap="round" /><path d="M 307.9 227.6 A 9.1 9.1 0 0 1 322.1 227.6" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linecap="round" /><circle cx="315" cy="233.0" r="2.9" fill="#ffffff" />
+</g>
+<text class="svg-label-primary" x="315" y="284" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">AP-HALL-NORTH (Ch 1 / 36)</text>
+<rect class="svg-ip-pill" x="264.2" y="288" width="101.6" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="315" y="298" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">10.20.1.10 · V10</text>
+</g>
+<g data-layer="device">
+<g>
+<rect class="svg-card-neutral" x="620" y="180" width="110" height="90" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="722.0" cy="188.0" r="2.8" fill="#16a34a" />
+<rect x="657" y="207" width="36" height="36" rx="7" fill="#16A34A" />
+<path d="M 663.6 223.1 A 14.3 14.3 0 0 1 686.4 223.1" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linecap="round" /><path d="M 667.9 227.6 A 9.1 9.1 0 0 1 682.1 227.6" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linecap="round" /><circle cx="675" cy="233.0" r="2.9" fill="#ffffff" />
+</g>
+<text class="svg-label-primary" x="675" y="284" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">AP-TECH-CENTER (Ch 6 / 44)</text>
+<rect class="svg-ip-pill" x="624.2" y="288" width="101.6" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="675" y="298" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">10.20.1.11 · V10</text>
+</g>
+<g data-layer="device">
+<g>
+<rect class="svg-card-neutral" x="440" y="380" width="110" height="90" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+<circle cx="542.0" cy="388.0" r="2.8" fill="#16a34a" />
+<rect x="477" y="407" width="36" height="36" rx="7" fill="#16A34A" />
+<path d="M 483.6 423.1 A 14.3 14.3 0 0 1 506.4 423.1" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linecap="round" /><path d="M 487.9 427.6 A 9.1 9.1 0 0 1 502.1 427.6" fill="none" stroke="#ffffff" stroke-width="2.34" stroke-linecap="round" /><circle cx="495" cy="433.0" r="2.9" fill="#ffffff" />
+</g>
+<text class="svg-label-primary" x="495" y="484" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">AP-OFFICE-SOUTH (Ch 11 / 52)</text>
+<rect class="svg-ip-pill" x="444.2" y="488" width="101.6" height="14" rx="3" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.7" />
+<text class="svg-ip-text" x="495" y="498" text-anchor="middle" fill="#475569" font-size="9" font-family="ui-monospace, monospace">10.20.1.12 · V10</text>
+</g>
+</svg>

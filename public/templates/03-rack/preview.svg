@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="270 -20 480 902" width="480" height="902" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+<rect class="svg-bg" x="270" y="-20" width="480" height="902" fill="#ffffff" />
+<g data-layer="rack">
+<rect x="340" y="50" width="320" height="720" rx="6" fill="#0b1120" stroke="#334155" stroke-width="2" />
+<rect x="341" y="51" width="318" height="34" rx="5" fill="#1e293b" />
+<text x="350" y="71" fill="#f8fafc" font-size="10.5" font-weight="700">RACK DC-A01 (42U Server Room) (42U)</text>
+<rect x="608" y="58" width="44" height="17" rx="4" fill="#0f766e" />
+<text x="630" y="69.5" text-anchor="middle" fill="#ffffff" font-size="8.5" font-weight="700" font-family="ui-monospace, monospace">TRƯỚC</text>
+<rect x="344" y="88" width="24" height="656" rx="2" fill="#0f172a" />
+<rect x="370" y="88" width="280" height="656" fill="#020617" stroke="#1e293b" stroke-width="1" />
+<line x1="370" y1="103.6" x2="650" y2="103.6" stroke="#1e293b" stroke-width="0.6" />
+<text x="364" y="99.2" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U42</text>
+<line x1="370" y1="119.2" x2="650" y2="119.2" stroke="#1e293b" stroke-width="0.6" />
+<text x="364" y="114.9" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U41</text>
+<line x1="370" y1="134.9" x2="650" y2="134.9" stroke="#1e293b" stroke-width="0.6" />
+<text x="364" y="130.5" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U40</text>
+<line x1="370" y1="150.5" x2="650" y2="150.5" stroke="#1e293b" stroke-width="0.6" />
+<text x="364" y="146.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U39</text>
+<line x1="370" y1="166.1" x2="650" y2="166.1" stroke="#1e293b" stroke-width="0.6" />
+<text x="364" y="161.7" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U38</text>
+<line x1="370" y1="181.7" x2="650" y2="181.7" stroke="#1e293b" stroke-width="0.6" />
+<text x="364" y="177.3" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U37</text>
+<line x1="370" y1="197.3" x2="650" y2="197.3" stroke="#1e293b" stroke-width="0.6" />
+<text x="364" y="193.0" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U36</text>
+<line x1="370" y1="213.0" x2="650" y2="213.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="364" y="208.6" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U35</text>
+<line x1="370" y1="228.6" x2="650" y2="228.6" stroke="#1e293b" stroke-width="0.6" />
+<text x="364" y="224.2" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U34</text>
+<line x1="370" y1="244.2" x2="650" y2="244.2" stroke="#1e293b" stroke-width="0.6" />
+<text x="364" y="239.8" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U33</text>
+<line x1="370" y1="259.8" x2="650" y2="259.8" stroke="#1e293b" stroke-width="0.6" />
+<text x="364" y="255.4" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U32</text>
+<line x1="370" y1="275.4" x2="650" y2="275.4" stroke="#1e293b" stroke-width="0.6" />
+<text x="364" y="271.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U31</text>
+<line x1="370" y1="291.0" x2="650" y2="291.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="364" y="286.7" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U30</text>
+<line x1="370" y1="306.7" x2="650" y2="306.7" stroke="#1e293b" stroke-width="0.6" />
+<text x="364" y="302.3" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U29</text>
+<line x1="370" y1="322.3" x2="650" y2="322.3" stroke="#1e293b" stroke-width="0.6" />
+<text x="364" y="317.9" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U28</text>
+<line x1="370" y1="337.9" x2="650" y2="337.9" stroke="#1e293b" stroke-width="0.6" />
+<text x="364" y="333.5" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U27</text>
+<line x1="370" y1="353.5" x2="650" y2="353.5" stroke="#1e293b" stroke-width="0.6" />
+<text x="364" y="349.2" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U26</text>
+<line x1="370" y1="369.1" x2="650" y2="369.1" stroke="#1e293b" stroke-width="0.6" />
+<text x="364" y="364.8" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U25</text>
+<line x1="370" y1="384.8" x2="650" y2="384.8" stroke="#1e293b" stroke-width="0.6" />
+<text x="364" y="380.4" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U24</text>
+<line x1="370" y1="400.4" x2="650" y2="400.4" stroke="#1e293b" stroke-width="0.6" />
+<text x="364" y="396.0" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U23</text>
+<line x1="370" y1="416.0" x2="650" y2="416.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="364" y="411.6" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U22</text>
+<line x1="370" y1="431.6" x2="650" y2="431.6" stroke="#1e293b" stroke-width="0.6" />
+<text x="364" y="427.2" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U21</text>
+<line x1="370" y1="447.2" x2="650" y2="447.2" stroke="#1e293b" stroke-width="0.6" />
+<text x="364" y="442.9" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U20</text>
+<line x1="370" y1="462.9" x2="650" y2="462.9" stroke="#1e293b" stroke-width="0.6" />
+<text x="364" y="458.5" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U19</text>
+<line x1="370" y1="478.5" x2="650" y2="478.5" stroke="#1e293b" stroke-width="0.6" />
+<text x="364" y="474.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U18</text>
+<line x1="370" y1="494.1" x2="650" y2="494.1" stroke="#1e293b" stroke-width="0.6" />
+<text x="364" y="489.7" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U17</text>
+<line x1="370" y1="509.7" x2="650" y2="509.7" stroke="#1e293b" stroke-width="0.6" />
+<text x="364" y="505.3" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U16</text>
+<line x1="370" y1="525.3" x2="650" y2="525.3" stroke="#1e293b" stroke-width="0.6" />
+<text x="364" y="521.0" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U15</text>
+<line x1="370" y1="541.0" x2="650" y2="541.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="364" y="536.6" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U14</text>
+<line x1="370" y1="556.6" x2="650" y2="556.6" stroke="#1e293b" stroke-width="0.6" />
+<text x="364" y="552.2" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U13</text>
+<line x1="370" y1="572.2" x2="650" y2="572.2" stroke="#1e293b" stroke-width="0.6" />
+<text x="364" y="567.8" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U12</text>
+<line x1="370" y1="587.8" x2="650" y2="587.8" stroke="#1e293b" stroke-width="0.6" />
+<text x="364" y="583.4" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U11</text>
+<line x1="370" y1="603.4" x2="650" y2="603.4" stroke="#1e293b" stroke-width="0.6" />
+<text x="364" y="599.1" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U10</text>
+<line x1="370" y1="619.0" x2="650" y2="619.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="364" y="614.7" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U09</text>
+<line x1="370" y1="634.7" x2="650" y2="634.7" stroke="#1e293b" stroke-width="0.6" />
+<text x="364" y="630.3" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U08</text>
+<line x1="370" y1="650.3" x2="650" y2="650.3" stroke="#1e293b" stroke-width="0.6" />
+<text x="364" y="645.9" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U07</text>
+<line x1="370" y1="665.9" x2="650" y2="665.9" stroke="#1e293b" stroke-width="0.6" />
+<text x="364" y="661.5" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U06</text>
+<line x1="370" y1="681.5" x2="650" y2="681.5" stroke="#1e293b" stroke-width="0.6" />
+<text x="364" y="677.2" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U05</text>
+<line x1="370" y1="697.1" x2="650" y2="697.1" stroke="#1e293b" stroke-width="0.6" />
+<text x="364" y="692.8" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U04</text>
+<line x1="370" y1="712.8" x2="650" y2="712.8" stroke="#1e293b" stroke-width="0.6" />
+<text x="364" y="708.4" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U03</text>
+<line x1="370" y1="728.4" x2="650" y2="728.4" stroke="#1e293b" stroke-width="0.6" />
+<text x="364" y="724.0" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U02</text>
+<line x1="370" y1="744.0" x2="650" y2="744.0" stroke="#1e293b" stroke-width="0.6" />
+<text x="364" y="739.6" text-anchor="end" fill="#64748b" font-size="8" font-weight="600" font-family="ui-monospace, monospace">U01</text>
+<rect x="372" y="713.6" width="276" height="29.6" rx="2" fill="#1e293b" stroke="#E11D48" stroke-width="1.1" />
+<rect x="372" y="713.6" width="4" height="29.6" rx="1" fill="#E11D48" />
+<circle cx="382" cy="728.4" r="2.5" fill="#22c55e" />
+<text x="388" y="731.4" fill="#f8fafc" font-size="9.5" font-weight="600">APC Smart-UPS 3kVA (U0</text>
+<text x="642" y="730.9" text-anchor="end" fill="#94a3b8" font-size="7.5" font-family="ui-monospace, monospace">U1-2</text>
+<rect x="372" y="385.6" width="276" height="29.6" rx="2" fill="#1e293b" stroke="#475569" stroke-width="1.1" />
+<rect x="372" y="385.6" width="4" height="29.6" rx="1" fill="#475569" />
+<circle cx="382" cy="400.4" r="2.5" fill="#22c55e" />
+<text x="388" y="403.4" fill="#f8fafc" font-size="9.5" font-weight="600">Dell R760 Virtualizati</text>
+<text x="642" y="402.9" text-anchor="end" fill="#94a3b8" font-size="7.5" font-family="ui-monospace, monospace">U22-23</text>
+<rect x="372" y="354.3" width="276" height="29.6" rx="2" fill="#1e293b" stroke="#475569" stroke-width="1.1" />
+<rect x="372" y="354.3" width="4" height="29.6" rx="1" fill="#475569" />
+<circle cx="382" cy="369.1" r="2.5" fill="#22c55e" />
+<text x="388" y="372.1" fill="#f8fafc" font-size="9.5" font-weight="600">Dell R760 Database (U2</text>
+<text x="642" y="371.6" text-anchor="end" fill="#94a3b8" font-size="7.5" font-family="ui-monospace, monospace">U24-25</text>
+<rect x="372" y="182.5" width="276" height="14.0" rx="2" fill="#1e293b" stroke="#1E40AF" stroke-width="1.1" />
+<rect x="372" y="182.5" width="4" height="14.0" rx="1" fill="#1E40AF" />
+<circle cx="382" cy="189.5" r="2.5" fill="#22c55e" />
+<text x="388" y="192.5" fill="#f8fafc" font-size="7.7" font-weight="600">Cisco-Nexus-9336C (U36</text>
+<text x="642" y="192.0" text-anchor="end" fill="#94a3b8" font-size="7.5" font-family="ui-monospace, monospace">U36</text>
+<rect x="372" y="135.7" width="276" height="14.0" rx="2" fill="#1e293b" stroke="#475569" stroke-width="1.1" />
+<rect x="372" y="135.7" width="4" height="14.0" rx="1" fill="#475569" />
+<circle cx="382" cy="142.7" r="2.5" fill="#22c55e" />
+<text x="388" y="145.7" fill="#f8fafc" font-size="7.7" font-weight="600">Patch-Panel-Cat6A (U39</text>
+<text x="642" y="145.2" text-anchor="end" fill="#94a3b8" font-size="7.5" font-family="ui-monospace, monospace">U39</text>
+<rect x="372" y="104.4" width="276" height="14.0" rx="2" fill="#1e293b" stroke="#0891B2" stroke-width="1.1" />
+<rect x="372" y="104.4" width="4" height="14.0" rx="1" fill="#0891B2" />
+<circle cx="382" cy="111.4" r="2.5" fill="#22c55e" />
+<text x="388" y="114.4" fill="#f8fafc" font-size="7.7" font-weight="600">ODF-48F-LC (U41)</text>
+<text x="642" y="113.9" text-anchor="end" fill="#94a3b8" font-size="7.5" font-family="ui-monospace, monospace">U41</text>
+<rect x="341" y="747" width="318" height="22" rx="4" fill="#111827" />
+<text x="350" y="762" fill="#94a3b8" font-size="8" font-family="ui-monospace, monospace">9U dùng · 33U trống</text>
+<text x="650" y="762" text-anchor="end" fill="#34d399" font-size="8.5" font-weight="700" font-family="ui-monospace, monospace">4650W · 103kg</text>
+</g>
+<g data-layer="cable-labeling">
+</g>
+</svg>

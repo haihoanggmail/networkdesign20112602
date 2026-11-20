@@ -1,0 +1,902 @@
+{
+  "id": "proj_enterprise_topo",
+  "name": "HACHIHI Enterprise Network Core Topology",
+  "author": "Lead Infrastructure Engineer",
+  "version": "2.4.0",
+  "lastModified": "2026-11-19T08:10:03.176Z",
+  "buildings": [],
+  "floors": [],
+  "rooms": [],
+  "racks": [],
+  "assets": {
+    "dev_1795075803175_9ijy": {
+      "id": "dev_1795075803175_9ijy",
+      "name": "Dual-ISP Internet WAN",
+      "category": "cloud",
+      "vendor": "VNPT",
+      "model": "Cloud Gateway",
+      "assetTag": "AST-0001",
+      "serialNumber": "SN27340NHM",
+      "ipAddress": "192.168.10.11",
+      "subnetMask": "255.255.255.0",
+      "gateway": "192.168.10.1",
+      "macAddress": "00:1A:2B:00:01:C1",
+      "vlan": "10, 20",
+      "status": "online",
+      "powerWatts": 0,
+      "weightKg": 0,
+      "ports": [
+        {
+          "id": "port_1",
+          "name": "ISP_Link1",
+          "type": "FIBER_LC",
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_2",
+          "name": "ISP_Link2",
+          "type": "RJ45_1G",
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        }
+      ]
+    },
+    "dev_1795075803176_w1wn": {
+      "id": "dev_1795075803176_w1wn",
+      "name": "NGFW-FortiGate-200F",
+      "category": "firewall",
+      "vendor": "Fortinet",
+      "model": "FortiGate 200F",
+      "assetTag": "AST-0002",
+      "serialNumber": "SN5H8QVGIS",
+      "ipAddress": "192.168.1.1",
+      "subnetMask": "255.255.255.0",
+      "gateway": "192.168.10.1",
+      "macAddress": "00:1A:2B:00:02:C1",
+      "vlan": "10, 20",
+      "status": "online",
+      "powerWatts": 180,
+      "weightKg": 5.8,
+      "ports": [
+        {
+          "id": "port_1",
+          "name": "WAN1",
+          "type": "RJ45_1G",
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_2",
+          "name": "WAN2",
+          "type": "RJ45_1G",
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_3",
+          "name": "DMZ",
+          "type": "RJ45_1G",
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_4",
+          "name": "Internal",
+          "type": "SFP_PLUS_10G",
+          "speed": "10 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_5",
+          "name": "HA1",
+          "type": "RJ45_1G",
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_6",
+          "name": "HA2",
+          "type": "RJ45_1G",
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        }
+      ]
+    },
+    "dev_1795075803176_1ptm": {
+      "id": "dev_1795075803176_1ptm",
+      "name": "Core-Switch-Nexus-9336C",
+      "category": "core_switch",
+      "vendor": "Cisco",
+      "model": "Nexus 9336C-FX2",
+      "assetTag": "AST-0003",
+      "serialNumber": "SNG2HANEYX",
+      "ipAddress": "10.0.0.1",
+      "subnetMask": "255.255.255.0",
+      "gateway": "192.168.10.1",
+      "macAddress": "00:1A:2B:00:03:C1",
+      "vlan": "10, 20",
+      "status": "online",
+      "powerWatts": 450,
+      "weightKg": 10.2,
+      "ports": [
+        {
+          "id": "port_1",
+          "name": "QSFP_1",
+          "type": "QSFP28_100G",
+          "speed": "100 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_2",
+          "name": "QSFP_2",
+          "type": "QSFP28_100G",
+          "speed": "100 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_3",
+          "name": "QSFP_3",
+          "type": "QSFP28_100G",
+          "speed": "100 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_4",
+          "name": "QSFP_4",
+          "type": "QSFP28_100G",
+          "speed": "100 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_5",
+          "name": "SFP+_1",
+          "type": "SFP_PLUS_10G",
+          "speed": "10 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_6",
+          "name": "SFP+_2",
+          "type": "SFP_PLUS_10G",
+          "speed": "10 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_7",
+          "name": "SFP+_3",
+          "type": "SFP_PLUS_10G",
+          "speed": "10 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_8",
+          "name": "SFP+_4",
+          "type": "SFP_PLUS_10G",
+          "speed": "10 Gbps",
+          "status": "unlinked"
+        }
+      ]
+    },
+    "dev_1795075803176_0ad1": {
+      "id": "dev_1795075803176_0ad1",
+      "name": "SW-DIST-SALES (VLAN 10)",
+      "category": "switch",
+      "vendor": "Cisco",
+      "model": "Catalyst C9300-24P",
+      "assetTag": "AST-0004",
+      "serialNumber": "SNCJ9A8YIO",
+      "ipAddress": "10.0.10.1",
+      "subnetMask": "255.255.255.0",
+      "gateway": "192.168.10.1",
+      "macAddress": "00:1A:2B:00:04:C1",
+      "vlan": "10, 20",
+      "status": "online",
+      "powerWatts": 380,
+      "weightKg": 7.4,
+      "ports": [
+        {
+          "id": "port_1",
+          "name": "Gi1/0/1",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_2",
+          "name": "Gi1/0/2",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_3",
+          "name": "Gi1/0/3",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_4",
+          "name": "Gi1/0/4",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_5",
+          "name": "Gi1/0/5",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_6",
+          "name": "Gi1/0/6",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_7",
+          "name": "Gi1/0/7",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_8",
+          "name": "Gi1/0/8",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_9",
+          "name": "Gi1/0/9",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_10",
+          "name": "Gi1/0/10",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_11",
+          "name": "Gi1/0/11",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_12",
+          "name": "Gi1/0/12",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_13",
+          "name": "Gi1/0/13",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_14",
+          "name": "Gi1/0/14",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_15",
+          "name": "Gi1/0/15",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_16",
+          "name": "Gi1/0/16",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_17",
+          "name": "Gi1/0/17",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_18",
+          "name": "Gi1/0/18",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_19",
+          "name": "Gi1/0/19",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_20",
+          "name": "Gi1/0/20",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_21",
+          "name": "Gi1/0/21",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_22",
+          "name": "Gi1/0/22",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_23",
+          "name": "Gi1/0/23",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_24",
+          "name": "Gi1/0/24",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_25",
+          "name": "Te1/1/1",
+          "type": "SFP_PLUS_10G",
+          "speed": "10 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_26",
+          "name": "Te1/1/2",
+          "type": "SFP_PLUS_10G",
+          "speed": "10 Gbps",
+          "status": "unlinked"
+        }
+      ]
+    },
+    "dev_1795075803176_grpa": {
+      "id": "dev_1795075803176_grpa",
+      "name": "PROD-VMware-ESXi-01",
+      "category": "server",
+      "vendor": "Dell",
+      "model": "PowerEdge R760",
+      "assetTag": "AST-0005",
+      "serialNumber": "SNNYDEGGQQ",
+      "ipAddress": "10.0.50.11",
+      "subnetMask": "255.255.255.0",
+      "gateway": "192.168.10.1",
+      "macAddress": "00:1A:2B:00:05:C1",
+      "vlan": "10, 20",
+      "status": "online",
+      "powerWatts": 750,
+      "weightKg": 28.5,
+      "ports": [
+        {
+          "id": "port_1",
+          "name": "NIC1_LAN",
+          "type": "RJ45_10G",
+          "speed": "10 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_2",
+          "name": "NIC2_SAN",
+          "type": "SFP_PLUS_10G",
+          "speed": "10 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_3",
+          "name": "iDRAC_Mgmt",
+          "type": "RJ45_1G",
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_4",
+          "name": "PSU1",
+          "type": "POWER_C13",
+          "speed": "Power",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_5",
+          "name": "PSU2",
+          "type": "POWER_C13",
+          "speed": "Power",
+          "status": "unlinked"
+        }
+      ]
+    },
+    "dev_1795075803176_0ffj": {
+      "id": "dev_1795075803176_0ffj",
+      "name": "SW-DIST-ENG (VLAN 20)",
+      "category": "switch",
+      "vendor": "Cisco",
+      "model": "Catalyst C9300-24P",
+      "assetTag": "AST-0006",
+      "serialNumber": "SN83COE2KU",
+      "ipAddress": "10.0.20.1",
+      "subnetMask": "255.255.255.0",
+      "gateway": "192.168.10.1",
+      "macAddress": "00:1A:2B:00:06:C1",
+      "vlan": "10, 20",
+      "status": "online",
+      "powerWatts": 380,
+      "weightKg": 7.4,
+      "ports": [
+        {
+          "id": "port_1",
+          "name": "Gi1/0/1",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_2",
+          "name": "Gi1/0/2",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_3",
+          "name": "Gi1/0/3",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_4",
+          "name": "Gi1/0/4",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_5",
+          "name": "Gi1/0/5",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_6",
+          "name": "Gi1/0/6",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_7",
+          "name": "Gi1/0/7",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_8",
+          "name": "Gi1/0/8",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_9",
+          "name": "Gi1/0/9",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_10",
+          "name": "Gi1/0/10",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_11",
+          "name": "Gi1/0/11",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_12",
+          "name": "Gi1/0/12",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_13",
+          "name": "Gi1/0/13",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_14",
+          "name": "Gi1/0/14",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_15",
+          "name": "Gi1/0/15",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_16",
+          "name": "Gi1/0/16",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_17",
+          "name": "Gi1/0/17",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_18",
+          "name": "Gi1/0/18",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_19",
+          "name": "Gi1/0/19",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_20",
+          "name": "Gi1/0/20",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_21",
+          "name": "Gi1/0/21",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_22",
+          "name": "Gi1/0/22",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_23",
+          "name": "Gi1/0/23",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_24",
+          "name": "Gi1/0/24",
+          "type": "RJ45_1G",
+          "poe": true,
+          "speed": "1 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_25",
+          "name": "Te1/1/1",
+          "type": "SFP_PLUS_10G",
+          "speed": "10 Gbps",
+          "status": "unlinked"
+        },
+        {
+          "id": "port_26",
+          "name": "Te1/1/2",
+          "type": "SFP_PLUS_10G",
+          "speed": "10 Gbps",
+          "status": "unlinked"
+        }
+      ]
+    }
+  },
+  "nodes": [
+    {
+      "id": "node_cloud",
+      "diagramMode": "topology",
+      "type": "cloud",
+      "assetId": "dev_1795075803175_9ijy",
+      "label": "Dual-ISP Internet WAN",
+      "x": 440,
+      "y": 60,
+      "width": 170,
+      "height": 70,
+      "rotation": 0,
+      "style": {
+        "backgroundColor": "#6366f1",
+        "borderColor": "#4f46e5",
+        "borderWidth": 2,
+        "borderStyle": "solid",
+        "opacity": 1,
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "id": "node_fw",
+      "diagramMode": "topology",
+      "type": "device",
+      "assetId": "dev_1795075803176_w1wn",
+      "label": "NGFW-FortiGate-200F",
+      "x": 440,
+      "y": 190,
+      "width": 170,
+      "height": 60,
+      "rotation": 0,
+      "style": {
+        "backgroundColor": "#dc2626",
+        "borderColor": "#b91c1c",
+        "borderWidth": 2,
+        "borderStyle": "solid",
+        "opacity": 1,
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "id": "node_core",
+      "diagramMode": "topology",
+      "type": "device",
+      "assetId": "dev_1795075803176_1ptm",
+      "label": "Core-Switch-Nexus-9336C",
+      "x": 440,
+      "y": 320,
+      "width": 180,
+      "height": 64,
+      "rotation": 0,
+      "style": {
+        "backgroundColor": "#0284c7",
+        "borderColor": "#0369a1",
+        "borderWidth": 2,
+        "borderStyle": "solid",
+        "opacity": 1,
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "id": "node_dist_sales",
+      "diagramMode": "topology",
+      "type": "device",
+      "assetId": "dev_1795075803176_0ad1",
+      "label": "SW-DIST-SALES (VLAN 10)",
+      "x": 140,
+      "y": 470,
+      "width": 180,
+      "height": 56,
+      "rotation": 0,
+      "style": {
+        "backgroundColor": "#0ea5e9",
+        "borderColor": "#0284c7",
+        "borderWidth": 2,
+        "borderStyle": "solid",
+        "opacity": 1,
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "id": "node_server_01",
+      "diagramMode": "topology",
+      "type": "device",
+      "assetId": "dev_1795075803176_grpa",
+      "label": "PROD-VMware-ESXi-01",
+      "x": 440,
+      "y": 470,
+      "width": 180,
+      "height": 60,
+      "rotation": 0,
+      "style": {
+        "backgroundColor": "#475569",
+        "borderColor": "#334155",
+        "borderWidth": 2,
+        "borderStyle": "solid",
+        "opacity": 1,
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "id": "node_dist_tech",
+      "diagramMode": "topology",
+      "type": "device",
+      "assetId": "dev_1795075803176_0ffj",
+      "label": "SW-DIST-ENG (VLAN 20)",
+      "x": 740,
+      "y": 470,
+      "width": 180,
+      "height": 56,
+      "rotation": 0,
+      "style": {
+        "backgroundColor": "#0ea5e9",
+        "borderColor": "#0284c7",
+        "borderWidth": 2,
+        "borderStyle": "solid",
+        "opacity": 1,
+        "textColor": "#ffffff"
+      }
+    }
+  ],
+  "cables": [
+    {
+      "id": "cab_wan_fw",
+      "cableCode": "WAN-ISP-01",
+      "diagramMode": "topology",
+      "sourceNodeId": "node_cloud",
+      "targetNodeId": "node_fw",
+      "cableType": "FIBER_SM_OS2",
+      "bandwidth": "10G",
+      "color": "#dc2626",
+      "routingType": "straight",
+      "lineStyle": "solid",
+      "strokeWidth": 3,
+      "lengthMeters": 5,
+      "status": "active"
+    },
+    {
+      "id": "cab_fw_core",
+      "cableCode": "TRUNK-CORE-01",
+      "diagramMode": "topology",
+      "sourceNodeId": "node_fw",
+      "targetNodeId": "node_core",
+      "cableType": "DAC_10G",
+      "bandwidth": "40G",
+      "color": "#0284c7",
+      "routingType": "straight",
+      "lineStyle": "solid",
+      "strokeWidth": 4,
+      "lengthMeters": 2,
+      "status": "active"
+    },
+    {
+      "id": "cab_core_sales",
+      "cableCode": "FIB-CORE-SALES",
+      "diagramMode": "topology",
+      "sourceNodeId": "node_core",
+      "targetNodeId": "node_dist_sales",
+      "cableType": "FIBER_MM_OM4",
+      "bandwidth": "10G",
+      "color": "#0ea5e9",
+      "routingType": "orthogonal",
+      "lineStyle": "solid",
+      "strokeWidth": 2,
+      "lengthMeters": 45,
+      "status": "active"
+    },
+    {
+      "id": "cab_core_srv",
+      "cableCode": "DAC-CORE-SRV",
+      "diagramMode": "topology",
+      "sourceNodeId": "node_core",
+      "targetNodeId": "node_server_01",
+      "cableType": "DAC_10G",
+      "bandwidth": "25G",
+      "color": "#475569",
+      "routingType": "straight",
+      "lineStyle": "solid",
+      "strokeWidth": 3,
+      "lengthMeters": 3,
+      "status": "active"
+    },
+    {
+      "id": "cab_core_tech",
+      "cableCode": "FIB-CORE-ENG",
+      "diagramMode": "topology",
+      "sourceNodeId": "node_core",
+      "targetNodeId": "node_dist_tech",
+      "cableType": "FIBER_MM_OM4",
+      "bandwidth": "10G",
+      "color": "#0ea5e9",
+      "routingType": "orthogonal",
+      "lineStyle": "solid",
+      "strokeWidth": 2,
+      "lengthMeters": 60,
+      "status": "active"
+    }
+  ],
+  "activeMode": "topology",
+  "activeBuildingId": "",
+  "activeFloorId": "",
+  "settings": {
+    "gridSize": 20,
+    "snapToGrid": true,
+    "showRulers": true,
+    "showGrid": true,
+    "showPortLabels": true,
+    "showIpAddresses": true,
+    "showCableCodes": true,
+    "showCoverageRadius": false,
+    "unit": "m",
+    "scale": 25,
+    "backgroundColor": "#f8fafc",
+    "isDarkMode": false
+  }
+}

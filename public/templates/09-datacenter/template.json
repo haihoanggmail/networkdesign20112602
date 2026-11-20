@@ -1,0 +1,25 @@
+{
+  "id": "campus-core-dist-009",
+  "legacyId": "tpl_std_core_dist_3tier",
+  "name": "Kiến trúc Campus 3-Tầng (Core / Distribution / Access)",
+  "category": "Data Center",
+  "mode": "topology",
+  "badge": "Core / Dist / Acc",
+  "version": "1.0.0",
+  "updatedAt": "2026-11-19",
+  "author": "HACHIHI",
+  "description": "Chuẩn Campus 3 lớp doanh nghiệp lớn: cặp Core Switch Nexus 100G liên kết vòng ISL, nối quang OS2 dual-homed xuống 3 Distribution Switch cho Khối Văn phòng, Xưởng sản xuất và Server Farm.",
+  "highlights": [
+    "Dual Core Switch 100G ISL",
+    "3 lớp Core–Dist–Access dự phòng kép",
+    "Cụm ảo hóa Server & SAN Storage"
+  ],
+  "projectFile": "project.json",
+  "preview": "preview.svg",
+  "tags": [
+    "Core",
+    "Distribution",
+    "Access",
+    "100G"
+  ]
+}
