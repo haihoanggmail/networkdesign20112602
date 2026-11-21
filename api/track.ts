@@ -1,5 +1,5 @@
 import { handleTrackRequest } from '../src/server/trackService.js';
-import { HeaderMap } from '../src/server/chatTypes';
+import { HeaderMap } from '../src/server/chatTypes.js';
 
 interface ServerlessReq {
   method?: string;
