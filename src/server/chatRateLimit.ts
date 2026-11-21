@@ -1,4 +1,4 @@
-import { AiRuntimeConfig, getAiRuntimeConfig } from './chatTypes';
+import { AiRuntimeConfig, getAiRuntimeConfig } from './chatTypes.js';
 
 export interface RateLimitCheckResult {
   allowed: boolean;
