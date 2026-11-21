@@ -9,7 +9,7 @@
     "start": "node server.ts",
     "prebuild": "tsx scripts/build-template-catalog.ts",
     "templates:build": "tsx scripts/build-template-catalog.ts",
-    "build": "tsc --noEmit && vite build",
+    "build": "vite build",
     "preview": "vite preview",
     "clean": "rm -rf dist server.js",
     "lint": "tsc --noEmit",
