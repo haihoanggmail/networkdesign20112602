@@ -1,4 +1,4 @@
-import { extractTrustedClientIp, getSingleHeader, isOriginAllowed } from './chatSecurity';
+import { extractTrustedClientIp, getSingleHeader, isOriginAllowed } from './chatSecurity.js';
 import { HeaderMap } from './chatTypes';
 
 export type TrackAction = 'visit' | 'template' | 'save' | 'export';
