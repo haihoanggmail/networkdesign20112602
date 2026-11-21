@@ -7,15 +7,15 @@ import {
   getAiRuntimeConfig,
   HeaderMap,
   MAX_OUTPUT_TOKENS
-} from './chatTypes';
+} from './chatTypes.js';
 import {
   classifyAndSanitizeAiError,
   extractTrustedClientIp,
   isOriginAllowed,
   verifyOptionalChatSecret
-} from './chatSecurity';
-import { checkRateLimitShared, recordDailyTokenUsage } from './chatRateLimit';
-import { buildSystemInstruction, validateChatRequest } from './chatValidation';
+} from './chatSecurity.js';
+import { checkRateLimitShared, recordDailyTokenUsage } from './chatRateLimit.js';
+import { buildSystemInstruction, validateChatRequest } from './chatValidation.js';
 
 export interface UnifiedChatInput {
   method?: string;
