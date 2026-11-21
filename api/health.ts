@@ -1,4 +1,4 @@
-import { buildHealthPayload } from '../src/server/chatService';
+import { buildHealthPayload } from '../src/server/chatService.js';
 
 interface ServerlessRes {
   status: (code: number) => ServerlessRes;
