@@ -1,5 +1,5 @@
 import crypto from 'node:crypto';
-import { HeaderMap } from './chatTypes';
+import { HeaderMap } from './chatTypes.js';
 
 export function getSingleHeader(headers: HeaderMap, name: string): string | undefined {
   const lower = name.toLowerCase();
