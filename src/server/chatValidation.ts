@@ -8,7 +8,7 @@ import {
   MAX_MESSAGE_CHARS,
   MAX_TOTAL_HISTORY_CHARS,
   ProjectContextSummary
-} from './chatTypes';
+} from './chatTypes.js';
 
 export type ChatValidationResult =
   | { ok: true; value: ChatRequestBody }
