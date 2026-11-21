@@ -1,0 +1,8 @@
+VERCEL BUILD FIX
+
+Changes are limited to TypeScript ambient type references:
+1. Removed the explicit compilerOptions.types list from tsconfig.json.
+2. Removed unused triple-slash references to vite/client and vite-plugin-pwa/client from src/vite-env.d.ts. The application source does not use these ambient types.
+
+No application features, API routes, templates, or runtime code were changed.
+After replacing the GitHub repository contents, trigger a fresh Vercel deployment.
